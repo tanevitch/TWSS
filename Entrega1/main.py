@@ -9,9 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-import re 
 import json 
-import pprint
 
 def cargarGeneros(generos) -> [Genero]:
     generos= generos.split(",")
@@ -20,6 +18,22 @@ def cargarGeneros(generos) -> [Genero]:
 def cargarActores(actores) -> [Actor]:
     actores= actores.split(",")
     return [Actor(a) for a in actores]
+
+def cargarFuncionesCinemaLP(cineyhorarios) -> []:
+    cine = cineyhorarios.find("span", attrs={"id": "ctl00_cph_rptSalas_ctl00_lblSala"}).get_text()
+    horarios = cineyhorarios.find("span", attrs={"id": "ctl00_cph_rptSalas_ctl00_rptHorarios_ctl00_lblHorarios"})
+    # cineurl= cine.find("a").get("href")
+    # cine= requests.get("http://www.cinemalaplata.com/"+cineurl).text
+    # cine = BeautifulSoup(cine, 'html.parser')
+    horarios = horarios.get_text().split(" - ")
+    idioma= horarios[0].split("     ")[0].split(":")[0]
+
+    horarios = horarios + [horarios[0].split("     ")[1]]
+    horarios.remove(horarios[0])
+
+    funcion = [cine, [idioma, horarios]]
+    funcion
+    
 
 def cargarPeliculaCinemaLP(pelicula) -> Pelicula:
     url= pelicula.find("a").get("href")
@@ -36,6 +50,10 @@ def cargarPeliculaCinemaLP(pelicula) -> Pelicula:
             actores= cargarActores(i.find("span", attrs={"id": "ctl00_cph_lblActores"}).get_text())
         elif (i.find("span", attrs={"id": "ctl00_cph_lblDirector"})):
             directores= cargarActores(i.find("span", attrs={"id": "ctl00_cph_lblDirector"}).get_text())
+    
+    funciones= peli.find("div", attrs={"id": "ctl00_cph_pnFunciones"}).findChildren("div")
+    for f in funciones:
+        func = cargarFuncionesCinemaLP(f)
 
     return Pelicula(titulo, genero, duracion, actores, directores)
 
@@ -80,7 +98,8 @@ def cargarPeliculaCinepolis(url) -> Pelicula:
     return p
 
 def buscarCinepolis():
-    driver = webdriver.Chrome('./chromedriver') 
+    # driver = webdriver.Chrome('./chromedriver') 
+    driver=  webdriver.Firefox()
     driver.get("https://www.cinepolis.com.ar/")
     peliculas = driver.execute_script('return document.querySelectorAll(".movie-grid .movie-thumb")')   
     listapeliculas= []
@@ -98,9 +117,9 @@ if __name__ == "__main__":
     with open('cinemalp.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
-    data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
-    with open('cinepolis.json', 'w', encoding="utf8") as fp:
-        json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
+    # data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
+    # with open('cinepolis.json', 'w', encoding="utf8") as fp:
+    #     json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
     
 
