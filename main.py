@@ -94,10 +94,11 @@ def buscarCinepolis():
     return listapeliculas
 
 if __name__ == "__main__":
-    # cinemalp= buscarCinemaLP()
-    data= {
-        "peliculas": [pelicula.jsonify() for pelicula in buscarCinepolis()]
-    }
+    data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinemaLP()]}
+    with open('cinemalp.json', 'w', encoding="utf8") as fp:
+        json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
+
+    data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
     with open('cinepolis.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
 

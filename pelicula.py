@@ -1,5 +1,3 @@
-import json
-
 class Pelicula:
     def __init__(self, titulo, generos, duracion, actores, directores):
         self.titulo= titulo.strip()
@@ -14,5 +12,11 @@ class Pelicula:
     def duraMenosDe(self, unaDuracion):
         return self.duracion <= unaDuracion 
 
-    def jsonify(self):
-        return json.dumps(self, default=lambda o: o.__dict__)
+    def toJSON(self):
+        return {
+            "titulo": self.titulo,
+            "duracion": self.duracion,
+            "actores": [ a.toJSON() for a in self.actores],
+            "directores": [ a.toJSON() for a in self.directores],
+            "generos": [ a.toJSON() for a in self.generos]
+        }
