@@ -3,3 +3,8 @@ class Cine:
         self.nombre= nombre
         self.direccion= direccion
         self.telefono=telefono
+
+    def toJSON(self):
+        return {
+            'nombre': self.nombre,
+        }
