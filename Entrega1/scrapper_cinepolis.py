@@ -43,10 +43,17 @@ def cargarPeliculaCinepolis(url) -> Pelicula:
         dd[i[0]] = i[1]
 
     driver.get(url)
-    funciones =  driver.execute_script('return document.querySelectorAll(".card.panel.panel-primary")') 
-    for f in funciones:
-        print(f.text())
+    botones_dias =  driver.find_element_by_class_name('showtimes-filter-component-dates').find_elements_by_tag_name("button")
     
+    for boton in botones_dias:
+        dia= boton.get_attribute("value")
+        boton.click()
+        funciones= []
+        for horario in driver.find_element_by_class_name('movie-showtimes-component-schedule'):
+            horario.click()
+            info_peli = driver.find_element_by_class_name("modal-body")
+            print(info_peli.text)
+            
 
     actores= cargarActores(dd["Actores"])
     directores= cargarActores(dd["Director"])
