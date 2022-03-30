@@ -36,6 +36,23 @@
                 }
             ],
             "duracion": "93 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "19:10",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "22:45",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "15:05",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Thriller"
@@ -55,6 +72,23 @@
                 }
             ],
             "duracion": "105 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "20:30",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "23:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "18:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Aventura"
@@ -98,6 +132,18 @@
                 }
             ],
             "duracion": "154 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "22:40",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "19:30",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Thriller"
@@ -135,12 +181,121 @@
                 }
             ],
             "duracion": "136 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "22:25",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "13:20",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Thriller"
                 }
             ],
             "titulo": "Ambulancia"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Alana Haim"
+                },
+                {
+                    "nombre": "Cooper Hoffman"
+                },
+                {
+                    "nombre": "Sean Penn"
+                },
+                {
+                    "nombre": "Tom Waits"
+                },
+                {
+                    "nombre": "Bradley Cooper"
+                },
+                {
+                    "nombre": "Ben Safdie"
+                },
+                {
+                    "nombre": "Maya Rudolph"
+                },
+                {
+                    "nombre": "Joseph Cross"
+                },
+                {
+                    "nombre": "Emma Dumont"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Paul Thomas Anderson"
+                }
+            ],
+            "duracion": "134 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "19:25",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "Comedia dramática"
+                }
+            ],
+            "titulo": "Licorice Pizza"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Kenneth Branagh"
+                },
+                {
+                    "nombre": "Gal Gadot"
+                },
+                {
+                    "nombre": "Letitia Wright"
+                },
+                {
+                    "nombre": "Armie Hammer"
+                },
+                {
+                    "nombre": "Annette Bening"
+                },
+                {
+                    "nombre": "Ali Fazal"
+                },
+                {
+                    "nombre": "Sophie Okonedo"
+                },
+                {
+                    "nombre": "Tom Bateman"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Kenneth Branagh"
+                }
+            ],
+            "duracion": "126 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "22:30",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "Policial"
+                }
+            ],
+            "titulo": "Muerte En El Nilo"
         },
         {
             "actores": [
@@ -178,6 +333,68 @@
                 }
             ],
             "duracion": "175 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "22:15",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "22:45",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "15:20",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "18:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "22:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "14:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "22:15",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "21:30",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "17:45",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "16:20",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "19:40",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Acción"
@@ -224,6 +441,18 @@
                 }
             ],
             "duracion": "98 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "21:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "13:45",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Drama"
@@ -255,6 +484,18 @@
                 }
             ],
             "duracion": "97 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "18:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "16:00",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Animación"
@@ -301,6 +542,33 @@
                 }
             ],
             "duracion": "114 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "15:20",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "17:40",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "20:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "22:40",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Comedia dramática"
@@ -332,6 +600,13 @@
                 }
             ],
             "duracion": "84 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "23:15",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Thriller"
@@ -357,6 +632,18 @@
                 }
             ],
             "duracion": "98 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "22:50",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "20:40",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Terror"
@@ -400,6 +687,13 @@
                 }
             ],
             "duracion": "175 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "22:10",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Drama"
@@ -425,55 +719,39 @@
                 }
             ],
             "duracion": "109 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "15:10",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "21:05",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "18:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "15:45",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Animación"
                 }
             ],
             "titulo": "Encanto"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Alana Haim"
-                },
-                {
-                    "nombre": "Cooper Hoffman"
-                },
-                {
-                    "nombre": "Sean Penn"
-                },
-                {
-                    "nombre": "Tom Waits"
-                },
-                {
-                    "nombre": "Bradley Cooper"
-                },
-                {
-                    "nombre": "Ben Safdie"
-                },
-                {
-                    "nombre": "Maya Rudolph"
-                },
-                {
-                    "nombre": "Joseph Cross"
-                },
-                {
-                    "nombre": "Emma Dumont"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Paul Thomas Anderson"
-                }
-            ],
-            "duracion": "134 minutos.",
-            "generos": [
-                {
-                    "nombre": "Comedia dramática"
-                }
-            ],
-            "titulo": "Licorice Pizza"
         },
         {
             "actores": [
@@ -487,6 +765,58 @@
                 }
             ],
             "duracion": "100 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "15:05",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "17:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "15:45",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "18:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "20:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "22:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "13:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "17:10",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "13:50",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Acción"
@@ -496,46 +826,6 @@
                 }
             ],
             "titulo": "Los Tipos Malos"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Kenneth Branagh"
-                },
-                {
-                    "nombre": "Gal Gadot"
-                },
-                {
-                    "nombre": "Letitia Wright"
-                },
-                {
-                    "nombre": "Armie Hammer"
-                },
-                {
-                    "nombre": "Annette Bening"
-                },
-                {
-                    "nombre": "Ali Fazal"
-                },
-                {
-                    "nombre": "Sophie Okonedo"
-                },
-                {
-                    "nombre": "Tom Bateman"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Kenneth Branagh"
-                }
-            ],
-            "duracion": "126 minutos.",
-            "generos": [
-                {
-                    "nombre": "Policial"
-                }
-            ],
-            "titulo": "Muerte En El Nilo"
         },
         {
             "actores": [
@@ -573,6 +863,48 @@
                 }
             ],
             "duracion": "110 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA CITY",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "17:20",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA OCHO",
+                    "horario": "13:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "15:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "17:45",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "13:10",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "20:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "13:30",
+                    "idioma": "CASTELLANO"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Animación"
@@ -610,6 +942,28 @@
                 }
             ],
             "duracion": "148 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "15:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "   19:30",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA ROCHA",
+                    "horario": "16:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": "CINEMA SAN MARTIN",
+                    "horario": "23:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Acción"
@@ -650,6 +1004,13 @@
                 }
             ],
             "duracion": "115 minutos.",
+            "funciones": [
+                {
+                    "cine": "CINEMA PARADISO",
+                    "horario": "23:10",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Acción"
