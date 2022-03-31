@@ -1,19 +1,23 @@
+from ast import Try
 import json
 import re
 import requests
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 
 
 from bs4 import BeautifulSoup
 from actor import Actor
 from funcion import Funcion
 from genero import Genero
-
+    
 from pelicula import Pelicula
-driver = webdriver.Chrome('./chromedriver')
-# driver=  webdriver.Firefox()
+# driver = webdriver.Chrome('./chromedriver')
+driver=  webdriver.Firefox()
 
 def cargarGeneros(generos) -> [Genero]:
     generos= generos.split(",")
@@ -43,34 +47,42 @@ def cargarPeliculaCinepolis(url) -> Pelicula:
         dd[i[0]] = i[1]
 
     driver.get(url)
-    botones_dias =  driver.find_element_by_class_name('showtimes-filter-component-dates').find_elements_by_tag_name("button")
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CLASS_NAME, "showtimes-filter-component-dates"))
+    )
+    botones_dias =  driver.find_element_by_class_name('showtimes-filter-component-dates').find_elements(By.TAG_NAME, "button")
+    
     
     for boton in botones_dias:
         dia= boton.get_attribute("value")
         boton.click()
-        funciones= []
-        for horario in driver.find_element_by_class_name('movie-showtimes-component-schedule'):
-            horario.click()
-            info_peli = driver.find_element_by_class_name("modal-body")
-            print(info_peli.text)
-            
+        cinesyhorarios= driver.find_elements_by_class_name("card")
+        for cineyhorarios in cinesyhorarios:
+            cine= cineyhorarios.text #nombrecine
+            WebDriverWait(driver, 10).until(
+        EC.text_to_be_present_in_element_attribute((By.CLASS_NAME, "a"))
+    )
+            for tipo_funcion in driver.execute_script('return document.querySelectorAll(".movie-showtimes-component-combination a")'):
+                print(tipo_funcion.text)
 
+            
     actores= cargarActores(dd["Actores"])
     directores= cargarActores(dd["Director"])
     generos= cargarGeneros(dd["Género"])
     duracion= dd["Duración"]
     
-    p= Pelicula(dd["Título Original"], generos, duracion, actores, directores)
+    p= Pelicula(dd["Título Original"], generos, duracion, actores, directores, [])
     print(p)
     return p
 
 def buscarCinepolis():
     driver.get("https://www.cinepolis.com.ar/")
-    peliculas = driver.execute_script('return document.querySelectorAll(".movie-grid .movie-thumb")')   
+    peliculas = [p.get_attribute("href") for p in driver.execute_script('return document.querySelectorAll(".movie-grid .movie-thumb")')]   
+    
     listapeliculas= []
-    for p in peliculas:
+    for urlpeli in peliculas:
         try: 
-            peli= cargarPeliculaCinepolis(p.get_attribute("href"))
+            peli= cargarPeliculaCinepolis(urlpeli)
             listapeliculas.append(peli)
         except: 
             pass
