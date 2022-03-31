@@ -1,8 +1,8 @@
 class Cine:
-    def __init__(self, nombre, direccion, telefono) -> None:
-        self.nombre= nombre
-        self.direccion= direccion
-        self.telefono=telefono
+    def __init__(self, nombre=None, direccion=None, telefono=None) -> None:
+        self.nombre= nombre.strip()
+        self.direccion= direccion.strip()
+        self.telefono=telefono.strip()
 
     def toJSON(self):
         return {

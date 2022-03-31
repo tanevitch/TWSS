@@ -1,7 +1,7 @@
 class Funcion:
     def __init__(self, idioma, horario, cine) -> None:
-        self.idioma = idioma
-        self.horario = horario
+        self.idioma = idioma.strip()
+        self.horario = horario.strip()
         self.cine = cine 
         self.dia = None
 
