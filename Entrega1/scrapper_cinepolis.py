@@ -1,5 +1,4 @@
 import json
- re
 import requests
 
 from selenium import webdriver
@@ -27,16 +26,29 @@ def cargarActores(actores) -> [Actor]:
     actores= actores.split(",")
     return [Actor(a) for a in actores]
 
+def cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia) -> [Funcion]:
+    funciones = []
+    idioma = tipo_funcion.find_element(By.TAG_NAME, "small").get_attribute("textContent")
+    for horario in tipo_funcion.find_elements(By.CLASS_NAME, "btn-detail-showtime"):
+        funciones.append(
+            Funcion(
+                idioma.split("•")[2], 
+                horario.get_attribute("textContent"), 
+                Cine(nombre_cine),
+                dia
+            )
+        )
+    return funciones
 
 def cargarPeliculaCinepolis(url) -> Pelicula:
     
     pelicula= requests.get(url).text
     
     pelicula = BeautifulSoup(pelicula, "html.parser")
-    informacion = pelicula.find("div", attrs={"id": "tecnicos"})
+    ficha_tecnica = pelicula.find("div", attrs={"id": "tecnicos"})
 
     infostr= []
-    for i in informacion:
+    for i in ficha_tecnica:
         x =  i.get_text().split("\n")
         for f in x:
             infostr.append(f)
@@ -59,25 +71,17 @@ def cargarPeliculaCinepolis(url) -> Pelicula:
         boton.click()
         card_cine_todas= driver.find_elements(By.CLASS_NAME,("card"))
         for card_cine in card_cine_todas:
+            nombre_cine = card_cine.text
             tipo_funcion_todas = card_cine.find_elements(By.CLASS_NAME,("movie-showtimes-component-combination"))
             for tipo_funcion in tipo_funcion_todas:
-                idioma = tipo_funcion.find_element(By.TAG_NAME, "small").get_attribute("textContent")
-                for horario in tipo_funcion.find_elements(By.CLASS_NAME, "btn-detail-showtime"):
-                    print(idioma.split("•")[2])
-                    funciones.append(
-                        Funcion(
-                            idioma, 
-                            horario.get_attribute("textContent"), 
-                            Cine(card_cine.text)
-                        )
-                    )
+                funciones.extend(cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia))
 
     actores= cargarActores(dd["Actores"])
     directores= cargarActores(dd["Director"])
     generos= cargarGeneros(dd["Género"])
     duracion= dd["Duración"]
-    p= Pelicula(dd["Título Original"], generos, duracion, actores, directores, funciones)
-    print(p)
+    nombre_pelicula= driver.find_element_by_class_name('title-text').text
+    p= Pelicula(nombre_pelicula, generos, duracion, actores, directores, funciones)
     return p
 
 def buscarCinepolis():
@@ -99,3 +103,5 @@ def persistir():
     data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
     with open('cinepolis.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
+
+    return data

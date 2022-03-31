@@ -3,6 +3,287 @@
         {
             "actores": [
                 {
+                    "nombre": "Emilia Jones"
+                },
+                {
+                    "nombre": "Eugenio Derbez"
+                },
+                {
+                    "nombre": "Marlee Matlin"
+                },
+                {
+                    "nombre": "Troy Kotsur"
+                },
+                {
+                    "nombre": "Daniel Durant"
+                },
+                {
+                    "nombre": "Ferdia Walsh-Peelo"
+                },
+                {
+                    "nombre": "Amy Forsyth"
+                },
+                {
+                    "nombre": "Kevin Chapman"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Sian Heder"
+                }
+            ],
+            "duracion": "111 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "18:30",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "20:40",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "13:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "coda: señales del corazón (re-estreno)"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Jessica Chastain"
+                },
+                {
+                    "nombre": "Andrew Garfield"
+                },
+                {
+                    "nombre": "Vincent D'Onofrio"
+                },
+                {
+                    "nombre": "Cherry Jones"
+                },
+                {
+                    "nombre": "Sam Jaeger"
+                },
+                {
+                    "nombre": "Fredric Lehne"
+                },
+                {
+                    "nombre": "Gabriel Olds"
+                },
+                {
+                    "nombre": "Chandler Head"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Michael Showalter"
+                }
+            ],
+            "duracion": "126 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
+                    "horario": "20:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama romantico"
+                }
+            ],
+            "titulo": "los ojos de tammy faye"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Jared Leto"
+                },
+                {
+                    "nombre": "Tyrese Gibson"
+                },
+                {
+                    "nombre": "J.K. Simmons"
+                },
+                {
+                    "nombre": "Matt Smith"
+                },
+                {
+                    "nombre": "Adria Arjona"
+                },
+                {
+                    "nombre": "Jared Harris"
+                },
+                {
+                    "nombre": "Charlie Shotwell"
+                },
+                {
+                    "nombre": "Corey Johnson"
+                },
+                {
+                    "nombre": "Tom Forbes"
+                },
+                {
+                    "nombre": "Adam El Hagar"
+                },
+                {
+                    "nombre": "Archie Re"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Daniel Espinosa"
+                }
+            ],
+            "duracion": "108 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "20:35",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "23:15",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "18:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "15:15",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "13:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "20:30",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "23:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "18:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "fantasia- terror- accion"
+                }
+            ],
+            "titulo": "morbius"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Will Smith"
+                },
+                {
+                    "nombre": "Demi Singleton"
+                },
+                {
+                    "nombre": "Saniyya Sidney"
+                },
+                {
+                    "nombre": "Aunjanue Ellis"
+                },
+                {
+                    "nombre": "Jon Bernthal"
+                },
+                {
+                    "nombre": "Tony Goldwyn"
+                },
+                {
+                    "nombre": "Andy Bean"
+                },
+                {
+                    "nombre": "Kevin Dunn"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Reinaldo Marcus Green"
+                }
+            ],
+            "duracion": "144 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "19:20",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama - biográfico"
+                }
+            ],
+            "titulo": "rey richard (re-estreno)"
+        },
+        {
+            "actores": [
+                {
                     "nombre": "Skyler Davenport"
                 },
                 {
@@ -38,264 +319,36 @@
             "duracion": "93 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA ROCHA",
-                    "horario": "19:10",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "17:05",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "22:45",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "15:05",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Thriller"
+                    "nombre": "thriller"
                 }
             ],
-            "titulo": "A Ciegas"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Animación"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Sunghoo Park"
-                }
-            ],
-            "duracion": "105 minutos.",
-            "funciones": [
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "20:30",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "23:00",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "18:00",
-                    "idioma": "SUBTITULADA"
-                }
-            ],
-            "generos": [
-                {
-                    "nombre": "Aventura"
-                }
-            ],
-            "titulo": "Jujutsu Kaisen 0"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "John Travolta"
-                },
-                {
-                    "nombre": "Samuel L. Jackson"
-                },
-                {
-                    "nombre": "Uma Thurman"
-                },
-                {
-                    "nombre": "Bruce Willis"
-                },
-                {
-                    "nombre": "Ving Rhames"
-                },
-                {
-                    "nombre": "Harvey Keitel"
-                },
-                {
-                    "nombre": "Tim Roth"
-                },
-                {
-                    "nombre": "Amanda Plummer"
-                },
-                {
-                    "nombre": "María de Medeiros"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Quentin Tarantino"
-                }
-            ],
-            "duracion": "154 minutos.",
-            "funciones": [
-                {
-                    "cine": "CINEMA OCHO",
-                    "horario": "22:40",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA OCHO",
-                    "horario": "19:30",
-                    "idioma": "SUBTITULADA"
-                }
-            ],
-            "generos": [
-                {
-                    "nombre": "Thriller"
-                }
-            ],
-            "titulo": "Tiempos Violentos - Re Estreno"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Jake Gyllenhaal"
-                },
-                {
-                    "nombre": "Yahya Abdul-Mateen II"
-                },
-                {
-                    "nombre": "Eiza González"
-                },
-                {
-                    "nombre": "Garret Dillahunt"
-                },
-                {
-                    "nombre": "Moses Ingram"
-                },
-                {
-                    "nombre": "Keir O'Donnell"
-                },
-                {
-                    "nombre": "Colin Woodell"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Michael Bay"
-                }
-            ],
-            "duracion": "136 minutos.",
-            "funciones": [
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "22:25",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "13:20",
-                    "idioma": "CASTELLANO"
-                }
-            ],
-            "generos": [
-                {
-                    "nombre": "Thriller"
-                }
-            ],
-            "titulo": "Ambulancia"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Alana Haim"
-                },
-                {
-                    "nombre": "Cooper Hoffman"
-                },
-                {
-                    "nombre": "Sean Penn"
-                },
-                {
-                    "nombre": "Tom Waits"
-                },
-                {
-                    "nombre": "Bradley Cooper"
-                },
-                {
-                    "nombre": "Ben Safdie"
-                },
-                {
-                    "nombre": "Maya Rudolph"
-                },
-                {
-                    "nombre": "Joseph Cross"
-                },
-                {
-                    "nombre": "Emma Dumont"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Paul Thomas Anderson"
-                }
-            ],
-            "duracion": "134 minutos.",
-            "funciones": [
-                {
-                    "cine": "CINEMA CITY",
-                    "horario": "19:25",
-                    "idioma": "SUBTITULADA"
-                }
-            ],
-            "generos": [
-                {
-                    "nombre": "Comedia dramática"
-                }
-            ],
-            "titulo": "Licorice Pizza"
-        },
-        {
-            "actores": [
-                {
-                    "nombre": "Kenneth Branagh"
-                },
-                {
-                    "nombre": "Gal Gadot"
-                },
-                {
-                    "nombre": "Letitia Wright"
-                },
-                {
-                    "nombre": "Armie Hammer"
-                },
-                {
-                    "nombre": "Annette Bening"
-                },
-                {
-                    "nombre": "Ali Fazal"
-                },
-                {
-                    "nombre": "Sophie Okonedo"
-                },
-                {
-                    "nombre": "Tom Bateman"
-                }
-            ],
-            "directores": [
-                {
-                    "nombre": "Kenneth Branagh"
-                }
-            ],
-            "duracion": "126 minutos.",
-            "funciones": [
-                {
-                    "cine": "CINEMA PARADISO",
-                    "horario": "22:30",
-                    "idioma": "SUBTITULADA"
-                }
-            ],
-            "generos": [
-                {
-                    "nombre": "Policial"
-                }
-            ],
-            "titulo": "Muerte En El Nilo"
+            "titulo": "a ciegas"
         },
         {
             "actores": [
@@ -335,72 +388,68 @@
             "duracion": "175 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA CITY",
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "22:50",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "15:05",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "22:15",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "19:00",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "22:15",
                     "idioma": "SUBTITULADA"
                 },
                 {
-                    "cine": "CINEMA CITY",
-                    "horario": "22:45",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA CITY",
-                    "horario": "15:20",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA OCHO",
-                    "horario": "18:15",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA OCHO",
-                    "horario": "22:00",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA OCHO",
-                    "horario": "14:30",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA PARADISO",
-                    "horario": "22:15",
-                    "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "21:30",
                     "idioma": "SUBTITULADA"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "17:45",
                     "idioma": "SUBTITULADA"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "16:20",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "19:40",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "13:00",
-                    "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Acción"
+                    "nombre": "acción"
                 }
             ],
-            "titulo": "Batman"
+            "titulo": "batman"
         },
         {
             "actores": [
@@ -443,22 +492,28 @@
             "duracion": "98 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "21:00",
                     "idioma": "SUBTITULADA"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "13:45",
                     "idioma": "SUBTITULADA"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Drama"
+                    "nombre": "drama"
                 }
             ],
-            "titulo": "Belfast"
+            "titulo": "belfast"
         },
         {
             "actores": [
@@ -486,22 +541,28 @@
             "duracion": "97 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "18:15",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "16:00",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Animación"
+                    "nombre": "animación"
                 }
             ],
-            "titulo": "Clifford: El Gran Perro Rojo"
+            "titulo": "clifford: el gran perro rojo"
         },
         {
             "actores": [
@@ -544,37 +605,52 @@
             "duracion": "114 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "15:20",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "17:40",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "20:15",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "22:40",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "13:00",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Comedia dramática"
+                    "nombre": "comedia dramática"
                 }
             ],
-            "titulo": "Competencia Oficial"
+            "titulo": "competencia oficial"
         },
         {
             "actores": [
@@ -602,17 +678,20 @@
             "duracion": "84 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "23:15",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Thriller"
+                    "nombre": "thriller"
                 }
             ],
-            "titulo": "Ecos De Un Crimen"
+            "titulo": "ecos de un crimen"
         },
         {
             "actores": [
@@ -634,22 +713,36 @@
             "duracion": "98 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "20:40",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "22:50",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "20:40",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "13:20",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Terror"
+                    "nombre": "terror"
                 }
             ],
-            "titulo": "El Exorcismo De Dios"
+            "titulo": "el exorcismo de dios"
         },
         {
             "actores": [
@@ -689,17 +782,20 @@
             "duracion": "175 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA CITY",
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
                     "horario": "22:10",
                     "idioma": "SUBTITULADA"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Drama"
+                    "nombre": "drama"
                 }
             ],
-            "titulo": "El Padrino 50 Años (re Estreno)"
+            "titulo": "el padrino 50 años (re estreno)"
         },
         {
             "actores": [
@@ -721,37 +817,105 @@
             "duracion": "109 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "15:10",
-                    "idioma": "CASTELLANO"
-                },
-                {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "21:05",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "13:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "18:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "15:45",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
+                    "nombre": "animación"
+                }
+            ],
+            "titulo": "encanto"
+        },
+        {
+            "actores": [
+                {
                     "nombre": "Animación"
                 }
             ],
-            "titulo": "Encanto"
+            "directores": [
+                {
+                    "nombre": "Sunghoo Park"
+                }
+            ],
+            "duracion": "105 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "17:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "19:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "21:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "23:00",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
+                    "horario": "15:00",
+                    "idioma": "SUBTITULADA"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "aventura"
+                }
+            ],
+            "titulo": "jujutsu kaisen 0"
         },
         {
             "actores": [
@@ -767,65 +931,95 @@
             "duracion": "100 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA CITY",
-                    "horario": "15:05",
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "15:20",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA CITY",
-                    "horario": "17:15",
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "17:20",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA CITY",
-                    "horario": "13:00",
+                    "cine": {
+                        "nombre": "CINEMA CITY"
+                    },
+                    "dia": null,
+                    "horario": "13:20",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "15:45",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "15:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "18:00",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "17:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
                     "horario": "20:15",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "22:30",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "22:25",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "13:30",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "13:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
-                    "horario": "17:10",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "19:05",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "13:50",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Acción"
+                    "nombre": "acción"
                 },
                 {
-                    "nombre": "Aventuras"
+                    "nombre": "aventuras"
                 }
             ],
-            "titulo": "Los Tipos Malos"
+            "titulo": "los tipos malos"
         },
         {
             "actores": [
@@ -865,52 +1059,76 @@
             "duracion": "110 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA CITY",
-                    "horario": "13:00",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "15:45",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "17:20",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "18:00",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA OCHO",
-                    "horario": "13:00",
+                    "cine": {
+                        "nombre": "CINEMA OCHO"
+                    },
+                    "dia": null,
+                    "horario": "13:30",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "15:30",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "17:45",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "13:10",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "20:15",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
+                    "cine": {
+                        "nombre": "CINEMA SAN MARTIN"
+                    },
+                    "dia": null,
                     "horario": "13:30",
                     "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Animación"
+                    "nombre": "animación"
                 }
             ],
-            "titulo": "Sing 2"
+            "titulo": "sing 2"
         },
         {
             "actores": [
@@ -944,35 +1162,100 @@
             "duracion": "148 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "15:30",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
-                    "horario": "   19:30",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
+                    "horario": "19:30",
                     "idioma": "CASTELLANO"
                 },
                 {
-                    "cine": "CINEMA ROCHA",
+                    "cine": {
+                        "nombre": "CINEMA ROCHA"
+                    },
+                    "dia": null,
                     "horario": "16:15",
                     "idioma": "CASTELLANO"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "acción"
                 },
                 {
-                    "cine": "CINEMA SAN MARTIN",
-                    "horario": "23:00",
+                    "nombre": "aventuras"
+                }
+            ],
+            "titulo": "spiderman: sin camino a casa"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "John Travolta"
+                },
+                {
+                    "nombre": "Samuel L. Jackson"
+                },
+                {
+                    "nombre": "Uma Thurman"
+                },
+                {
+                    "nombre": "Bruce Willis"
+                },
+                {
+                    "nombre": "Ving Rhames"
+                },
+                {
+                    "nombre": "Harvey Keitel"
+                },
+                {
+                    "nombre": "Tim Roth"
+                },
+                {
+                    "nombre": "Amanda Plummer"
+                },
+                {
+                    "nombre": "María de Medeiros"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Quentin Tarantino"
+                }
+            ],
+            "duracion": "154 minutos.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
+                    "horario": "22:30",
+                    "idioma": "SUBTITULADA"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
+                    "horario": "19:30",
                     "idioma": "SUBTITULADA"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Acción"
-                },
-                {
-                    "nombre": "Aventuras"
+                    "nombre": "thriller"
                 }
             ],
-            "titulo": "Spiderman: Sin Camino A Casa"
+            "titulo": "tiempos violentos - re estreno"
         },
         {
             "actores": [
@@ -1006,20 +1289,39 @@
             "duracion": "115 minutos.",
             "funciones": [
                 {
-                    "cine": "CINEMA PARADISO",
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
+                    "horario": "18:40",
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
                     "horario": "23:10",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "CASTELLANO"
+                },
+                {
+                    "cine": {
+                        "nombre": "CINEMA PARADISO"
+                    },
+                    "dia": null,
+                    "horario": "13:15",
+                    "idioma": "CASTELLANO"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "Acción"
+                    "nombre": "acción"
                 },
                 {
-                    "nombre": "Aventuras"
+                    "nombre": "aventuras"
                 }
             ],
-            "titulo": "Uncharted: Fuera Del Mapa"
+            "titulo": "uncharted: fuera del mapa"
         }
     ]
 }

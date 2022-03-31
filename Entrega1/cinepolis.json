@@ -1,3 +1,4178 @@
 {
-    "peliculas": []
+    "peliculas": [
+        {
+            "actores": [
+                {
+                    "nombre": "SEVENTEEN"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "OH Yoon-Dong"
+                }
+            ],
+            "duracion": "115 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-20",
+                    "horario": "19:40",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-23",
+                    "horario": "19:45",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": ""
+                }
+            ],
+            "titulo": "seventeen power of love : the movie"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Kotone Furukawa"
+                },
+                {
+                    "nombre": "Ayumu Nakajima"
+                },
+                {
+                    "nombre": "Hyunri"
+                },
+                {
+                    "nombre": "Kiyohiko Shibukawa"
+                },
+                {
+                    "nombre": "Katsuki Mori"
+                },
+                {
+                    "nombre": "Shouma Kai"
+                },
+                {
+                    "nombre": "Fusako Urabe"
+                },
+                {
+                    "nombre": "Aoba Kawai"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Ryusuke Hamaguchi"
+                }
+            ],
+            "duracion": "121 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:30",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "romance"
+                }
+            ],
+            "titulo": "la rueda de la fortuna y la fantasía"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Fabrizio Rongione"
+                },
+                {
+                    "nombre": "Stéphanie Cléau"
+                },
+                {
+                    "nombre": "Elli Medeiros"
+                },
+                {
+                    "nombre": "Juan Pablo Geretto"
+                },
+                {
+                    "nombre": "Alexandre Trocki"
+                },
+                {
+                    "nombre": "Yvain Juillard"
+                },
+                {
+                    "nombre": "Mariano Llinás"
+                },
+                {
+                    "nombre": "Carmen Iriondo"
+                },
+                {
+                    "nombre": "Gilles Privat"
+                },
+                {
+                    "nombre": "Juan Trench"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Andreas Fontana"
+                }
+            ],
+            "duracion": "100 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "16:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "16:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:00",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "azor"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Megumi Ogata"
+                },
+                {
+                    "nombre": "Kana Hanazawa"
+                },
+                {
+                    "nombre": "Mikako Komatsu"
+                },
+                {
+                    "nombre": "Koki Uchiyama"
+                },
+                {
+                    "nombre": "Tomokazu Seki"
+                },
+                {
+                    "nombre": "Yuichi Nakamura"
+                },
+                {
+                    "nombre": "Takahiro Sakurai"
+                },
+                {
+                    "nombre": "Mitsuo Iwata"
+                },
+                {
+                    "nombre": "Takaya Kuroda"
+                },
+                {
+                    "nombre": "Koichi Yamadera"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Sunghoo Park"
+                }
+            ],
+            "duracion": "105 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "14:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "14:40",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "14:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:20",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "animación"
+                },
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "aventura"
+                },
+                {
+                    "nombre": "misterio"
+                }
+            ],
+            "titulo": "jujutsu kaisen 0"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "John Travolta"
+                },
+                {
+                    "nombre": "Samuel L. Jackson"
+                },
+                {
+                    "nombre": "Uma Thurman"
+                },
+                {
+                    "nombre": "Bruce Willis"
+                },
+                {
+                    "nombre": "Ving Rhames"
+                },
+                {
+                    "nombre": "Harvey Keitel"
+                },
+                {
+                    "nombre": "Eric Stoltz"
+                },
+                {
+                    "nombre": "Tim Roth"
+                },
+                {
+                    "nombre": "Amanda Plummer"
+                },
+                {
+                    "nombre": "Maria de Medeiros"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Quentin Tarantino"
+                }
+            ],
+            "duracion": "153 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:30",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "thriller"
+                },
+                {
+                    "nombre": "crimen"
+                }
+            ],
+            "titulo": "pulp fiction"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Jessica Chastain"
+                },
+                {
+                    "nombre": "Andrew Garfield"
+                },
+                {
+                    "nombre": "Cherry Jones"
+                },
+                {
+                    "nombre": "Vincent D'Onofrio"
+                },
+                {
+                    "nombre": "Mark Wystrach"
+                },
+                {
+                    "nombre": "Sam Jaeger"
+                },
+                {
+                    "nombre": "Louis Cancelmi"
+                },
+                {
+                    "nombre": "Gabriel Olds"
+                },
+                {
+                    "nombre": "Fredric Lehne"
+                },
+                {
+                    "nombre": "Chandler Head"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Michael Showalter"
+                }
+            ],
+            "duracion": "126 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "16:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "16:10",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "historia"
+                }
+            ],
+            "titulo": "los ojos de tammy faye"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Jake Gyllenhaal"
+                },
+                {
+                    "nombre": "Yahya Abdul-Mateen II"
+                },
+                {
+                    "nombre": "Eiza González"
+                },
+                {
+                    "nombre": "Garret Dillahunt"
+                },
+                {
+                    "nombre": "Keir O'Donnell"
+                },
+                {
+                    "nombre": "Moses Ingram"
+                },
+                {
+                    "nombre": "A Martinez"
+                },
+                {
+                    "nombre": "Wale Folarin"
+                },
+                {
+                    "nombre": "Cedric Sanders"
+                },
+                {
+                    "nombre": "Jackson White"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Michael Bay"
+                }
+            ],
+            "duracion": "137 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "crimen"
+                },
+                {
+                    "nombre": "thriller"
+                }
+            ],
+            "titulo": "ambulancia"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Penélope Cruz"
+                },
+                {
+                    "nombre": "Antonio Banderas"
+                },
+                {
+                    "nombre": "Oscar Martínez"
+                },
+                {
+                    "nombre": "José Luis Gómez"
+                },
+                {
+                    "nombre": "Manolo Solo"
+                },
+                {
+                    "nombre": "Nagore Aranburu"
+                },
+                {
+                    "nombre": "Irene Escolar"
+                },
+                {
+                    "nombre": "Pilar Castro"
+                },
+                {
+                    "nombre": "Koldo Olabarri"
+                },
+                {
+                    "nombre": "Juan Grandinetti"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Gastón Duprat"
+                },
+                {
+                    "nombre": "Mariano Cohn"
+                }
+            ],
+            "duracion": "114 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "13:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "14:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "21:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "17:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "20:25",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "23:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "21:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:25",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "23:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "21:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:25",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "23:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:00",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "comedia"
+                },
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "competencia oficial"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Sam Rockwell"
+                },
+                {
+                    "nombre": "Marc Maron"
+                },
+                {
+                    "nombre": "Craig Robinson"
+                },
+                {
+                    "nombre": "Anthony Ramos"
+                },
+                {
+                    "nombre": "Awkwafina"
+                },
+                {
+                    "nombre": "Richard Ayoade"
+                },
+                {
+                    "nombre": "Zazie Beetz"
+                },
+                {
+                    "nombre": "Lilly Singh"
+                },
+                {
+                    "nombre": "Alex Borstein"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Pierre Perifel"
+                }
+            ],
+            "duracion": "100 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "18:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "18:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "18:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "21:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "18:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:10",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "animación"
+                },
+                {
+                    "nombre": "comedia"
+                },
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "familia"
+                },
+                {
+                    "nombre": "crimen"
+                }
+            ],
+            "titulo": "los tipos malos"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Robert Pattinson"
+                },
+                {
+                    "nombre": "Zoë Kravitz"
+                },
+                {
+                    "nombre": "Paul Dano"
+                },
+                {
+                    "nombre": "Jeffrey Wright"
+                },
+                {
+                    "nombre": "Andy Serkis"
+                },
+                {
+                    "nombre": "Colin Farrell"
+                },
+                {
+                    "nombre": "John Turturro"
+                },
+                {
+                    "nombre": "Peter Sarsgaard"
+                },
+                {
+                    "nombre": "Barry Keoghan"
+                },
+                {
+                    "nombre": "Alex Ferns"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Matt Reeves"
+                }
+            ],
+            "duracion": "177 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "23:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:40",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "15:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:45",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "21:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "18:40",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:40",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "crimen"
+                },
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "batman"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Caitriona Balfe"
+                },
+                {
+                    "nombre": "Judi Dench"
+                },
+                {
+                    "nombre": "Jude Hill"
+                },
+                {
+                    "nombre": "Jamie Dornan"
+                },
+                {
+                    "nombre": "Ciarán Hinds"
+                },
+                {
+                    "nombre": "Lara McDonnell"
+                },
+                {
+                    "nombre": "Gerard Horan"
+                },
+                {
+                    "nombre": "Turlough Convery"
+                },
+                {
+                    "nombre": "Gerard McCarthy"
+                },
+                {
+                    "nombre": "Bríd Brennan"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Kenneth Branagh"
+                }
+            ],
+            "duracion": "98 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:10",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "belfast"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Kristen Stewart"
+                },
+                {
+                    "nombre": "Jack Farthing"
+                },
+                {
+                    "nombre": "Sally Hawkins"
+                },
+                {
+                    "nombre": "Timothy Spall"
+                },
+                {
+                    "nombre": "Sean Harris"
+                },
+                {
+                    "nombre": "Thomas Douglas"
+                },
+                {
+                    "nombre": "Olga Hellsing"
+                },
+                {
+                    "nombre": "Matthias Wolkowski"
+                },
+                {
+                    "nombre": "Oriana Gordon"
+                },
+                {
+                    "nombre": "Ryan Wichert"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Pablo Larraín"
+                }
+            ],
+            "duracion": "111 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:00",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "historia"
+                }
+            ],
+            "titulo": "spencer"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Tom Holland"
+                },
+                {
+                    "nombre": "Mark Wahlberg"
+                },
+                {
+                    "nombre": "Sophia Ali"
+                },
+                {
+                    "nombre": "Tati Gabrielle"
+                },
+                {
+                    "nombre": "Antonio Banderas"
+                },
+                {
+                    "nombre": "Patricia Meeden"
+                },
+                {
+                    "nombre": "Sarah Petrick"
+                },
+                {
+                    "nombre": "Rubén Doblas Gundersen"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Ruben Fleischer"
+                }
+            ],
+            "duracion": "116 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "23:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "16:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "14:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "20:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "23:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "13:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "16:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "14:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "17:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "20:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "23:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "13:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "16:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "20:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "23:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:10",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "23:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "15:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:50",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "aventura"
+                }
+            ],
+            "titulo": "uncharted: fuera del mapa"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "María Gabriela de Faría"
+                },
+                {
+                    "nombre": "Joseph Marcell"
+                },
+                {
+                    "nombre": "Will Beinbrink"
+                },
+                {
+                    "nombre": "Irán Castillo"
+                },
+                {
+                    "nombre": "Hector Kotsifakis"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Alejandro Hidalgo"
+                }
+            ],
+            "duracion": "98 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "18:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "23:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:40",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "15:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "18:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "20:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "23:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "23:15",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "terror"
+                }
+            ],
+            "titulo": "el exorcismo de dios"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Matthew McConaughey"
+                },
+                {
+                    "nombre": "Reese Witherspoon"
+                },
+                {
+                    "nombre": "Scarlett Johansson"
+                },
+                {
+                    "nombre": "Taron Egerton"
+                },
+                {
+                    "nombre": "Bobby Cannavale"
+                },
+                {
+                    "nombre": "Tori Kelly"
+                },
+                {
+                    "nombre": "Nick Kroll"
+                },
+                {
+                    "nombre": "Halsey"
+                },
+                {
+                    "nombre": "Pharrell Williams"
+                },
+                {
+                    "nombre": "Nick Offerman"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Garth Jennings"
+                }
+            ],
+            "duracion": "111 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "14:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "14:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:15",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "14:30",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "familia"
+                },
+                {
+                    "nombre": "comedia"
+                },
+                {
+                    "nombre": "animación"
+                },
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "música"
+                }
+            ],
+            "titulo": "sing 2 ¡ven y canta de nuevo!"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Tom Holland"
+                },
+                {
+                    "nombre": "Zendaya"
+                },
+                {
+                    "nombre": "Benedict Cumberbatch"
+                },
+                {
+                    "nombre": "Jon Favreau"
+                },
+                {
+                    "nombre": "Jacob Batalon"
+                },
+                {
+                    "nombre": "Marisa Tomei"
+                },
+                {
+                    "nombre": "Alfred Molina"
+                },
+                {
+                    "nombre": "Jamie Foxx"
+                },
+                {
+                    "nombre": "Willem Dafoe"
+                },
+                {
+                    "nombre": "Tony Revolori"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Jon Watts"
+                }
+            ],
+            "duracion": "148 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:20",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:00",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "ciencia ficción"
+                },
+                {
+                    "nombre": "acción"
+                },
+                {
+                    "nombre": "aventura"
+                },
+                {
+                    "nombre": "fantasía"
+                }
+            ],
+            "titulo": "spider man: sin camino a casa"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Will Smith"
+                },
+                {
+                    "nombre": "Saniyya Sidney"
+                },
+                {
+                    "nombre": "Demi Singleton"
+                },
+                {
+                    "nombre": "Aunjanue Ellis"
+                },
+                {
+                    "nombre": "Jon Bernthal"
+                },
+                {
+                    "nombre": "Tony Goldwyn"
+                },
+                {
+                    "nombre": "Susie Abromeit"
+                },
+                {
+                    "nombre": "Dylan McDermott"
+                },
+                {
+                    "nombre": "Judith Chapman"
+                },
+                {
+                    "nombre": "Katrina Begin"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Reinaldo Marcus Green"
+                }
+            ],
+            "duracion": "144 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-02",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-04",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "22:30",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "rey richard: una familia ganadora"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Eugenio Derbez"
+                },
+                {
+                    "nombre": "Marlee Matlin"
+                },
+                {
+                    "nombre": "Emilia Jones"
+                },
+                {
+                    "nombre": "Daniel Durant"
+                },
+                {
+                    "nombre": "Troy Kotsur"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Sian Heder"
+                }
+            ],
+            "duracion": "112 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "16:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-03-31",
+                    "horario": "15:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "16:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-01",
+                    "horario": "15:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "14:20",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "20:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "15:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "14:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "13:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "16:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-03",
+                    "horario": "15:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "16:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-05",
+                    "horario": "15:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:10",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "20:00",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "17:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "14:30",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "19:50",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "16:15",
+                    "idioma": "Subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-06",
+                    "horario": "15:50",
+                    "idioma": "Subtitulado"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "música"
+                }
+            ],
+            "titulo": "coda: señales del corazón"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Jim Carrey"
+                },
+                {
+                    "nombre": "Ben Schwartz"
+                },
+                {
+                    "nombre": "James Marsden"
+                },
+                {
+                    "nombre": "Neal McDonough"
+                },
+                {
+                    "nombre": "Tika Sumpter"
+                },
+                {
+                    "nombre": "Adam Pally"
+                },
+                {
+                    "nombre": "Leanne Lapp"
+                },
+                {
+                    "nombre": "Debs Howard"
+                },
+                {
+                    "nombre": "Michael Hogan"
+                },
+                {
+                    "nombre": "Lisa Chandler"
+                },
+                {
+                    "nombre": "Shannon Chan – Kent"
+                },
+                {
+                    "nombre": "Elfina Luk"
+                },
+                {
+                    "nombre": "Emma Oliver"
+                },
+                {
+                    "nombre": "Natasha Rothwell"
+                },
+                {
+                    "nombre": "Bailey Skodje"
+                },
+                {
+                    "nombre": "Lee Majdoub"
+                },
+                {
+                    "nombre": "Tom Butler"
+                },
+                {
+                    "nombre": "Frank C. Turne"
+                }
+            ],
+            "directores": [
+                {
+                    "nombre": "Jeff Fowler"
+                }
+            ],
+            "duracion": "100 min.",
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-08",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-08",
+                    "horario": "19:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-11",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-11",
+                    "horario": "19:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-12",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-12",
+                    "horario": "19:45",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-13",
+                    "horario": "17:00",
+                    "idioma": "Español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-13",
+                    "horario": "19:45",
+                    "idioma": "Español"
+                }
+            ],
+            "generos": [
+                {
+                    "nombre": "animación"
+                }
+            ],
+            "titulo": "sonic"
+        }
+    ]
 }

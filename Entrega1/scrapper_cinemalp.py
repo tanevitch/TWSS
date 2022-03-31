@@ -3,6 +3,7 @@ import re
 import requests
 
 from bs4 import BeautifulSoup
+from cine import Cine
 from actor import Actor
 from funcion import Funcion
 from genero import Genero
@@ -32,7 +33,7 @@ def cargarFuncionesCinemaLP(cineyhorarios) -> []:
 
         l= []
         for h in horario: 
-            l.append(Funcion(idioma, h, cine))
+            l.append(Funcion(idioma, h, Cine(cine)))
 
     return l
     
@@ -67,7 +68,7 @@ def buscarCinemaLP():
     listapeliculas= []
     for pelicula in peliculas:
         p= cargarPeliculaCinemaLP(pelicula)
-        print(p)
+        # print(p)
         listapeliculas.append(p)
 
     return listapeliculas
@@ -76,3 +77,5 @@ def persistir():
     data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinemaLP()]}
     with open('cinemalp.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
+    
+    return data
