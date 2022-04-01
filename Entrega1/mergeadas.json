@@ -1,0 +1,393 @@
+{
+    "peliculas": [
+        {
+            "actores": [
+                {
+                    "nombre": "Jessica Chastain"
+                },
+                {
+                    "nombre": "Sam Jaeger"
+                },
+                {
+                    "nombre": "Gabriel Olds"
+                },
+                {
+                    "nombre": "Cherry Jones"
+                },
+                {
+                    "nombre": "Vincent D'Onofrio"
+                },
+                {
+                    "nombre": "Fredric Lehne"
+                },
+                {
+                    "nombre": "Mark Wystrach"
+                },
+                {
+                    "nombre": "Andrew Garfield"
+                },
+                {
+                    "nombre": "Chandler Head"
+                },
+                {
+                    "nombre": "Louis Cancelmi"
+                }
+            ],
+            "directores": [],
+            "duracion": "126 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "drama romantico"
+                },
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "historia"
+                }
+            ],
+            "titulo": "los ojos de tammy faye"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "John Turturro"
+                },
+                {
+                    "nombre": "Zöe Kravitz"
+                },
+                {
+                    "nombre": "Andy Serkis"
+                },
+                {
+                    "nombre": "Jeffrey Wright"
+                },
+                {
+                    "nombre": "Peter Sarsgaard"
+                },
+                {
+                    "nombre": "Barry Keoghan"
+                },
+                {
+                    "nombre": "Alex Ferns"
+                },
+                {
+                    "nombre": "Zoë Kravitz"
+                },
+                {
+                    "nombre": "Colin Farrell"
+                },
+                {
+                    "nombre": "Robert Pattinson"
+                },
+                {
+                    "nombre": "Paul Dano"
+                }
+            ],
+            "directores": [],
+            "duracion": "175 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "crimen"
+                },
+                {
+                    "nombre": "acción"
+                }
+            ],
+            "titulo": "batman"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Gerard Horan"
+                },
+                {
+                    "nombre": "Turlough Convery"
+                },
+                {
+                    "nombre": "Sid Sagar"
+                },
+                {
+                    "nombre": "Gerard McCarthy"
+                },
+                {
+                    "nombre": "Lewis McAskie"
+                },
+                {
+                    "nombre": "Ciarán Hinds"
+                },
+                {
+                    "nombre": "Lara McDonnell"
+                },
+                {
+                    "nombre": "Judi Dench"
+                },
+                {
+                    "nombre": "Bríd Brennan"
+                },
+                {
+                    "nombre": "Jamie Dornan"
+                },
+                {
+                    "nombre": "Jude Hill"
+                },
+                {
+                    "nombre": "Caitriona Balfe"
+                }
+            ],
+            "directores": [],
+            "duracion": "98 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "drama"
+                }
+            ],
+            "titulo": "belfast"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Penélope Cruz"
+                },
+                {
+                    "nombre": "Oscar Martínez"
+                },
+                {
+                    "nombre": "Nagore Aranburu"
+                },
+                {
+                    "nombre": "Manolo Solo"
+                },
+                {
+                    "nombre": "José Luis Gómez"
+                },
+                {
+                    "nombre": "Irene Escolar"
+                },
+                {
+                    "nombre": "Carlos Hipólito"
+                },
+                {
+                    "nombre": "Antonio Banderas"
+                },
+                {
+                    "nombre": "Koldo Olabarri"
+                },
+                {
+                    "nombre": "Pilar Castro"
+                },
+                {
+                    "nombre": "Juan Grandinetti"
+                }
+            ],
+            "directores": [],
+            "duracion": "114 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "comedia dramático"
+                },
+                {
+                    "nombre": "drama"
+                },
+                {
+                    "nombre": "comedia"
+                }
+            ],
+            "titulo": "competencia oficial"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Hector Kotsifakis"
+                },
+                {
+                    "nombre": "Joseph Marcell"
+                },
+                {
+                    "nombre": "Maria Gabriela de Faría"
+                },
+                {
+                    "nombre": "María Gabriela de Faría"
+                },
+                {
+                    "nombre": "Irán Castillo"
+                },
+                {
+                    "nombre": "Will Beinbrink"
+                }
+            ],
+            "directores": [],
+            "duracion": "98 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "terror"
+                }
+            ],
+            "titulo": "el exorcismo de dios"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Animación"
+                },
+                {
+                    "nombre": "Mitsuo Iwata"
+                },
+                {
+                    "nombre": "Megumi Ogata"
+                },
+                {
+                    "nombre": "Kana Hanazawa"
+                },
+                {
+                    "nombre": "Mikako Komatsu"
+                },
+                {
+                    "nombre": "Takaya Kuroda"
+                },
+                {
+                    "nombre": "Tomokazu Seki"
+                },
+                {
+                    "nombre": "Takahiro Sakurai"
+                },
+                {
+                    "nombre": "Koki Uchiyama"
+                },
+                {
+                    "nombre": "Yuichi Nakamura"
+                },
+                {
+                    "nombre": "Koichi Yamadera"
+                }
+            ],
+            "directores": [],
+            "duracion": "105 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "aventura"
+                },
+                {
+                    "nombre": "animación"
+                },
+                {
+                    "nombre": "misterio"
+                },
+                {
+                    "nombre": "acción"
+                }
+            ],
+            "titulo": "jujutsu kaisen 0"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Animación"
+                },
+                {
+                    "nombre": "Zazie Beetz"
+                },
+                {
+                    "nombre": "Marc Maron"
+                },
+                {
+                    "nombre": "Awkwafina"
+                },
+                {
+                    "nombre": "Alex Borstein"
+                },
+                {
+                    "nombre": "Anthony Ramos"
+                },
+                {
+                    "nombre": "Craig Robinson"
+                },
+                {
+                    "nombre": "Richard Ayoade"
+                },
+                {
+                    "nombre": "Sam Rockwell"
+                },
+                {
+                    "nombre": "Lilly Singh"
+                }
+            ],
+            "directores": [],
+            "duracion": "100 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "aventura"
+                },
+                {
+                    "nombre": "familia"
+                },
+                {
+                    "nombre": "crimen"
+                },
+                {
+                    "nombre": "comedia"
+                },
+                {
+                    "nombre": "animación"
+                },
+                {
+                    "nombre": "acción"
+                }
+            ],
+            "titulo": "los tipos malos"
+        },
+        {
+            "actores": [
+                {
+                    "nombre": "Sophia Ali"
+                },
+                {
+                    "nombre": "Tom Holland"
+                },
+                {
+                    "nombre": "Sophia Taylor Ali"
+                },
+                {
+                    "nombre": "Antonio Banderas"
+                },
+                {
+                    "nombre": "Mark Wahlberg"
+                },
+                {
+                    "nombre": "Rubén Doblas Gundersen"
+                },
+                {
+                    "nombre": "Patricia Meeden"
+                },
+                {
+                    "nombre": "Sarah Petrick"
+                },
+                {
+                    "nombre": "Tati Gabrielle"
+                }
+            ],
+            "directores": [],
+            "duracion": "115 minutos",
+            "funciones": [],
+            "generos": [
+                {
+                    "nombre": "aventura"
+                },
+                {
+                    "nombre": "acción"
+                }
+            ],
+            "titulo": "uncharted: fuera del mapa"
+        }
+    ]
+}
