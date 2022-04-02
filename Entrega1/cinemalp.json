@@ -36,35 +36,35 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "18:30",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "20:40",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "13:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "drama"
+                    "nombre": "Drama"
                 }
             ],
-            "titulo": "coda: señales del corazón (re-estreno)"
+            "titulo": "Coda: Señales Del Corazón (Re-Estreno)"
         },
         {
             "actores": [
@@ -102,19 +102,19 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "20:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "drama romantico"
+                    "nombre": "Drama Romantico"
                 }
             ],
-            "titulo": "los ojos de tammy faye"
+            "titulo": "Los Ojos De Tammy Faye"
         },
         {
             "actores": [
@@ -161,75 +161,75 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "20:35",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "23:15",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "18:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "15:15",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "13:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "20:30",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "23:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "18:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "fantasia- terror- accion"
+                    "nombre": "Fantasia- Terror- Accion"
                 }
             ],
-            "titulo": "morbius"
+            "titulo": "Morbius"
         },
         {
             "actores": [
@@ -267,19 +267,19 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "19:20",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "drama - biográfico"
+                    "nombre": "Drama - Biográfico"
                 }
             ],
-            "titulo": "rey richard (re-estreno)"
+            "titulo": "Rey Richard (Re-Estreno)"
         },
         {
             "actores": [
@@ -320,35 +320,35 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "17:05",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "22:45",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "15:05",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "thriller"
+                    "nombre": "Thriller"
                 }
             ],
-            "titulo": "a ciegas"
+            "titulo": "A Ciegas"
         },
         {
             "actores": [
@@ -389,67 +389,67 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "22:50",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "15:05",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "22:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "19:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "22:15",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "21:30",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "17:45",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "acción"
+                    "nombre": "Acción"
                 }
             ],
-            "titulo": "batman"
+            "titulo": "Batman"
         },
         {
             "actores": [
@@ -457,7 +457,7 @@
                     "nombre": "Jude Hill"
                 },
                 {
-                    "nombre": "Lewis McAskie"
+                    "nombre": "Lewis Mcaskie"
                 },
                 {
                     "nombre": "Caitriona Balfe"
@@ -472,7 +472,7 @@
                     "nombre": "Ciarán Hinds"
                 },
                 {
-                    "nombre": "Lara McDonnell"
+                    "nombre": "Lara Mcdonnell"
                 },
                 {
                     "nombre": "Gerard Horan"
@@ -493,27 +493,27 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "21:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "13:45",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "drama"
+                    "nombre": "Drama"
                 }
             ],
-            "titulo": "belfast"
+            "titulo": "Belfast"
         },
         {
             "actores": [
@@ -542,27 +542,27 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "18:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "16:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "animación"
+                    "nombre": "Animación"
                 }
             ],
-            "titulo": "clifford: el gran perro rojo"
+            "titulo": "Clifford: El Gran Perro Rojo"
         },
         {
             "actores": [
@@ -606,51 +606,51 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "15:20",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "17:40",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "20:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "22:40",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "13:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "comedia dramática"
+                    "nombre": "Comedia Dramática"
                 }
             ],
-            "titulo": "competencia oficial"
+            "titulo": "Competencia Oficial"
         },
         {
             "actores": [
@@ -679,24 +679,24 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "23:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "thriller"
+                    "nombre": "Thriller"
                 }
             ],
-            "titulo": "ecos de un crimen"
+            "titulo": "Ecos De Un Crimen"
         },
         {
             "actores": [
                 {
-                    "nombre": "Maria Gabriela de Faría"
+                    "nombre": "Maria Gabriela De Faría"
                 },
                 {
                     "nombre": "Joseph Marcell"
@@ -714,35 +714,35 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "20:40",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "22:50",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "13:20",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "terror"
+                    "nombre": "Terror"
                 }
             ],
-            "titulo": "el exorcismo de dios"
+            "titulo": "El Exorcismo De Dios"
         },
         {
             "actores": [
@@ -783,24 +783,24 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "22:10",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "drama"
+                    "nombre": "Drama"
                 }
             ],
-            "titulo": "el padrino 50 años (re estreno)"
+            "titulo": "El Padrino 50 Años (Re Estreno)"
         },
         {
             "actores": [
                 {
-                    "nombre": "Animación. VOCES ORIGINALES: Stephanie Beatriz."
+                    "nombre": "Animación. Voces Originales: Stephanie Beatriz."
                 }
             ],
             "directores": [
@@ -818,43 +818,43 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "21:05",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "13:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "18:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "15:45",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "animación"
+                    "nombre": "Animación"
                 }
             ],
-            "titulo": "encanto"
+            "titulo": "Encanto"
         },
         {
             "actores": [
@@ -871,51 +871,51 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "17:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "19:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "21:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "23:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "15:00",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "aventura"
+                    "nombre": "Aventura"
                 }
             ],
-            "titulo": "jujutsu kaisen 0"
+            "titulo": "Jujutsu Kaisen 0"
         },
         {
             "actores": [
@@ -932,94 +932,94 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "15:20",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "17:20",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA CITY"
+                        "nombre": "Cinema City"
                     },
                     "dia": null,
                     "horario": "13:20",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "15:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "17:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "20:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "22:25",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "13:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "19:05",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "13:50",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "acción"
+                    "nombre": "Acción"
                 },
                 {
-                    "nombre": "aventuras"
+                    "nombre": "Aventuras"
                 }
             ],
-            "titulo": "los tipos malos"
+            "titulo": "Los Tipos Malos"
         },
         {
             "actores": [
@@ -1027,7 +1027,7 @@
                     "nombre": "Animación"
                 },
                 {
-                    "nombre": "Voz: Matthew McConaughey"
+                    "nombre": "Voz: Matthew Mcconaughey"
                 },
                 {
                     "nombre": "Reese Witherspoon"
@@ -1060,75 +1060,75 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "15:45",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "18:00",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA OCHO"
+                        "nombre": "Cinema Ocho"
                     },
                     "dia": null,
                     "horario": "13:30",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "15:30",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "17:45",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "13:10",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "20:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA SAN MARTIN"
+                        "nombre": "Cinema San Martin"
                     },
                     "dia": null,
                     "horario": "13:30",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "animación"
+                    "nombre": "Animación"
                 }
             ],
-            "titulo": "sing 2"
+            "titulo": "Sing 2"
         },
         {
             "actores": [
@@ -1163,38 +1163,38 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "15:30",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "19:30",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA ROCHA"
+                        "nombre": "Cinema Rocha"
                     },
                     "dia": null,
                     "horario": "16:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "acción"
+                    "nombre": "Acción"
                 },
                 {
-                    "nombre": "aventuras"
+                    "nombre": "Aventuras"
                 }
             ],
-            "titulo": "spiderman: sin camino a casa"
+            "titulo": "Spiderman: Sin Camino A Casa"
         },
         {
             "actores": [
@@ -1223,7 +1223,7 @@
                     "nombre": "Amanda Plummer"
                 },
                 {
-                    "nombre": "María de Medeiros"
+                    "nombre": "María De Medeiros"
                 }
             ],
             "directores": [
@@ -1235,27 +1235,27 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "22:30",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "19:30",
-                    "idioma": "SUBTITULADA"
+                    "idioma": "subtitulada"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "thriller"
+                    "nombre": "Thriller"
                 }
             ],
-            "titulo": "tiempos violentos - re estreno"
+            "titulo": "Tiempos Violentos - Re Estreno"
         },
         {
             "actores": [
@@ -1290,38 +1290,38 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "18:40",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "23:10",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
-                        "nombre": "CINEMA PARADISO"
+                        "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
                     "horario": "13:15",
-                    "idioma": "CASTELLANO"
+                    "idioma": "castellano"
                 }
             ],
             "generos": [
                 {
-                    "nombre": "acción"
+                    "nombre": "Acción"
                 },
                 {
-                    "nombre": "aventuras"
+                    "nombre": "Aventuras"
                 }
             ],
-            "titulo": "uncharted: fuera del mapa"
+            "titulo": "Uncharted: Fuera Del Mapa"
         }
     ]
 }

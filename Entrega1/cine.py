@@ -1,6 +1,6 @@
 class Cine:
     def __init__(self, nombre, direccion=None, telefono=None) -> None:
-        self.nombre= nombre.strip()
+        self.nombre= nombre.strip().title()
         self.direccion= direccion
         self.telefono=telefono
 

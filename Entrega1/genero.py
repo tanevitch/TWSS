@@ -1,6 +1,6 @@
 class Genero:
     def __init__(self, nombre):
-        self.nombre = nombre.strip().lower()
+        self.nombre = nombre.strip().title()
         
 
     def __repr__(self):

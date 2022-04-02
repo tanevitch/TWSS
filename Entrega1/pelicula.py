@@ -1,6 +1,6 @@
 class Pelicula:
     def __init__(self, titulo, generos, duracion, actores, directores, funciones):
-        self.titulo= titulo.strip().lower()
+        self.titulo= titulo.strip().lower().title()
         self.duracion= duracion.strip().lower()
         self.generos= generos
         self.actores= actores
