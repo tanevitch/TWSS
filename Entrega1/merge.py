@@ -125,7 +125,7 @@ def merge():
     return peliculas
 
 
-data= {"peliculas": [pelicula.toJSON() for pelicula in merge()]}
-print(data)
-with open('mergeadas.json', 'w', encoding="utf8") as fp:
-    json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
+# data= {"peliculas": [pelicula.toJSON() for pelicula in merge()]}
+# print(data)
+# with open('mergeadas.json', 'w', encoding="utf8") as fp:
+#     json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)

@@ -39,6 +39,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "18:30",
                     "idioma": "subtitulada"
                 },
@@ -47,6 +48,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:40",
                     "idioma": "subtitulada"
                 },
@@ -55,6 +57,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "subtitulada"
                 }
@@ -105,6 +108,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:00",
                     "idioma": "subtitulada"
                 }
@@ -164,6 +168,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala 4d",
                     "horario": "20:35",
                     "idioma": "subtitulada"
                 },
@@ -172,6 +177,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala 4d",
                     "horario": "23:15",
                     "idioma": "subtitulada"
                 },
@@ -180,6 +186,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala 4d",
                     "horario": "18:00",
                     "idioma": "subtitulada"
                 },
@@ -188,6 +195,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:15",
                     "idioma": "subtitulada"
                 },
@@ -196,6 +204,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "subtitulada"
                 },
@@ -204,6 +213,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala atmos hd",
                     "horario": "20:30",
                     "idioma": "subtitulada"
                 },
@@ -212,6 +222,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala atmos hd",
                     "horario": "23:00",
                     "idioma": "subtitulada"
                 },
@@ -220,6 +231,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala atmos hd",
                     "horario": "18:00",
                     "idioma": "subtitulada"
                 }
@@ -270,6 +282,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:20",
                     "idioma": "subtitulada"
                 }
@@ -323,6 +336,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:05",
                     "idioma": "castellano"
                 },
@@ -331,6 +345,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:45",
                     "idioma": "castellano"
                 },
@@ -339,6 +354,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:05",
                     "idioma": "castellano"
                 }
@@ -392,6 +408,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:50",
                     "idioma": "subtitulada"
                 },
@@ -400,6 +417,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:05",
                     "idioma": "subtitulada"
                 },
@@ -408,6 +426,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:15",
                     "idioma": "castellano"
                 },
@@ -416,6 +435,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:00",
                     "idioma": "castellano"
                 },
@@ -424,6 +444,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:15",
                     "idioma": "subtitulada"
                 },
@@ -432,6 +453,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "21:30",
                     "idioma": "subtitulada"
                 },
@@ -440,6 +462,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:45",
                     "idioma": "subtitulada"
                 }
@@ -496,6 +519,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "21:00",
                     "idioma": "subtitulada"
                 },
@@ -504,6 +528,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:45",
                     "idioma": "subtitulada"
                 }
@@ -545,6 +570,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "18:15",
                     "idioma": "castellano"
                 },
@@ -553,6 +579,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "16:00",
                     "idioma": "castellano"
                 }
@@ -609,6 +636,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:20",
                     "idioma": "castellano"
                 },
@@ -617,6 +645,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:40",
                     "idioma": "castellano"
                 },
@@ -625,6 +654,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:15",
                     "idioma": "castellano"
                 },
@@ -633,6 +663,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:40",
                     "idioma": "castellano"
                 },
@@ -641,6 +672,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "castellano"
                 }
@@ -682,6 +714,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "23:15",
                     "idioma": "castellano"
                 }
@@ -717,6 +750,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:40",
                     "idioma": "castellano"
                 },
@@ -725,6 +759,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:50",
                     "idioma": "castellano"
                 },
@@ -733,6 +768,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:20",
                     "idioma": "castellano"
                 }
@@ -786,6 +822,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:10",
                     "idioma": "subtitulada"
                 }
@@ -821,6 +858,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "21:05",
                     "idioma": "castellano"
                 },
@@ -829,6 +867,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "castellano"
                 },
@@ -837,6 +876,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "18:00",
                     "idioma": "castellano"
                 },
@@ -845,6 +885,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:45",
                     "idioma": "castellano"
                 }
@@ -874,6 +915,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:00",
                     "idioma": "subtitulada"
                 },
@@ -882,6 +924,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:00",
                     "idioma": "subtitulada"
                 },
@@ -890,6 +933,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "21:00",
                     "idioma": "subtitulada"
                 },
@@ -898,6 +942,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "23:00",
                     "idioma": "subtitulada"
                 },
@@ -906,6 +951,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:00",
                     "idioma": "subtitulada"
                 }
@@ -935,6 +981,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:20",
                     "idioma": "castellano"
                 },
@@ -943,6 +990,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:20",
                     "idioma": "castellano"
                 },
@@ -951,6 +999,7 @@
                         "nombre": "Cinema City"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:20",
                     "idioma": "castellano"
                 },
@@ -959,6 +1008,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:00",
                     "idioma": "castellano"
                 },
@@ -967,6 +1017,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:00",
                     "idioma": "castellano"
                 },
@@ -975,6 +1026,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:15",
                     "idioma": "castellano"
                 },
@@ -983,6 +1035,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:25",
                     "idioma": "castellano"
                 },
@@ -991,6 +1044,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "castellano"
                 },
@@ -999,6 +1053,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:05",
                     "idioma": "castellano"
                 },
@@ -1007,6 +1062,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:50",
                     "idioma": "castellano"
                 }
@@ -1063,6 +1119,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:45",
                     "idioma": "castellano"
                 },
@@ -1071,6 +1128,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "18:00",
                     "idioma": "castellano"
                 },
@@ -1079,6 +1137,7 @@
                         "nombre": "Cinema Ocho"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:30",
                     "idioma": "castellano"
                 },
@@ -1087,6 +1146,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:30",
                     "idioma": "castellano"
                 },
@@ -1095,6 +1155,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "17:45",
                     "idioma": "castellano"
                 },
@@ -1103,6 +1164,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:10",
                     "idioma": "castellano"
                 },
@@ -1111,6 +1173,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "20:15",
                     "idioma": "castellano"
                 },
@@ -1119,6 +1182,7 @@
                         "nombre": "Cinema San Martin"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:30",
                     "idioma": "castellano"
                 }
@@ -1166,6 +1230,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:30",
                     "idioma": "castellano"
                 },
@@ -1174,6 +1239,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:30",
                     "idioma": "castellano"
                 },
@@ -1182,6 +1248,7 @@
                         "nombre": "Cinema Rocha"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "16:15",
                     "idioma": "castellano"
                 }
@@ -1238,6 +1305,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:30",
                     "idioma": "subtitulada"
                 },
@@ -1246,6 +1314,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "19:30",
                     "idioma": "subtitulada"
                 }
@@ -1293,6 +1362,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "18:40",
                     "idioma": "castellano"
                 },
@@ -1301,6 +1371,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "23:10",
                     "idioma": "castellano"
                 },
@@ -1309,6 +1380,7 @@
                         "nombre": "Cinema Paradiso"
                     },
                     "dia": null,
+                    "formato": "sala hd",
                     "horario": "13:15",
                     "idioma": "castellano"
                 }

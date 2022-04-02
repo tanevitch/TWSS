@@ -1,10 +1,10 @@
 class Funcion:
-    def __init__(self, idioma, horario, cine, dia=None, tipo_sala=None) -> None:
+    def __init__(self, idioma, horario, cine, formato, dia=None) -> None:
         self.idioma = idioma.strip().lower()
         self.horario = horario.strip()
         self.cine = cine 
         self.dia = dia
-        tipo_sala = tipo_sala
+        self.formato = formato.strip().lower()
 
 
     def __repr__(self):
@@ -15,6 +15,6 @@ class Funcion:
             'idioma': self.idioma,
             'horario': self.horario,
             'cine': self.cine.toJSON(),
-            'sala': self.tipo_sala,
+            'formato': self.formato,
             'dia': self.dia
             }

@@ -19,7 +19,9 @@ def cargarActores(actores) -> [Actor]:
     return [Actor(a) for a in actores]
     
 def cargarFuncionesCinemaLP(cineyhorarios) -> []:
-    cine = cineyhorarios.find("a", attrs={"class": "cine"}).get_text()
+    cine = cineyhorarios.find("a", attrs={"class": "cine"})
+    formato= cine.parent.get_text().split("-")[1].strip()
+    cine = cine.get_text()
     horarios = cineyhorarios.find_all("span", attrs={"id": re.compile(".*Horarios.*")})
     # cineurl= cine.find("a").get("href")
     # cine= requests.get("http://www.cinemalaplata.com/"+cineurl).text
@@ -33,7 +35,7 @@ def cargarFuncionesCinemaLP(cineyhorarios) -> []:
 
         l= []
         for h in horario: 
-            l.append(Funcion(idioma, h, Cine(cine)))
+            l.append(Funcion(idioma, h, Cine(cine), formato))
 
     return l
     
