@@ -35,7 +35,7 @@ def cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia) -> [Funcion]:
                 idioma.split("•")[2], 
                 horario.get_attribute("textContent"), 
                 Cine(nombre_cine),
-                ''.join(idioma.split("•")[0:1]),
+                ' '.join(idioma.split("•")[0:3]),
                 dia
             )
         )

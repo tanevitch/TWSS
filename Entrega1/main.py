@@ -6,7 +6,7 @@ if __name__ == "__main__":
     persistir_cinemalp()
     persistir_cinepolis()
     
-    # merge()
+    merge()
 
     
 
