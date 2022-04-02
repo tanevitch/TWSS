@@ -69,9 +69,7 @@ def buscarCinemaLP():
     peliculas = cinemalp.find_all("div", attrs={"class": "page-container singlepost"})
     listapeliculas= []
     for pelicula in peliculas:
-        p= cargarPeliculaCinemaLP(pelicula)
-        # print(p)
-        listapeliculas.append(p)
+        listapeliculas.append(cargarPeliculaCinemaLP(pelicula))
 
     return listapeliculas
     
