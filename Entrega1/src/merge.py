@@ -1,5 +1,6 @@
 
 
+import itertools
 import json
 from actor import Actor
 from cine import Cine
@@ -8,8 +9,14 @@ from pelicula import Pelicula
 from funcion import Funcion 
 import re
 import spacy
+import itertools
+
+from difflib import SequenceMatcher
+
 nlp = spacy.load("es_dep_news_trf")
 
+def deteminarSimilitud(a, b):
+    return SequenceMatcher(None, a, b).ratio()
 
 def estandarizarMinutos(listaDeMinutos: list[str]):
     return str(min(int(re.search(r'\d+', duracion).group()) for duracion in listaDeMinutos))+ " minutos"
@@ -61,67 +68,61 @@ def mergeDirectores(directores: list[str]):
     directores_de_p = set([director.get("nombre") for director in directores] )
     return [Actor(x) for x in directores_de_p]
 
-def procesarPeliculas(lista_titulos, cine):
+def procesarPeliculas(lista_titulos, fuentes:list):
     lista_peliculas= []
     for titulo in lista_titulos:
-        info_peli =next(p for p in cine.get("peliculas") if p.get("titulo")==titulo) 
-
+        info_peli=  [next(p for p in fuente.get("peliculas") if p.get("titulo")==titulo) for fuente in fuentes ]
         peli = Pelicula(
             titulo=titulo,
-            generos=mergeGeneros(info_peli.get("generos")),
-            actores= mergeActores(info_peli.get("actores")),
-            funciones=mergeFunciones(info_peli.get("funciones")),
-            duracion=estandarizarMinutos([info_peli["duracion"]]),
-            directores=mergeDirectores(info_peli.get("directores"))    
+            generos=mergeGeneros(list(itertools.chain(*[info.get("generos") for info in info_peli]))),
+            actores= mergeActores(list(itertools.chain(*[info.get("actores") for info in info_peli]))),
+            funciones=mergeFunciones(list(itertools.chain(*[info.get("funciones") for info in info_peli]))),
+            duracion=estandarizarMinutos(list(info.get("duracion") for info in info_peli)),
+            directores=mergeDirectores(list(itertools.chain(*[info.get("directores") for info in info_peli])))    
         )
         lista_peliculas.append(peli)
     return lista_peliculas
 
 def merge():
-    with open('cinepolis.json', 'r', encoding="utf8") as fp:
-        cinepolis = json.load(fp)
     
-     
-    with open('cinemalp.json', 'r', encoding="utf8") as fp:
-        cinemalp =json.load(fp)
+    json_cinemalp = open ('./data/cinemalp.json', "r", encoding="utf8")
+    json_cinepolis = open ('./data/cinepolis.json', "r", encoding="utf8")
 
-    titulos_consolidados = []
-    titulos_cinemalp= [p.get("titulo") for p in cinemalp.get("peliculas")]
-    titulos_cinepolis= [p.get("titulo") for p in cinepolis.get("peliculas")]
+    fuentes= {
+        "cinemalp": json.loads(json_cinemalp.read()),
+        "cinepolis": json.loads(json_cinepolis.read())
+    }
 
-    for t in titulos_cinemalp:
-        if t in titulos_cinepolis:
-            titulos_consolidados.append(t)
+    titulos= {
+        fuente: set(map(lambda p: p.get("titulo"), fuentes[fuente].get("peliculas"))) for fuente in fuentes
+
+    }
+
+    titulos_identicos = set.intersection(*[set(titulos[key]) for key in titulos]) # necesita una lista de sets
+
+    for titulo in titulos_identicos:
+        for fuente in fuentes:
+            titulos[fuente].remove(titulo) 
+   
 
     peliculas= []
 
-    for t in titulos_consolidados:
-        info_cinemalp =next(p for p in cinemalp.get("peliculas") if p.get("titulo")==t) 
-        info_cinepolis= next(p for p in cinepolis.get("peliculas") if p.get("titulo")==t) 
-        
-        peli = Pelicula(
-            titulo=t,
-            generos=mergeGeneros(info_cinemalp.get("generos") + info_cinepolis.get("generos")),
-            actores= mergeActores(info_cinemalp.get("actores") + info_cinepolis.get("actores")),
-            funciones=mergeFunciones(info_cinemalp.get("funciones")+info_cinepolis.get("funciones")),
-            duracion=estandarizarMinutos([info_cinepolis["duracion"], info_cinemalp["duracion"]]),
-            directores=mergeDirectores(info_cinemalp.get("directores")+info_cinepolis.get("directores"))    
-        )
-        peliculas.append(peli)
-    
-    
-
+    # proceso fuente multiple
     peliculas.extend(procesarPeliculas(
-        lista_titulos=[t for t in titulos_cinemalp if t not in titulos_consolidados],
-        cine= cinemalp
+        lista_titulos=titulos_identicos,
+        fuentes= fuentes.values()
     ))
 
-    peliculas.extend(procesarPeliculas(
-        lista_titulos=[t for t in titulos_cinepolis if t not in titulos_consolidados],
-        cine= cinepolis
-    ))
 
+    #proceso fuente simple
+    for fuente in fuentes: 
+        peliculas.extend(procesarPeliculas(
+            lista_titulos=titulos[fuente],
+            fuentes= [fuentes[fuente]]
+        ))
 
     return peliculas
 
+
+merge()
 

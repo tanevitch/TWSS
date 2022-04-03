@@ -102,7 +102,7 @@ def buscarCinepolis():
 
 def persistir():
     data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
-    with open('cinepolis.json', 'w', encoding="utf8") as fp:
+    with open('./data/cinepolis.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
     return data

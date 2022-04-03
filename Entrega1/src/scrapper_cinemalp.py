@@ -27,7 +27,7 @@ def cargarFuncionesCinemaLP(cineyhorarios) -> list[Funcion]:
     # cine= requests.get("http://www.cinemalaplata.com/"+cineurl).text
     # cine = BeautifulSoup(cine, 'html.parser')
     l= []
-    for horario in horarios:
+    for horario in horarios: #va asi por si esta en español y subtitulada
         horario = horario.get_text().split(" - ")
         idioma= horario[0].split("     ")[0].split(":")[0]
 
@@ -75,7 +75,7 @@ def buscarCinemaLP():
     
 def persistir():
     data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinemaLP()]}
-    with open('cinemalp.json', 'w', encoding="utf8") as fp:
+    with open('./data/cinemalp.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
     
     return data

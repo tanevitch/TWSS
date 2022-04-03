@@ -1,0 +1,28 @@
+main.py 
+
+Punto de entrada del programa. Este es el único archivo que hay que correr. Este invoca a otros dos módulos.
+
+scrapper_cinemalp.py
+Hace un get a la cartelera, pone en una lista los elementos del dom que corresponden a las películas, para luego recorrer cada uno y extraer el href que permite hacer un get a la página donde está la ficha técnica de cada una de las películas
+De la ficha técnica puede usar los id de los elementos para ubicar los distintos componentes necesarios para extraer el texto que permite llenar las variables de instancia de los objetos planteados
+Luego de crear los objetos necesarios, persiste todos en un archivo cinemalp.json.
+
+scrapper_cinepolis.py
+Hace un get a la página principal, utiliza selenium para ubicar la cartelera porque ésta es dinámica y no va a aparecer en el código fuente así que bs4 no "lo ve".
+Por cada una de las películas, hace un get a la página y la ficha técnica es estática así que la usa para llenar las variables de algunas clases.
+Las funciones aparecen en un componente dinámico que es cargado bajo demanda al hacer click en cada uno de los días. Se extrajo el componente de los botones para usar selenium para recorrerlo y hacer los clicks, agarrar la información, guardarla, y pasar al siguiente día anunciado.
+Luego de crear los objetos necesarios, persiste todos en un archivo cinepolis.json
+
+merge.py
+Levanta los archivos generados por los scrapper
+El merge se hace con los siguientes criterios:
+	- por nombre de película
+	Todas las películas cuyo nombre sea igual, se mergean dejando como actores, géneros, directores y funciones la unión de los que aparecen en ambas fuentes
+	La duración se determina con el mínimo entre las duraciones que aparecen en ambas fuentes
+	
+	Todas las películas cuyo nombre no sea igual pero su similitud dé por encima de 0.8, probablemente se traten de la misma. Son mergeadas con el mismo criterio de arriba
+	
+	Todo el resto de películas se almacena estandarizando sus datos, sin combinar nada. 
+
+
+Al finalizar, se persisten los datos en un archivo mergeadas.json 	
