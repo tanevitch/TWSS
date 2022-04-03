@@ -10,15 +10,15 @@ from genero import Genero
 
 from pelicula import Pelicula
 
-def cargarGeneros(generos) -> [Genero]:
+def cargarGeneros(generos) -> list[Genero]:
     generos= generos.split(",")
     return [Genero(g) for g in generos]
 
-def cargarActores(actores) -> [Actor]:
+def cargarActores(actores) -> list[Actor]:
     actores= actores.split(",")
     return [Actor(a) for a in actores]
     
-def cargarFuncionesCinemaLP(cineyhorarios) -> []:
+def cargarFuncionesCinemaLP(cineyhorarios) -> list[Funcion]:
     cine = cineyhorarios.find("a", attrs={"class": "cine"})
     formato= cine.parent.get_text().split("-")[1].strip()
     cine = cine.get_text()
@@ -26,6 +26,7 @@ def cargarFuncionesCinemaLP(cineyhorarios) -> []:
     # cineurl= cine.find("a").get("href")
     # cine= requests.get("http://www.cinemalaplata.com/"+cineurl).text
     # cine = BeautifulSoup(cine, 'html.parser')
+    l= []
     for horario in horarios:
         horario = horario.get_text().split(" - ")
         idioma= horario[0].split("     ")[0].split(":")[0]
@@ -33,7 +34,6 @@ def cargarFuncionesCinemaLP(cineyhorarios) -> []:
         horario = horario + [horario[0].split("     ")[1]]
         horario.remove(horario[0])
 
-        l= []
         for h in horario: 
             l.append(Funcion(idioma, h, Cine(cine), formato))
 

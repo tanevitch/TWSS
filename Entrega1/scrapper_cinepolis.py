@@ -18,15 +18,15 @@ from pelicula import Pelicula
 # driver = webdriver.Chrome('./chromedriver')
 driver=  webdriver.Firefox()
 
-def cargarGeneros(generos) -> [Genero]:
+def cargarGeneros(generos) -> list[Genero]:
     generos= generos.split(",")
     return [Genero(a) for a in generos]
 
-def cargarActores(actores) -> [Actor]:
+def cargarActores(actores) -> list[Actor]:
     actores= actores.split(",")
     return [Actor(a) for a in actores]
 
-def cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia) -> [Funcion]:
+def cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia) -> list[Funcion]:
     funciones = []
     idioma = tipo_funcion.find_element(By.TAG_NAME, "small").get_attribute("textContent")
     for horario in tipo_funcion.find_elements(By.CLASS_NAME, "btn-detail-showtime"):
@@ -35,7 +35,7 @@ def cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia) -> [Funcion]:
                 idioma.split("•")[2], 
                 horario.get_attribute("textContent"), 
                 Cine(nombre_cine),
-                idioma.split("•")[0].strip()+" "+idioma.split("•")[1].strip(),
+                " ".join(" ".join(idioma.split("•")[0:2]).split()),
                 dia
             )
         )

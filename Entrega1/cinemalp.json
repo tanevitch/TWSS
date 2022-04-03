@@ -169,6 +169,24 @@
                     },
                     "dia": null,
                     "formato": "sala 4d",
+                    "horario": "15:30",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema City"
+                    },
+                    "dia": null,
+                    "formato": "sala 4d",
+                    "horario": "13:00",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema City"
+                    },
+                    "dia": null,
+                    "formato": "sala 4d",
                     "horario": "20:35",
                     "idioma": "subtitulada"
                 },
@@ -196,6 +214,33 @@
                     },
                     "dia": null,
                     "formato": "sala hd",
+                    "horario": "20:15",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Ocho"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
+                    "horario": "22:55",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Ocho"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
+                    "horario": "17:40",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Ocho"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
                     "horario": "15:15",
                     "idioma": "subtitulada"
                 },
@@ -207,6 +252,24 @@
                     "formato": "sala hd",
                     "horario": "13:00",
                     "idioma": "subtitulada"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Rocha"
+                    },
+                    "dia": null,
+                    "formato": "sala atmos hd",
+                    "horario": "15:30",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Rocha"
+                    },
+                    "dia": null,
+                    "formato": "sala atmos hd",
+                    "horario": "13:00",
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
@@ -445,8 +508,35 @@
                     },
                     "dia": null,
                     "formato": "sala hd",
+                    "horario": "16:00",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema Paradiso"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
                     "horario": "22:15",
                     "idioma": "subtitulada"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema San Martin"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
+                    "horario": "22:25",
+                    "idioma": "castellano"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinema San Martin"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
+                    "horario": "14:00",
+                    "idioma": "castellano"
                 },
                 {
                     "cine": {
@@ -910,6 +1000,15 @@
             ],
             "duracion": "105 minutos.",
             "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinema San Martin"
+                    },
+                    "dia": null,
+                    "formato": "sala hd",
+                    "horario": "13:00",
+                    "idioma": "castellano"
+                },
                 {
                     "cine": {
                         "nombre": "Cinema San Martin"
