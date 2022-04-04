@@ -4,8 +4,8 @@ from merge import merge
 import json
 
 if __name__ == "__main__":
-    # persistir_cinemalp()
-    # persistir_cinepolis()
+    persistir_cinemalp()
+    persistir_cinepolis()
     
     data= {"peliculas": [pelicula.toJSON() for pelicula in merge()]}
     print(data)

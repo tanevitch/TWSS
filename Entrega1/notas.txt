@@ -1,0 +1,20 @@
+Estandarización
+Géneros
+Usé un modelo de spacy (NLP tool), porque cada fuente puede escribir los géneros de distinta manera y que sean lo mismo (por ejemplo singular y plural). Si nos quedamos con el lemma de la palabra y el modelo es preciso podemos estar seguros que si encontramos el género "aventura" y "aventuras", al lematizarlo y hacer un set quedará un solo "aventura". Primero apliqué el modelo estándar de español, pero noté baja precisión (etiquetaba mal), así que lo cambié por uno de alta precisión. 
+Identificación de problemas: no funcionará si el género es "parecido" porque solo está buscando por lema de la palabra. Si una fuente etiqueta "terror" y otra "horror", son dos palabras distintas, se necesitaría una herramienta que compare la relación semántica entre estas dos palabras.
+
+Duración de la película
+Las fuentes anotan la duración en minutos, pero una pone "x minutos" y otra "x mins."
+Se tomó solamente el tiempo (numérico), y se concatenó el string "minutos" para que quede en todas igual
+Identificación de problemas: si por alguna razón alguna fuente expresara el tiempo en horas ("1 hora 35 minutos"), deberíamos tener la capacidad de reconocer la estructura para poder convertirla a minutos. No le veo sentido a tener más de dos formas posibles, una es "X minutos" y otra es "X horas Y minutos", así que podríamos modificar la expresión regular que reconoce los dígitos agregando una que reconozca "{digitos} h {digitos} m", así captamos casos como "1 hora 35 minutos", "1h 35m", "1hs 35mins", etc. Una vez que tenemos eso, lo convertimos a minutos para conformar el estándar propuesto.
+
+Idioma
+Una fuente escribía el idioma como "español" y la otra como "castellano".
+En sí, el idioma en que se transmiten en Argentina va a ser "español latinoamericano", así que frente a cada ocurrencia de una palabra que derive de "español" o "castellano", lo reemplazará por "español latinoamérica"
+Esto se podría mejorar analizando el origen. Si la película es de EEUU, los doblajes son en español latinoamérica. Si el origen es España, es español españa. Si fuera de Argentina, es español rioplatense. 
+Se puede tener una estructura para consultar qué doblaje aplica según cada origen. 
+
+Merge
+Hay una herramienta integrada en python, SequenceMatcher, que permite comparar la similitud entre dos strings. Lo que quería hacer era usarlo para comparar los títulos de las películas y así no quedarme solamente con los que están anotados de manera idéntica sino con aquellos que superan en un 75% la similitud. De esta manera, podía reconocer que "Spider Man" y "Spiderman" son el mismo título. El problema es que no supe cómo generalizarlo a N fuentes, no lo pude llevar a código en el tiempo pautado
+
+Otro tipo de inconvenientes sería si una fuente solo provee el título original y no el traducido para la región, debería poder consultar alguna estructura que defina que son la misma película. De otro modo, Spiderman y El hombre araña serían cosas distintas según el programa que se generó.

@@ -1,5 +1,3 @@
-
-
 import itertools
 import json
 from actor import Actor
@@ -11,12 +9,7 @@ import re
 import spacy
 import itertools
 
-from difflib import SequenceMatcher
-
 nlp = spacy.load("es_dep_news_trf")
-
-def deteminarSimilitud(a, b):
-    return SequenceMatcher(None, a, b).ratio()
 
 def estandarizarMinutos(listaDeMinutos: list[str]):
     return str(min(int(re.search(r'\d+', duracion).group()) for duracion in listaDeMinutos))+ " minutos"
@@ -84,7 +77,7 @@ def procesarPeliculas(lista_titulos, fuentes:list):
     return lista_peliculas
 
 def merge():
-    
+
     json_cinemalp = open ('./data/cinemalp.json', "r", encoding="utf8")
     json_cinepolis = open ('./data/cinepolis.json', "r", encoding="utf8")
 
@@ -102,8 +95,7 @@ def merge():
 
     for titulo in titulos_identicos:
         for fuente in fuentes:
-            titulos[fuente].remove(titulo) 
-   
+            titulos[fuente].remove(titulo) # borro para que no se procesen de nuevo
 
     peliculas= []
 
@@ -123,6 +115,4 @@ def merge():
 
     return peliculas
 
-
-merge()
 

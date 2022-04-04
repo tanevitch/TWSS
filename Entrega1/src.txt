@@ -1,6 +1,8 @@
+requirements.txt
+Archivo con dependencias necesarias. Generar un ambiente virtual (python -m venv .env), activarlo (source .env/bin/activate en linux, .env\Scripts\activate en windows), e instalar las dependencias ahí adentro (pip install -r requirements.txt)
+ 
 main.py 
-
-Punto de entrada del programa. Este es el único archivo que hay que correr. Este invoca a otros dos módulos.
+Punto de entrada del programa. Este es el único archivo que hay que correr. Este invoca a los otros modulos.
 
 scrapper_cinemalp.py
 Hace un get a la cartelera, pone en una lista los elementos del dom que corresponden a las películas, para luego recorrer cada uno y extraer el href que permite hacer un get a la página donde está la ficha técnica de cada una de las películas
@@ -15,14 +17,12 @@ Luego de crear los objetos necesarios, persiste todos en un archivo cinepolis.js
 
 merge.py
 Levanta los archivos generados por los scrapper
-El merge se hace con los siguientes criterios:
-	- por nombre de película
-	Todas las películas cuyo nombre sea igual, se mergean dejando como actores, géneros, directores y funciones la unión de los que aparecen en ambas fuentes
-	La duración se determina con el mínimo entre las duraciones que aparecen en ambas fuentes
+El merge se hace por nombre de película, estandarizando sus datos
+Todas las películas cuyo nombre sea igual, se mergean dejando como actores, géneros, directores y funciones la unión de los que aparecen en ambas fuentes
+La duración se determina con el mínimo entre las duraciones que aparecen en ambas fuentes
 	
-	Todas las películas cuyo nombre no sea igual pero su similitud dé por encima de 0.8, probablemente se traten de la misma. Son mergeadas con el mismo criterio de arriba
-	
-	Todo el resto de películas se almacena estandarizando sus datos, sin combinar nada. 
+
+Todo el resto de películas se almacena estandarizando sus datos, sin combinar nada. 
 
 
 Al finalizar, se persisten los datos en un archivo mergeadas.json 	

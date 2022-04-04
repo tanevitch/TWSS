@@ -66,6 +66,60 @@
                     "formato": "classic 2d",
                     "horario": "19:40",
                     "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Mendoza"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-23",
+                    "formato": "classic 2d",
+                    "horario": "19:45",
+                    "idioma": "subtitulado"
                 }
             ],
             "generos": [
@@ -109,15 +163,6 @@
             ],
             "duracion": "121 min.",
             "funciones": [
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:30",
-                    "idioma": "subtitulado"
-                },
                 {
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
@@ -279,17 +324,7 @@
                 }
             ],
             "duracion": "89 min.",
-            "funciones": [
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-12",
-                    "formato": "classic 2d",
-                    "horario": "19:30",
-                    "idioma": "español"
-                }
-            ],
+            "funciones": [],
             "generos": [
                 {
                     "nombre": "Documental"
@@ -399,7 +434,17 @@
                 }
             ],
             "duracion": "97 min.",
-            "funciones": [],
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-10",
+                    "formato": "classic 2d",
+                    "horario": "22:00",
+                    "idioma": "español"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Drama"
@@ -665,7 +710,17 @@
                 }
             ],
             "duracion": "120 min.",
-            "funciones": [],
+            "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-07",
+                    "formato": "classic 2d",
+                    "horario": "19:00",
+                    "idioma": "español"
+                }
+            ],
             "generos": [
                 {
                     "nombre": "Comedia"
@@ -753,15 +808,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "16:00",
@@ -837,7 +883,7 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "21:15",
                     "idioma": "subtitulado"
@@ -846,16 +892,7 @@
                     "cine": {
                         "nombre": "Cinépolis Pilar"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "17:20",
                     "idioma": "subtitulado"
@@ -864,7 +901,7 @@
                     "cine": {
                         "nombre": "Cinépolis Pilar"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -873,16 +910,7 @@
                     "cine": {
                         "nombre": "Cinépolis Merlo"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:40",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Merlo"
-                    },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "17:30",
                     "idioma": "subtitulado"
@@ -891,7 +919,7 @@
                     "cine": {
                         "nombre": "Cinépolis Merlo"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "20:15",
                     "idioma": "subtitulado"
@@ -900,16 +928,7 @@
                     "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "16:30",
                     "idioma": "subtitulado"
@@ -918,7 +937,7 @@
                     "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "19:00",
                     "idioma": "subtitulado"
@@ -927,7 +946,7 @@
                     "cine": {
                         "nombre": "Cinépolis Rosario"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -936,7 +955,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "15:00",
                     "idioma": "subtitulado"
@@ -945,7 +964,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "17:30",
                     "idioma": "subtitulado"
@@ -954,7 +973,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -963,7 +982,7 @@
                     "cine": {
                         "nombre": "Cinépolis Neuquén"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -972,7 +991,7 @@
                     "cine": {
                         "nombre": "Cinépolis Luján"
                     },
-                    "dia": "2022-04-03",
+                    "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "19:20",
                     "idioma": "subtitulado"
@@ -981,7 +1000,7 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "21:15",
                     "idioma": "subtitulado"
@@ -990,7 +1009,7 @@
                     "cine": {
                         "nombre": "Cinépolis Pilar"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "17:20",
                     "idioma": "subtitulado"
@@ -999,7 +1018,7 @@
                     "cine": {
                         "nombre": "Cinépolis Pilar"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -1008,7 +1027,7 @@
                     "cine": {
                         "nombre": "Cinépolis Merlo"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "17:30",
                     "idioma": "subtitulado"
@@ -1017,7 +1036,7 @@
                     "cine": {
                         "nombre": "Cinépolis Merlo"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "20:15",
                     "idioma": "subtitulado"
@@ -1026,7 +1045,7 @@
                     "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "16:30",
                     "idioma": "subtitulado"
@@ -1035,7 +1054,7 @@
                     "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "19:00",
                     "idioma": "subtitulado"
@@ -1044,7 +1063,7 @@
                     "cine": {
                         "nombre": "Cinépolis Rosario"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -1053,7 +1072,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "15:00",
                     "idioma": "subtitulado"
@@ -1062,7 +1081,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "17:30",
                     "idioma": "subtitulado"
@@ -1071,7 +1090,7 @@
                     "cine": {
                         "nombre": "Cinépolis Mendoza"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -1080,7 +1099,7 @@
                     "cine": {
                         "nombre": "Cinépolis Neuquén"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "20:00",
                     "idioma": "subtitulado"
@@ -1089,7 +1108,7 @@
                     "cine": {
                         "nombre": "Cinépolis Luján"
                     },
-                    "dia": "2022-04-04",
+                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "19:20",
                     "idioma": "subtitulado"
@@ -1272,15 +1291,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "21:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "21:30",
@@ -1359,15 +1369,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "16:10",
@@ -1378,15 +1379,6 @@
                         "nombre": "Cinépolis Recoleta"
                     },
                     "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "16:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-06",
                     "formato": "classic 2d",
                     "horario": "16:10",
                     "idioma": "subtitulado"
@@ -1518,42 +1510,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "22:15",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "23:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "22:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "22:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-06",
                     "formato": "classic 2d",
                     "horario": "22:15",
@@ -1649,79 +1605,7 @@
                     },
                     "dia": "2022-04-03",
                     "formato": "classic 2d",
-                    "horario": "13:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:40",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
                     "horario": "22:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "21:50",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:40",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:25",
                     "idioma": "español"
                 },
                 {
@@ -1731,15 +1615,6 @@
                     "dia": "2022-04-03",
                     "formato": "classic 2d",
                     "horario": "23:10",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "22:00",
                     "idioma": "español"
                 },
                 {
@@ -2033,438 +1908,6 @@
             ],
             "duracion": "100 min.",
             "funciones": [
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "13:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:40",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "14:50",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "17:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:40",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Merlo"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Merlo"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Merlo"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Merlo"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "16:10",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "14:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "17:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "19:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "21:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "14:10",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "16:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "19:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "15:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "4d 3d",
-                    "horario": "14:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "4d 3d",
-                    "horario": "17:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "15:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "17:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "20:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Maipú"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "15:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Maipú"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:10",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Maipú"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "4d 3d",
-                    "horario": "13:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "15:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "17:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "20:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "13:50",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:40",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "14:50",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "17:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 3d",
-                    "horario": "20:10",
-                    "idioma": "español"
-                },
                 {
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
@@ -3434,6 +2877,96 @@
             ],
             "duracion": "177 min.",
             "funciones": [
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Recoleta"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:50",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Pilar"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:30",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:15",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Merlo"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:50",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:40",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Avellaneda"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:50",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Rosario"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:15",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Maipú"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:15",
+                    "idioma": "español"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Neuquén"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:30",
+                    "idioma": "subtitulado"
+                },
+                {
+                    "cine": {
+                        "nombre": "Cinépolis Luján"
+                    },
+                    "dia": "2022-04-03",
+                    "formato": "classic 2d",
+                    "horario": "22:40",
+                    "idioma": "subtitulado"
+                },
                 {
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
@@ -4590,15 +4123,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "19:10",
@@ -4674,15 +4198,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "17:00",
@@ -4753,65 +4268,11 @@
             "funciones": [
                 {
                     "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:10",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:20",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
                     "dia": "2022-04-03",
                     "formato": "classic 2d",
                     "horario": "23:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "15:00",
                     "idioma": "español"
                 },
                 {
@@ -4839,15 +4300,6 @@
                     "dia": "2022-04-03",
                     "formato": "classic 2d",
                     "horario": "22:45",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "13:00",
                     "idioma": "español"
                 },
                 {
@@ -5171,33 +4623,6 @@
                     },
                     "dia": "2022-04-03",
                     "formato": "classic 2d",
-                    "horario": "15:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "18:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
                     "horario": "23:20",
                     "idioma": "español"
                 },
@@ -5469,33 +4894,6 @@
                     "cine": {
                         "nombre": "Cinépolis Avellaneda"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:15",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:30",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
                     "dia": "2022-04-04",
                     "formato": "classic 2d",
                     "horario": "16:15",
@@ -5626,15 +5024,6 @@
                 },
                 {
                     "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:00",
-                    "idioma": "español"
-                },
-                {
-                    "cine": {
                         "nombre": "Cinépolis Merlo"
                     },
                     "dia": "2022-04-04",
@@ -5748,25 +5137,7 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "22:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "22:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "22:30",
                     "idioma": "subtitulado"
@@ -5817,168 +5188,6 @@
                     "cine": {
                         "nombre": "Cinépolis Recoleta"
                     },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:20",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "20:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "15:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "17:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "14:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "13:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "16:15",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-03",
-                    "formato": "classic 2d",
-                    "horario": "15:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "20:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "20:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "17:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "16:15",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-04",
-                    "formato": "classic 2d",
-                    "horario": "15:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
                     "dia": "2022-04-05",
                     "formato": "classic 2d",
                     "horario": "19:50",
@@ -6034,78 +5243,6 @@
                         "nombre": "Cinépolis Luján"
                     },
                     "dia": "2022-04-05",
-                    "formato": "classic 2d",
-                    "horario": "15:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Recoleta"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Pilar"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "20:10",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Avellaneda"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "20:00",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Rosario"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "17:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "14:30",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Mendoza"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "19:50",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Neuquén"
-                    },
-                    "dia": "2022-04-06",
-                    "formato": "classic 2d",
-                    "horario": "16:15",
-                    "idioma": "subtitulado"
-                },
-                {
-                    "cine": {
-                        "nombre": "Cinépolis Luján"
-                    },
-                    "dia": "2022-04-06",
                     "formato": "classic 2d",
                     "horario": "15:50",
                     "idioma": "subtitulado"

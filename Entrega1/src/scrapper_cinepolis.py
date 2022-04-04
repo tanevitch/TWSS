@@ -77,24 +77,33 @@ def cargarPeliculaCinepolis(url) -> Pelicula:
             for tipo_funcion in tipo_funcion_todas:
                 funciones.extend(cargarFuncionesCinepolis(nombre_cine, tipo_funcion, dia))
 
-    actores= cargarActores(dd["Actores"])
-    directores= cargarActores(dd["Director"])
-    generos= cargarGeneros(dd["Género"])
-    duracion= dd["Duración"]
+
+    actores= []
+    directores= []
+    generos = []
+    duracion = None
+    try:
+        actores= cargarActores(dd["Actores"])
+        directores= cargarActores(dd["Director"])
+        generos= cargarGeneros(dd["Género"])
+        duracion= dd["Duración"]
+    except KeyError: # alguna de las claves no estaba, que quede en null
+        pass
+
     nombre_pelicula= driver.find_element_by_class_name('title-text').text
     p= Pelicula(nombre_pelicula, generos, duracion, actores, directores, funciones)
     return p
 
 def buscarCinepolis():
     driver.get("https://www.cinepolis.com.ar/")
-    peliculas = [p.get_attribute("href") for p in driver.execute_script('return document.querySelectorAll(".movie-grid .movie-thumb")')]   
     
-    listapeliculas= []
+    listapeliculas= []   
+    peliculas = [p.get_attribute("href") for p in driver.execute_script('return document.querySelectorAll(".movie-grid .movie-thumb")')]   
     for urlpeli in peliculas:
         try:
             peli= cargarPeliculaCinepolis(urlpeli)
             listapeliculas.append(peli)
-        except:
+        except: # salto por alguna otra cosa, que no cargue data que está mal
             pass
 
     driver.close()
@@ -102,6 +111,7 @@ def buscarCinepolis():
 
 def persistir():
     data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinepolis()]}
+    
     with open('./data/cinepolis.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
 
