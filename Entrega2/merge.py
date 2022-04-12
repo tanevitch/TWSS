@@ -10,9 +10,31 @@ from difflib import SequenceMatcher
 
 # nlp = spacy.load("es_dep_news_trf")
 
-def estandarizarMinutos(listaDeMinutos: list[str]):
+def estandarizarMinutos(listaDeMinutos: [str]):
     return str(min(int(re.search(r'\d+', duracion).group()) for duracion in listaDeMinutos))+ " minutos"
 
+def cargarPelicula(itemJSONLD):
+    titulo= ""
+    genre= []
+    duration = ""
+    actors = []
+    director = []
+    try:
+        titulo= itemJSONLD.get("name")
+        genre = itemJSONLD.get("genre")
+        duration = itemJSONLD.get("duration") 
+        actors= itemJSONLD.get("actors") or itemJSONLD.get("actor")
+        director = itemJSONLD.get("director")
+    except: 
+        pass 
+
+    return Pelicula(
+                titulo,
+                genre,
+                duration,
+                actors,
+                director
+            )
 
 def determinarSimilitudNombre(a, b):
     return SequenceMatcher(None, a, b).ratio()
@@ -30,14 +52,31 @@ def merge():
     peliculas_jsonld =  json.loads(open('peliculas_jsonld.json', "r", encoding="utf8").read())
 
     mergeadas = []
-    for p1 in peliculas_jsonld:
-        for p2 in peliculas_jsonld:
-            if p1 != p2 and p1 not in mergeadas and p2 not in mergeadas:
-                if determinarSimilitudNombre(p1.get("name"), p2.get("name")) > 0.7 and determinarSimilitudDirectores(p1.get("director"), p2.get("director")) > 0.7:
-                    mergeadas.append(p1)
-                else:
-                    mergeadas.append(p2)
+    for index1 in range(len(peliculas_jsonld)):
+        estructura_merge = {
+            "name": None,
+            "actors": [],
+            "director": []
+        }
+        for index2 in range(len(peliculas_jsonld)):
+            if index1 != index2 and peliculas_jsonld[index1] != None and peliculas_jsonld[index2] != None and determinarSimilitudNombre(peliculas_jsonld[index1].get("name"), peliculas_jsonld[index2].get("name")) > 0.7 and determinarSimilitudDirectores(peliculas_jsonld[index1].get("director"), peliculas_jsonld[index2].get("director")) > 0.7:
+                estructura_merge["name"]= peliculas_jsonld[index1].get("name") if estructura_merge["name"]==None else None
+                estructura_merge["director"].extend([peliculas_jsonld[index1].get("director"), peliculas_jsonld[index2].get("director")])
+                peliculas_jsonld[index2]= None
+        if estructura_merge["name"] == None and peliculas_jsonld[index1] != None:
+            mergeadas.append(cargarPelicula(peliculas_jsonld[index1]))
 
-    mergeadas
+        elif peliculas_jsonld[index1] != None:
+            nueva_pelicula= Pelicula(
+                estructura_merge["name"],
+                [],
+                "128 min",
+                [],
+                estructura_merge["director"]
+
+            )
+            mergeadas.append(nueva_pelicula)
+        peliculas_jsonld[index1]= None
+            
     mergeadas
 merge()
