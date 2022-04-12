@@ -30,12 +30,17 @@ def cargarPelicula(itemJSONLD):
 
     return Pelicula(
                 titulo,
-                genre,
+                set(genre),
                 duration,
-                actors,
-                director
+                mergeActores(actors),
+                mergeActores(director)
             )
 
+
+def mergeActores(actores):
+    actores_de_p = set([actor.get("name") for actor in actores] )
+    return [Actor(x) for x in actores_de_p]
+    
 def determinarSimilitudNombre(a, b):
     return SequenceMatcher(None, a, b).ratio()
 
@@ -55,26 +60,26 @@ def merge():
     for index1 in range(len(peliculas_jsonld)):
         estructura_merge = {
             "name": None,
+            "genre": [],
+            "duration": "",
             "actors": [],
             "director": []
         }
         for index2 in range(len(peliculas_jsonld)):
             if index1 != index2 and peliculas_jsonld[index1] != None and peliculas_jsonld[index2] != None and determinarSimilitudNombre(peliculas_jsonld[index1].get("name"), peliculas_jsonld[index2].get("name")) > 0.7 and determinarSimilitudDirectores(peliculas_jsonld[index1].get("director"), peliculas_jsonld[index2].get("director")) > 0.7:
                 estructura_merge["name"]= peliculas_jsonld[index1].get("name") if estructura_merge["name"]==None else None
-                estructura_merge["director"].extend([peliculas_jsonld[index1].get("director"), peliculas_jsonld[index2].get("director")])
+                estructura_merge["director"].extend([*peliculas_jsonld[index1].get("director"), *peliculas_jsonld[index2].get("director")])
+                estructura_merge["duration"]= peliculas_jsonld[index1].get("duration") or peliculas_jsonld[index2].get("duration")
+
+                estructura_merge["genre"].extend([*peliculas_jsonld[index1].get("genre"), *peliculas_jsonld[index2].get("genre")])
+                estructura_merge["actors"].extend([*peliculas_jsonld[index1].get("actor"), *peliculas_jsonld[index2].get("actor")])
+
                 peliculas_jsonld[index2]= None
         if estructura_merge["name"] == None and peliculas_jsonld[index1] != None:
             mergeadas.append(cargarPelicula(peliculas_jsonld[index1]))
 
         elif peliculas_jsonld[index1] != None:
-            nueva_pelicula= Pelicula(
-                estructura_merge["name"],
-                [],
-                "128 min",
-                [],
-                estructura_merge["director"]
-
-            )
+            nueva_pelicula= cargarPelicula(estructura_merge)
             mergeadas.append(nueva_pelicula)
         peliculas_jsonld[index1]= None
             
