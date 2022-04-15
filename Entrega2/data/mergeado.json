@@ -1,0 +1,164 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "name": "The Batman",
+        "genre": [
+            "Drama",
+            "Delito",
+            "Aventura",
+            "Acción"
+        ],
+        "datePublished": "2022-03-03",
+        "duration": "PT2H56M",
+        "director": [
+            {
+                "@type": "Person",
+                "name": "Matt Reeves"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Andy Serkis"
+            },
+            {
+                "@type": "Person",
+                "name": "Zoë Kravitz"
+            },
+            {
+                "@type": "Person",
+                "name": "Colin Farrell"
+            },
+            {
+                "@type": "Person",
+                "name": "Jeffrey Wright"
+            },
+            {
+                "@type": "Person",
+                "name": "Robert Pattinson"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Sarsgaard"
+            }
+        ],
+        "image": [
+            "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg",
+            {
+                "@type": "ImageObject",
+                "url": "https://img.ecartelera.com/carteles/11100/11185/001_p.jpg"
+            },
+            "https://resizing.flixster.com/wCeMkwGtJnDI_3idIpt_bP9E6Ng=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/119/558/thumb_E73CC7F6-2A6D-4091-8B93-920C6DE6D730.jpg"
+        ],
+        "aggregateRating": {
+            "bestRating": 10,
+            "worstRating": 0,
+            "ratingValue": 8.233333333333334
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "name": "CODA",
+        "genre": [
+            "Drama",
+            "Música",
+            "Comedia"
+        ],
+        "datePublished": "2021-10-21",
+        "duration": "PT1H51M",
+        "director": [
+            {
+                "@type": "Person",
+                "name": "Sian Heder"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Marlee Matlin"
+            },
+            {
+                "@type": "Person",
+                "name": "Troy Kotsur"
+            },
+            {
+                "@type": "Person",
+                "name": "Emilia Jones"
+            }
+        ],
+        "image": [
+            "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+            "https://resizing.flixster.com/6K5guzmeFQ8x_fPC-mPz0Ryd3RM=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/101/822/thumb_A2D6D5BD-7730-464E-A055-3AF98719A771.jpg"
+        ],
+        "aggregateRating": {
+            "bestRating": 10,
+            "worstRating": 0,
+            "ratingValue": 8.7
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "name": "Fantastic Beasts: The Secrets of Dumbledore",
+        "genre": [
+            "Fantasía",
+            "Aventura",
+            "Lujoso",
+            "Aventura",
+            "Familia"
+        ],
+        "datePublished": "2022-04-15",
+        "duration": "PT2H22M",
+        "director": [
+            {
+                "@type": "Person",
+                "name": "David Yates"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Dan Fogler"
+            },
+            {
+                "@type": "Person",
+                "name": "Katherine Waterston"
+            },
+            {
+                "@type": "Person",
+                "name": "Jude Law"
+            },
+            {
+                "@type": "Person",
+                "name": "Eddie Redmayne"
+            },
+            {
+                "@type": "Person",
+                "name": "Ezra Miller"
+            },
+            {
+                "@type": "Person",
+                "name": "Jessica Williams"
+            },
+            {
+                "@type": "Person",
+                "name": "Alison Sudol"
+            }
+        ],
+        "image": [
+            "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg",
+            {
+                "@type": "ImageObject",
+                "url": "https://img.ecartelera.com/carteles/14300/14337/002_p.jpg"
+            },
+            "https://resizing.flixster.com/RB4YG8-T8tCWK4guhRj8iPMeoOQ=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/40/1023/thumb_ED7B5FF6-E9D6-4D33-8523-4251822857E3.jpg"
+        ],
+        "aggregateRating": {
+            "bestRating": 10,
+            "worstRating": 0,
+            "ratingValue": 6.166666666666667
+        }
+    }
+]

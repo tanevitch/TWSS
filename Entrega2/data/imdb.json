@@ -1,0 +1,323 @@
+[
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt10366460/",
+        "name": "CODA",
+        "alternateName": "CODA: Señales del corazón",
+        "image": "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "description": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family&apos;s fishing business is threatened, Ruby finds herself torn between pursuing her passion at Berklee College of Music and her fear of a",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt10366460/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "cadewhite-86061"
+            },
+            "dateCreated": "2021-01-29",
+            "inLanguage": "English",
+            "name": "Well Worth Your Time",
+            "reviewBody": "Saw this movie at SUNDANCE 2021. Features great performances all around, but Emilia Jones is going to be a star. Would be awesome to see Troy Katsur get some recognition come awards season as well. The movie is full of heart, made me laugh and made me cry. There were some really beautiful scenes in here and some surprisingly funny ones. The only thing that holds it back is the predictability that comes with abiding by coming of age genre conventions. The pacing also drags a little bit in the middle of the movie. However, the family dynamic here just completely elevates it above normal coming of age fare.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 8
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 95244,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 8
+        },
+        "contentRating": "13",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Music"
+        ],
+        "datePublished": "2021-10-21",
+        "keywords": "remake of french film,title directed by female,deaf,deaf parent,sign language",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Watch Now on Apple TV+",
+            "embedUrl": "/video/imdb/vi3832463385",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BM2U1ZjcwN2EtOTE5ZC00ODk5LWFhOWYtODI1M2JhZDZmMjliXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BM2U1ZjcwN2EtOTE5ZC00ODk5LWFhOWYtODI1M2JhZDZmMjliXkEyXkFqcGdeQXZ3ZXNsZXk@._V1_.jpg",
+            "description": "As a CODA (Child of Deaf Adults) Ruby is the only hearing person in her deaf family. When the family&apos;s fishing business is threatened, Ruby finds herself torn between pursuing her love of music and her fear of abandoning her parents."
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm4454223/",
+                "name": "Emilia Jones"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0559144/",
+                "name": "Marlee Matlin"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1319274/",
+                "name": "Troy Kotsur"
+            }
+        ],
+        "director": [
+            {
+                "@type": "Person",
+                "url": "/name/nm1571761/",
+                "name": "Sian Heder"
+            }
+        ],
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0338408/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0701674/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0742431/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1571761/",
+                "name": "Sian Heder"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2605079/",
+                "name": "Victoria Bedos"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0141133/",
+                "name": "Stanislas Carré de Malberg"
+            }
+        ],
+        "duration": "PT1H51M"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt4123432/",
+        "name": "Fantastic Beasts: The Secrets of Dumbledore",
+        "alternateName": "Animales fantásticos: Los secretos de Dumbledore",
+        "image": "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg",
+        "description": "Albus Dumbledore assigns Newt and his allies with a mission related to the rising power of Grindelwald.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt4123432/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "jp_91"
+            },
+            "dateCreated": "2022-04-14",
+            "inLanguage": "English",
+            "name": "Acceptable film!",
+            "reviewBody": "A film with a first class production: excellent costumes, masterfully done digital special effects, good performances, outstanding cinematography, but with a big problem that is the script, with a fantastic start that becomes slow and ends without much grace. Acceptable film without more merits.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 7
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 15128,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 6.6
+        },
+        "contentRating": "13",
+        "genre": [
+            "Adventure",
+            "Family",
+            "Fantasy"
+        ],
+        "datePublished": "2022-04-15",
+        "keywords": "1930s,third part,sequel,wizard,shared universe",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Final Trailer",
+            "embedUrl": "/video/imdb/vi2158019097",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMzkxM2M4MTktYzFhOS00MjllLTliZDctYjI2ODcwYzcxYTFjXkEyXkFqcGdeQWpnYW1i._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMzkxM2M4MTktYzFhOS00MjllLTliZDctYjI2ODcwYzcxYTFjXkEyXkFqcGdeQWpnYW1i._V1_.jpg",
+            "description": "Professor Albus Dumbledore (Jude Law) knows the powerful Dark wizard Gellert Grindelwald (Mads Mikkelsen) is moving to seize control of the wizarding world.  Unable to stop him alone, he entrusts Magizoologist Newt Scamander (Eddie Redmayne) to lead an intrepid team of wizards, witches and one brave Muggle baker on a dangerous mission, where they encounter old and new beasts and clash with Grindelwald&apos;s growing legion of followers.  But with the stakes so high, how long can Dumbledore remain on the sidelines?"
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm1519666/",
+                "name": "Eddie Redmayne"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0000179/",
+                "name": "Jude Law"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm3009232/",
+                "name": "Ezra Miller"
+            }
+        ],
+        "director": [
+            {
+                "@type": "Person",
+                "url": "/name/nm0946734/",
+                "name": "David Yates"
+            }
+        ],
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0159772/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0002663/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0746830/",
+                "name": "J.K. Rowling"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0460141/",
+                "name": "Steve Kloves"
+            }
+        ],
+        "duration": "PT2H22M"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt1877830/",
+        "name": "The Batman",
+        "alternateName": "Batman",
+        "image": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg",
+        "description": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city&apos;s hidden corruption and question his family&apos;s involvement.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1877830/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "kevin_robbins"
+            },
+            "dateCreated": "2022-03-02",
+            "inLanguage": "English",
+            "name": "This is a magnificent addition to the super hero genre and an absolute must see for Batman fans",
+            "reviewBody": "The Batman (2022) is a movie my wife and I caught an advanced screening of last night. The storyline follows Gotham shortly after &quot;The Batman&quot; has emerged and established himself in the streets. A serial killer known as The Riddler starts a killing spree of everyone influential within Gotham&apos;s hierarchy until Bruce Wayne in inevitably the target. How are all of these people tied together and can Batman tie the pieces together before Wayne is the next victim?\n\nThis movie is directed by Matt Reeves (Cloverfield) and stars Robert Pattinson (Twilight), Zoë Kravitz (Kimi), Colin Farrell (Total Recall), Paul Dano (There Will be Blood), John Turturro (Do the Right Thing), Peter Sarsgaard (Garden State), Andy Serkis (Lord of the Rings), Jeffrey Wright (Shaft) and Barry Keoghan (Eternals).\n\nThe storyline, look and feel of this movie is an A+. The characters are perfectly cast and well executed. Farrell, Dano and Kravitz were a 10/10.\n\nThis movie does a fantastic job of depicting the Batman universe with the appropriate grit and feel and the lighting and cinematography is excellent. This also did a good job of creating various potential spinoffs with some subtle references within the storyline and at the end. This has a very good Jeph Loeb comics feel to it and does a good job delivering the &quot;Detective&quot; elements of Batman. The violence was also brilliant and very well done. I will say this did not need to be 3-hours and there are an abundance of scenes that could have been better edited. This film likely should have been a hair under 2 and a half hours.\n\nOverall this is a magnificent addition to the super hero genre and an absolute must see for Batman fans. I would score this a 7.5- 8/10 and strongly recommend it.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 8
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 325044,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 8.3
+        },
+        "contentRating": "16",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "datePublished": "2022-03-03",
+        "keywords": "superhero,batman character,based on comic,dc comics,gotham city",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Official Trailer",
+            "embedUrl": "/video/imdb/vi3215114777",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTdjOTQ1NDItYjBkYy00OTA3LTk3NDItOTk5YTg4NGZmYmZhXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTdjOTQ1NDItYjBkYy00OTA3LTk3NDItOTk5YTg4NGZmYmZhXkEyXkFqcGdeQWRpZWdtb25n._V1_.jpg",
+            "description": "When the Riddler, a sadistic serial killer, begins murdering key political figures in Gotham, Batman is forced to investigate the city&apos;s hidden corruption and question his family&apos;s involvement."
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm1500155/",
+                "name": "Robert Pattinson"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2368789/",
+                "name": "Zoë Kravitz"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0942482/",
+                "name": "Jeffrey Wright"
+            }
+        ],
+        "director": [
+            {
+                "@type": "Person",
+                "url": "/name/nm0716257/",
+                "name": "Matt Reeves"
+            }
+        ],
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0002663/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0510680/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0038332/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0716257/",
+                "name": "Matt Reeves"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0185976/",
+                "name": "Peter Craig"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0277730/",
+                "name": "Bill Finger"
+            }
+        ],
+        "duration": "PT2H56M"
+    }
+]

@@ -1,0 +1,318 @@
+[
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "@id": "https://www.ecartelera.com/peliculas/animales-fantasticos-y-donde-encontrarlos-3/",
+        "name": "Animales Fantásticos: Los secretos de Dumbledore",
+        "mainEntityOfPage": "https://www.ecartelera.com/peliculas/animales-fantasticos-y-donde-encontrarlos-3/",
+        "description": "Se trata de la tercera entrega de la aclamada franquicia &#39;Animales fantásticos y dónde encontrarlos&#39;, basada en la novela de J.K. Rowling, en la que seguiremos las aventuras de Newt Scamander tras los eventos de la segunda película con un Grindelwald dispuesto a sembrar el caso seguido por su grupo de fans.\r\n\r\nAlbus Dumbledore encarga a Newt Scamander que lidere a un grupo de magos y brujas (y un muggle) en una peligrosa misión. Por el camino se cruzarán con los seguidores de Grindelwarld, cada vez más numerosos. Dumbledore de momento se mantiene al margen, pero es probable que no pueda hacerlo mucho tiempo más.\r\n\r\n&#39;Animales fantásticos y dónde encontrarlos 3&#39; está dirigida por David Yates, quien no es desconocido para el mundo de Harry Potter dado que fue el director de &#39;Harry Potter y la Orden del Fénix&#39;, &#39;Harry Potter y el misterio del príncipe&#39; y ambas partes de &#39;Harry Potter y las Reliquias de la Muerte&#39;. El guion está al cargo de J.K. Rowling, como en la anteriores entregas, pero esta vez está acompañada de Steve Kloves, guionista de la gran mayoría de las películas de Harry Potter.\r\n\r\nSe espera que Eddie Redmayne (&#39;Los miserables&#39;, &#39;La chica danesa&#39;), Jude Law (&#39;The New Pope&#39;, &#39;Día de lluvia en Nueva York&#39;), Dan Fogler (&#39;The Walking Dead&#39;, &#39;Los Goldberg&#39;), Katherine Waterston (&#39;Alien: Covenant&#39;, &#39;La suerte de los Logan&#39;), Alison Sudol (&#39;Between Us&#39;, &#39;Other People&#39;s Children&#39;), Jessica Williams (&#39;Súper empollonas&#39;, &#39;The Incredible Jessica James&#39;) y Johnny Depp (&#39;Waiting for the Barbarians&#39;, &#39;City of Lies&#39;) vuelvan para esta tercera entrega.",
+        "duration": "PT2H22M",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://img.ecartelera.com/carteles/14300/14337/002_p.jpg"
+        },
+        "countryOfOrigin": "EE.UU.",
+        "genre": [
+            "Aventura",
+            "Fantasía"
+        ],
+        "releasedEvent": {
+            "@type": "PublicationEvent",
+            "startDate": "2022-04-08",
+            "location": {
+                "@type": "Country",
+                "name": "ES"
+            }
+        },
+        "productionCompany": {
+            "@type": "Organization",
+            "name": "Warner Bros. Pictures",
+            "mainEntityOfPage": "https://www.ecartelera.com/empresas/warner-bros/"
+        },
+        "hasPart": {
+            "@type": "Clip",
+            "description": "trailer",
+            "timeRequired": "PT2M45S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.ecartelera.com/videos/trailer-espanol-animales-fantasticos-secretos-dumbledore-2/",
+                    "inLanguage": "es",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform",
+                        "http://schema.org/IOSPlatform",
+                        "http://schema.googleapis.com/GoogleVideoCast"
+                    ]
+                },
+                "expectsAcceptanceOf": {
+                    "@type": "Offer",
+                    "availabilityStarts": "2022-02-28 16:17:10",
+                    "category": "free",
+                    "eligibleRegion": {
+                        "@type": "Country",
+                        "name": "ES"
+                    }
+                }
+            }
+        },
+        "director": [
+            {
+                "@type": "Person",
+                "name": "David Yates",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/david-yates/"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Eddie Redmayne",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/eddie-redmayne/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jude Law",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/jude-law/"
+            },
+            {
+                "@type": "Person",
+                "name": "Dan Fogler",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/dan-fogler/"
+            },
+            {
+                "@type": "Person",
+                "name": "Katherine Waterston",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/katherine-waterston/"
+            },
+            {
+                "@type": "Person",
+                "name": "Alison Sudol",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/alison-sudol/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jessica Williams",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/jessica-williams/"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "6",
+            "ratingValue": "6,7"
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "@id": "https://www.ecartelera.com/peliculas/coda-2021/",
+        "name": "CODA: Los sonidos del silencio",
+        "mainEntityOfPage": "https://www.ecartelera.com/peliculas/coda-2021/",
+        "description": "Ruby es la única de su familia con audición. En Gloucester, Massachusetts, vive con sus padres y hermano, a los que ayuda por la mañana con su negocio pesquero antes de ir a clase. Ansiosa por encontrar nuevas aficiones, Ruby decide incorporarse al  coro de su instituto, donde no solo descubre una latente pasión por el canto, sino que también percibe una fuerte atracción física por la persona que la acompaña en sus duetos. Además, su entusiasta profesor ve algo especial en ella y le anima a entrar en la escuela de música, algo que la obligaría decidir entre sus estudios, o su familia. \r\n\r\nA cargo de la dirección y del guion de la cinta se encuentra la cineasta Sian Heder. Conforman el reparto los actores Emilia Jones, Eugenio Derbez, Marlee Matlin, Troy Kotsur, Daniel Durant, Ferdia Walsh-Peelo, Amy Forsyth, Kevin Chapman, John Fiore, Erica McDermott, Owen Burke, Rebecca Gibel, Molly Beth Thomas, Armen Garo, Melissa McMeekin, Elbert Kim, Jose Guns Alves, Lance Norris, Kiara Pichardo, Ayana Brown, Mark Pettograsso, Kayla Caulfield, Mary Ann Schaub, Lonnie Farmer, Garrett McKechnie, Gary Galone, Nikki Kim, Susan Halsey Singer y Emilia Faucher.\r\n\r\nEn los Globos de Oro 2021 la película ha sido nominada a Mejor Película, Mejor Drama y Mejor Actor de Reparto.",
+        "duration": "PT1H51M",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://img.ecartelera.com/carteles/17000/17001/001_p.jpg"
+        },
+        "countryOfOrigin": "EE.UU.",
+        "genre": [
+            "Drama",
+            "Música"
+        ],
+        "releasedEvent": {
+            "@type": "PublicationEvent",
+            "startDate": "2022-02-18",
+            "location": {
+                "@type": "Country",
+                "name": "ES"
+            }
+        },
+        "productionCompany": {
+            "@type": "Organization",
+            "name": "Pathé",
+            "mainEntityOfPage": "https://www.ecartelera.com/empresas/pathe/"
+        },
+        "hasPart": {
+            "@type": "Clip",
+            "description": "trailer",
+            "timeRequired": "PT1M59S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.ecartelera.com/videos/trailer-espanol-coda/",
+                    "inLanguage": "es",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform",
+                        "http://schema.org/IOSPlatform",
+                        "http://schema.googleapis.com/GoogleVideoCast"
+                    ]
+                },
+                "expectsAcceptanceOf": {
+                    "@type": "Offer",
+                    "availabilityStarts": "2021-12-09 17:09:09",
+                    "category": "free",
+                    "eligibleRegion": {
+                        "@type": "Country",
+                        "name": "ES"
+                    }
+                }
+            }
+        },
+        "director": [
+            {
+                "@type": "Person",
+                "name": "Sian Heder",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/sian-heder/"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Marlee Matlin",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/marlee-matlin/"
+            },
+            {
+                "@type": "Person",
+                "name": "Emilia Jones",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/emilia-jones/"
+            },
+            {
+                "@type": "Person",
+                "name": "Kevin Chapman",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/kevin-chapman/"
+            },
+            {
+                "@type": "Person",
+                "name": "Amy Forsyth",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/amy-forsyth/"
+            },
+            {
+                "@type": "Person",
+                "name": "Ferdia Walsh-Peelo",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/ferdia-walsh-peelo/"
+            },
+            {
+                "@type": "Person",
+                "name": "Eugenio Derbez",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/eugenio-derbez/"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "7",
+            "ratingValue": "6,2"
+        }
+    },
+    {
+        "@context": "http://schema.org",
+        "@type": "Movie",
+        "@id": "https://www.ecartelera.com/peliculas/the-batman/",
+        "name": "The Batman",
+        "mainEntityOfPage": "https://www.ecartelera.com/peliculas/the-batman/",
+        "description": "Nuevo reboot de Batman. Tras los cambios y retrasos en la producción y la salida de Ben Affleck del proyecto, no se sabe cuánta relación tendrá con el resto de películas del Universo DC, ya que no será el mismo Batman que el de &#39;La Liga de la Justicia&#39;. Los rumores apuntan a una historia del Batman más joven, y estará bastante cercana al estilo del cine negro.  El protagonista tras el traje del justiciero es Robert Pattinson (&#39;Crepúsculo&#39;, &#39;El Faro&#39;). Le acompañan en el reparto Zoë Kravitz (&#39;Big Little Lies&#39;) como Catwoman, Colin Farrell (&#39;The Gentlemen: Los señores de la mafia&#39;) como El Pingüino, Andy Serkis (&#39;Black Panther&#39;) como Alfred Pennysworth, el mayordomo de Wayne, Jeffrey Wrigth (&#39;Westworld&#39;) como el comisario James Gordon, Peter Sarsgaard (&#39;Loving Pablo&#39;) como Gil Colson, John Turturo (&#39;Gloria Bell&#39;) como Carmine Falcone, Paul Dano (&#39;Okja&#39;) como Edward Naston y Jayme Lwason como Bella Reál.\r\n\r\nMatt Reeves (&#39;La Guerra del Planeta de los Simios&#39;) es el encargado de dirigir esta cinta y también de escribir el guion junto a Mattson Tomlin. Se rumorea que la trama podría estar relacionada con el cómic &#39;Batman: El caballero oscuro regresa&#39; o que incluso podría estar inspirada en la trilogía de videojuegos de Rocksteady &#39;Batman: Arkham&#39;. Se espera al personaje de Robin y quizá a Red Hood como villano. Un largometraje producido por Warner Bros y DC Entertainment.",
+        "duration": "PT2H56M",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://img.ecartelera.com/carteles/11100/11185/001_p.jpg"
+        },
+        "countryOfOrigin": "EE.UU.",
+        "genre": [
+            "Acción",
+            "Crimen",
+            "Drama"
+        ],
+        "releasedEvent": {
+            "@type": "PublicationEvent",
+            "startDate": "2022-03-04",
+            "location": {
+                "@type": "Country",
+                "name": "ES"
+            }
+        },
+        "productionCompany": {
+            "@type": "Organization",
+            "name": "Warner Bros. Pictures",
+            "mainEntityOfPage": "https://www.ecartelera.com/empresas/warner-bros/"
+        },
+        "hasPart": {
+            "@type": "Clip",
+            "description": "trailer",
+            "timeRequired": "PT2M39S",
+            "potentialAction": {
+                "@type": "WatchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.ecartelera.com/videos/trailer-espanol-the-batman-3/",
+                    "inLanguage": "es",
+                    "actionPlatform": [
+                        "http://schema.org/DesktopWebPlatform",
+                        "http://schema.org/MobileWebPlatform",
+                        "http://schema.org/IOSPlatform",
+                        "http://schema.googleapis.com/GoogleVideoCast"
+                    ]
+                },
+                "expectsAcceptanceOf": {
+                    "@type": "Offer",
+                    "availabilityStarts": "2022-01-19 18:29:01",
+                    "category": "free",
+                    "eligibleRegion": {
+                        "@type": "Country",
+                        "name": "ES"
+                    }
+                }
+            }
+        },
+        "director": [
+            {
+                "@type": "Person",
+                "name": "Matt Reeves",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/matt-reeves/"
+            }
+        ],
+        "actor": [
+            {
+                "@type": "Person",
+                "name": "Robert Pattinson",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/robert-pattinson/"
+            },
+            {
+                "@type": "Person",
+                "name": "Zoë Kravitz",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/zoe-kravitz/"
+            },
+            {
+                "@type": "Person",
+                "name": "Colin Farrell",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/colin-farrell/"
+            },
+            {
+                "@type": "Person",
+                "name": "Andy Serkis",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/andy-serkis/"
+            },
+            {
+                "@type": "Person",
+                "name": "Jeffrey Wright",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/jeffrey-wright/"
+            },
+            {
+                "@type": "Person",
+                "name": "Peter Sarsgaard",
+                "mainEntityOfPage": "https://www.ecartelera.com/personas/peter-sarsgaard/"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "10",
+            "worstRating": "0",
+            "ratingCount": "66",
+            "ratingValue": "7,9"
+        }
+    }
+]
