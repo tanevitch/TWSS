@@ -167,7 +167,7 @@
                 "@type": "Person",
                 "name": "NA",
                 "sameAs": "https://www.rottentomatoes.com/celebrity/emilia_jones",
-                "image": "https://resizing.flixster.com/3tDtgK6TMPJWf0KAWM6nYx2wXYs=/100x120/v2/https://flxt.tmsimg.com/assets/709930_v9_bb.jpg"
+                "image": "https://resizing.flixster.com/R43CW3qMSsB2LxBh9h8Z2jKmPOs=/100x120/v2/https://flxt.tmsimg.com/assets/709930_v9_bc.jpg"
             },
             {
                 "@type": "Person",
@@ -391,9 +391,9 @@
             "bestRating": "100",
             "description": "The Tomatometer rating – based on the published opinions of hundreds of film and television critics – is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
             "name": "Tomatometer",
-            "ratingCount": 143,
-            "ratingValue": "52",
-            "reviewCount": 143,
+            "ratingCount": 182,
+            "ratingValue": "48",
+            "reviewCount": 182,
             "worstRating": "0"
         },
         "author": [

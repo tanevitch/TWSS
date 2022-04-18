@@ -15,12 +15,12 @@
             },
             "author": {
                 "@type": "Person",
-                "name": "cadewhite-86061"
+                "name": "diogocinefilo"
             },
-            "dateCreated": "2021-01-29",
+            "dateCreated": "2021-08-14",
             "inLanguage": "English",
-            "name": "Well Worth Your Time",
-            "reviewBody": "Saw this movie at SUNDANCE 2021. Features great performances all around, but Emilia Jones is going to be a star. Would be awesome to see Troy Katsur get some recognition come awards season as well. The movie is full of heart, made me laugh and made me cry. There were some really beautiful scenes in here and some surprisingly funny ones. The only thing that holds it back is the predictability that comes with abiding by coming of age genre conventions. The pacing also drags a little bit in the middle of the movie. However, the family dynamic here just completely elevates it above normal coming of age fare.",
+            "name": "Such a cute remake",
+            "reviewBody": "Why nobody say that it&apos;s a remake of the french The Belier Family (2014)? A cute remake (better songs), but still a remake 😅",
             "reviewRating": {
                 "@type": "Rating",
                 "worstRating": 1,
@@ -30,7 +30,7 @@
         },
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingCount": 95244,
+            "ratingCount": 97790,
             "bestRating": 10,
             "worstRating": 1,
             "ratingValue": 8
@@ -125,22 +125,22 @@
             },
             "author": {
                 "@type": "Person",
-                "name": "jp_91"
+                "name": "nurttt"
             },
-            "dateCreated": "2022-04-14",
+            "dateCreated": "2022-04-07",
             "inLanguage": "English",
-            "name": "Acceptable film!",
-            "reviewBody": "A film with a first class production: excellent costumes, masterfully done digital special effects, good performances, outstanding cinematography, but with a big problem that is the script, with a fantastic start that becomes slow and ends without much grace. Acceptable film without more merits.",
+            "name": "Just disappointing..",
+            "reviewBody": "We&apos;ve been waiting for this movie for so long and we are so very disappointed with the non-original, empty story line. Many key topics were squeezed into couple of sentences and instead of building a proper story line, it was filled with some magic tricks.\n\nAlthough in general I like Mads Mikkelsen, I didn&apos;t think he was a good fit for the role. Depp played a more specific and rememberable character, whereas Mads Mikkelsen was just a simple emotionless &apos;bad guy&apos; character which I found to be very one-dimentional.\n\nAll and all, I don&apos;t think we will be watching the next movie in the cinema.",
             "reviewRating": {
                 "@type": "Rating",
                 "worstRating": 1,
                 "bestRating": 10,
-                "ratingValue": 7
+                "ratingValue": 5
             }
         },
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingCount": 15128,
+            "ratingCount": 25756,
             "bestRating": 10,
             "worstRating": 1,
             "ratingValue": 6.6
@@ -152,7 +152,7 @@
             "Fantasy"
         ],
         "datePublished": "2022-04-15",
-        "keywords": "1930s,third part,sequel,wizard,shared universe",
+        "keywords": "1930s,third part,sequel,wizard,based on novel",
         "trailer": {
             "@type": "VideoObject",
             "name": "Final Trailer",
@@ -241,7 +241,7 @@
         },
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingCount": 325044,
+            "ratingCount": 330927,
             "bestRating": 10,
             "worstRating": 1,
             "ratingValue": 8.3

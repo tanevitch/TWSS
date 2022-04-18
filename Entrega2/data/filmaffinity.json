@@ -1,0 +1,425 @@
+[
+    {
+        "@type": "Movie",
+        "@context": "http://schema.org",
+        "name": "Batman",
+        "image": "https://pics.filmaffinity.com/the_batman-449856406-mmed.jpg",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "7.3",
+            "bestRating": "10",
+            "worstRating": "1",
+            "reviewCount": "226",
+            "ratingCount": "15381"
+        },
+        "datePublished": "2022",
+        "duration": "175 min.",
+        "director": {
+            "@type": "Person",
+            "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Matt%20Reeves",
+            "name": "Matt Reeves"
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Robert%20Pattinson",
+                "name": "Robert Pattinson"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Z%C3%B6e%20Kravitz",
+                "name": "Zöe Kravitz"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Jeffrey%20Wright",
+                "name": "Jeffrey Wright"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=John%20Turturro",
+                "name": "John Turturro"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Paul%20Dano",
+                "name": "Paul Dano"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Colin%20Farrell",
+                "name": "Colin Farrell"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Andy%20Serkis",
+                "name": "Andy Serkis"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Peter%20Sarsgaard",
+                "name": "Peter Sarsgaard"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Jayme%20Lawson",
+                "name": "Jayme Lawson"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Con%20O%27Neill",
+                "name": "Con O'Neill"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Barry%20Keoghan",
+                "name": "Barry Keoghan"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Gil%20Perez-Abraham",
+                "name": "Gil Perez-Abraham"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Peter%20McDonald",
+                "name": "Peter McDonald"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Alex%20Ferns",
+                "name": "Alex Ferns"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Rupert%20Penry-Jones",
+                "name": "Rupert Penry-Jones"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Kosha%20Engler",
+                "name": "Kosha Engler"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Janine%20Harouni",
+                "name": "Janine Harouni"
+            }
+        ],
+        "genre": [
+            "Thriller",
+            "Intriga",
+            "Acción"
+        ],
+        "description": "Después de dos años acechando por las calles de la ciudad como Batman (Robert Pattinson), e infundiendo miedo en las mentes perversas de los criminales, Bruce Wayne está sumido en las profundidades de las sombras de Gotham City. Este vigilante solitario cuenta con pocos aliados de confianza y eso le ha llevado a convertirse en la única encarnación de la venganza entre sus conciudadanos. Cuando un asesino apunta a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas lleva a Batman a realizar una investigación en el inframundo. (FILMAFFINITY)",
+        "review": [
+            {
+                "@type": "Review",
+                "reviewBody": "\"Se mantiene dentro de una lógica y una plausibilidad que jamás tienen (ni buscan, en muchos casos) otros films del subgénero. (...) se trata de esa película adulta que todos sabíamos que el universo DC merecía.\"",
+                "author": "Diego Lerer: MicropsiaCine.com"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Todo parece más aplacado, más contenido, más... humano. (...) Reeves decidió atenuar tanto la épica como la exageración pop sin por eso descuidar la acción. (...) un buen -por momentos muy buen- ejercicio detectivesco. Puntuación: ★★★½ (sobre 5)\"",
+                "author": "Diego Batlle: OtrosCines.com"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Esta Batman es más sombría que la trilogía de Nolan, sí, pero no tiene la potencia ni un guion como los de los filmes con Christian Bale.\"",
+                "author": "Pablo O. Scholz: Diario Clarín"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"'Batman' termina ofreciendo una digna iteración del personaje/franquicia de DC Comics, no necesariamente más rápida, más alta y más fuerte, pero sí consecuente en sus ambiciones, logros y decepciones.\"",
+                "author": "Diego Brodersen: Diario Página 12"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"El director sabe construir climas y llevar la trama hacia un lugar poco frecuentado en las películas de superhéroes.\"",
+                "author": "Marcelo Stiletano: Diario La Nación"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"El Batman que inicia hoy su recorrido, es muy posible que mejore y se termine de desarrollar sus posibilidades. Por ahora está por detrás de los mejores.\"",
+                "author": "Santiago García: Leer Cine"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"La trama sobre Wayne/Batman tratando de investigar el pasado corrupto de su propia familia es interesante, y da a lugar a buenos momentos (...). Sólo que a medida que se va estirando exageradamente el argumento va perdiendo su interés.\"",
+                "author": "Diego Curubeto: Diario Ámbito Financiero"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "@context": "http://schema.org",
+        "name": "Batman: El caballero de la noche",
+        "image": "https://pics.filmaffinity.com/the_dark_knight-102763119-mmed.jpg",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "8.1",
+            "bestRating": "10",
+            "worstRating": "1",
+            "reviewCount": "942",
+            "ratingCount": "152288"
+        },
+        "datePublished": "2008",
+        "duration": "152 min.",
+        "director": {
+            "@type": "Person",
+            "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Christopher%20Nolan",
+            "name": "Christopher Nolan"
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Christian%20Bale",
+                "name": "Christian Bale"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Heath%20Ledger",
+                "name": "Heath Ledger"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Aaron%20Eckhart",
+                "name": "Aaron Eckhart"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Michael%20Caine",
+                "name": "Michael Caine"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Gary%20Oldman",
+                "name": "Gary Oldman"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Morgan%20Freeman",
+                "name": "Morgan Freeman"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Maggie%20Gyllenhaal",
+                "name": "Maggie Gyllenhaal"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Eric%20Roberts",
+                "name": "Eric Roberts"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Cillian%20Murphy",
+                "name": "Cillian Murphy"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Chin%20Han",
+                "name": "Chin Han"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Michael%20Jai%20White",
+                "name": "Michael Jai White"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=William%20Fichtner",
+                "name": "William Fichtner"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Monique%20Gabriela%20Curnen",
+                "name": "Monique Gabriela Curnen"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Nestor%20Carbonell",
+                "name": "Nestor Carbonell"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Ritchie%20Coster",
+                "name": "Ritchie Coster"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Keith%20Szarabajka",
+                "name": "Keith Szarabajka"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Colin%20McFarlane",
+                "name": "Colin McFarlane"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Joshua%20Harto",
+                "name": "Joshua Harto"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Melinda%20McGraw",
+                "name": "Melinda McGraw"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Ron%20Dean",
+                "name": "Ron Dean"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Nathan%20Gamble",
+                "name": "Nathan Gamble"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=Tommy%20%27Tiny%27%20Lister",
+                "name": "Tommy 'Tiny' Lister"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=cast&sn&stext=David%20Dastmalchian",
+                "name": "David Dastmalchian"
+            }
+        ],
+        "genre": [
+            "Thriller",
+            "Acción",
+            "Drama"
+        ],
+        "description": "Batman/Bruce Wayne (Christian Bale) regresa para continuar su guerra contra el crimen. Con la ayuda del teniente Jim Gordon (Gary Oldman) y del Fiscal del Distrito Harvey Dent (Aaron Eckhart), Batman se propone destruir el crimen organizado en la ciudad de Gotham. El triunvirato demuestra su eficacia, pero, de repente, aparece Joker (Heath Ledger), un nuevo criminal que desencadena el caos y tiene aterrados a los ciudadanos. (FILMAFFINITY)",
+        "review": [
+            {
+                "@type": "Review",
+                "reviewBody": "Parecía que iba a ser el verano de Wall-E, pero vino Batman y le robó el protagonismo al tierno robot. Mejor dicho, vino Joker y su sucio maquillaje, carmín corrido que mitifica el atractivo malogrado. Sí; Ledger está genial, poderoso e hipnótico, pero dejando aparte el verdadero \"joke\" de si es o no una de las mejores películas de la historia del cine, los 152 minutos de \"The Dark Knight\" podríamos dividirlos en una brillantísima primera hora y media inicial, puro cine y adrenalínico entretenimiento lleno de diálogos sin desperdicio, seguido de una hora de ruido y furia -donde sobran caras y bruces, golpes y ferrys-, y unos últimos minutos donde el texto se eleva para alcanzar una formidable redención –aunque, eso sí, la tragedia moral se zampa a mordiscos unas escenas visualmente de lo más convencionales-. Y claro, no hay que dejar de mencionar al verdadero héroe de Batman, que no es Batman. Ni siquiera Joker. El auténtico héroe es un tipo que nos viene a defender de esta avalancha -que dura ya años- de cine de acción adaptado del cómic, básicamente infantiloide, ofreciéndonos por fin historias verdaderamente inteligentes, notablemente profundas. Un tipo que ha reabierto un camino para el cine adulto en las superproducciones, no sólo por su notable calidad artística, sino porque es un camino alfombrado de dólares. Espero que en Hollywood dejen el foco encendido y mirando al cielo, como una llamada de atención al cine futuro, porque desde luego para mí, y seguro para la Warner, el verdadero héroe de Batman se llama Christopher Nolan, un -ahora millonario- salvador que en plena crisis llenó las salas con su brillante historia de personajes atormentados en tiempos oscuros.",
+                "author": "Pablo Kurt: FilmAffinity"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Batman ya no es simplemente un cómic. 'The Dark Knight', de Christopher Nolan, es una inquietante película que trasciende sus orígenes, convirtiéndose en una absorbente tragedia. (...) Puntuación: ★★★★ (sobre 4)\"",
+                "author": "Roger Ebert: rogerebert.com"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"En la línea divisoria entre arte e industria, poesía y entretenimiento, 'The Dark Knight' llega más oscura y más profunda que cualquier otra película de Hollywood sobre adaptaciones de cómic.\"",
+                "author": "Manohla Dargis: The New York Times"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"La interpretación de Ledger es lo más interesante de la película, y cuando el Joker está ausente, 'The Dark Knight' pierde gran parte de su energía y su dinamismo.\"",
+                "author": "Stephen Hunter: The Washington Post"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Más allá de la oscuridad. Es tan negra -y tan profusa y tóxica- como la mente de Joker. 'Batman Begins', la película de Nolan del 2005, era un mero juego de manos. Esta es un sinfonía completa.\"",
+                "author": "Richard Corliss: Time"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Absolutamente asombrosa (...) Simplemente maravíllate con la manera en que Nolan acerca el entretenimiento pop al arte imperecedero (...) Puntuación: ★★★½ (sobre 4)\"",
+                "author": "Peter Travers: Rolling Stone"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Tienes que verla en la pantalla más grande que puedas (IMAX, a poder ser), y experimenta la magia de la mejor dirección y el placer de ver a un joven actor, fallecido demasiado pronto, realizar una interpretación inolvidable.\"",
+                "author": "Moira MacDonald: Seattle Times"
+            }
+        ]
+    },
+    {
+        "@type": "Movie",
+        "@context": "http://schema.org",
+        "name": "Rápidos y furiosos: Espías al volante (Serie de TV)",
+        "image": "https://pics.filmaffinity.com/fast_furious_spy_racers-765480154-mmed.jpg",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "10",
+            "worstRating": "1",
+            "reviewCount": "0",
+            "ratingCount": "73"
+        },
+        "datePublished": "2019",
+        "duration": "24 min.",
+        "director": [
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Bret%20Haaland",
+                "name": "Bret Haaland"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Tim%20Hedrick",
+                "name": "Tim Hedrick"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Eugene%20Lee",
+                "name": "Eugene Lee"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Leo%20Riley",
+                "name": "Leo Riley"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Micah%20Gunnell",
+                "name": "Micah Gunnell"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=James%20Yang",
+                "name": "James Yang"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=George%20Gipson",
+                "name": "George Gipson"
+            },
+            {
+                "@type": "Person",
+                "url": "https://www.filmaffinity.com/ar/search.php?stype=director&sn&stext=Bret%20Haaland",
+                "name": "Bret Haaland"
+            }
+        ],
+        "genre": [
+            "Serie de TV",
+            "Animación",
+            "Acción"
+        ],
+        "description": "Un grupo de adolescentes se infiltra en una liga de automovilismo de élite controlada por una malvada organización que persigue dominar el mundo.",
+        "review": [
+            {
+                "@type": "Review",
+                "reviewBody": "\"Es un buen complemento para las películas 'adultas' que gustará a aficionados acérrimos y casuales por igual, y que podría incluso arrastrar nuevos espectadores (…) Puntuación: ★★★½ (sobre 5)\"",
+                "author": "Shamus Kelley: Den of Geek"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Parece que es un videojuego, lo que sería genial si te sentaras delante de ella teniendo un mando en las manos.\"",
+                "author": "Joel Keller: Decider"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Está llena de acción excéntrica pero también de personajes bien desarrollados y tiene la dosis característica de diversidad (...) Puntuación: ★★★½ (sobre 5)\"",
+                "author": "Jonathon Wilson: Ready Steady Cut"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Una serie ágil que entusiasmará a los niños mayores y adolescentes a los que les guste la velocidad. Su animación es tan buena que se te olvida que no es acción real\"",
+                "author": "Emily Ashby: Common Sense Media"
+            },
+            {
+                "@type": "Review",
+                "reviewBody": "\"Es una grata sorpresa, tanto por lo entretenida que es como por lo bien que encaja su mundo con la franquicia\"",
+                "author": "Scott Mendelson: Forbes"
+            }
+        ]
+    }
+]

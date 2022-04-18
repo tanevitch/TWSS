@@ -4,7 +4,7 @@ from procesador import determinar_similares
 import json
 
 if __name__ == "__main__":
-    recolectar_datos()
+    # recolectar_datos()
     grupos= determinar_similares()
     mergeados= [mergePeliculas(grupo) for grupo in grupos]
         

@@ -2,7 +2,15 @@
 import json
 from bs4 import BeautifulSoup
 import requests
+import extruct 
 
+def obtener_microdatos(urls):
+    peliculas= []
+    for url in urls:
+        html = requests.get(url).text   
+        contenido= extruct.extract(html, url, syntaxes=['microdata', 'json-ld'], uniform=True)
+        peliculas.append(contenido['microdata'][0])
+    return peliculas
 
 def obtener_json_ld(urls):
     peliculas = []
@@ -35,7 +43,13 @@ def recolectar_ecartelera():
     with open("data/ecartelera.json", "w",encoding='utf8') as outfile:
         outfile.write(json.dumps(obtener_json_ld(fuentes), indent=4, ensure_ascii=False))
 
+def recolectar_filmaffinity():
+    fuentes= ["https://www.filmaffinity.com/ar/film911057.html", "https://www.filmaffinity.com/ar/film867354.html","https://www.filmaffinity.com/ar/film660003.html"]
+    with open("data/filmaffinity.json", "w",encoding='utf8') as outfile:
+        outfile.write(json.dumps(obtener_microdatos(fuentes), indent=4, ensure_ascii=False))
+
 def recolectar_datos():
     recolectar_rottentomatoes()
     recolectar_imdb()
+    recolectar_filmaffinity()
     recolectar_ecartelera()
