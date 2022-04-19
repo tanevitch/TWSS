@@ -56,6 +56,39 @@ def agregar(unapelicula, otrapelicula, lista: list):
 
     return lista
 
+
+def determinarMinimo(lista_de_listas):
+   valorMinimo= {}
+   valorMinimo["name"]= "ZZZZ";    
+   for i in range(len(lista_de_listas)):  
+       for j in range(len(lista_de_listas[i])):    
+           if (lista_de_listas[i][j] != None):        
+                if valorMinimo.get("name") == "ZZZZ":
+                    valorMinimo= lista_de_listas[i][j]              
+                if (determinarSimilitudNombre(lista_de_listas[i][j].get("name"), valorMinimo.get("name")) > 0.6):
+                    valorMinimo= lista_de_listas[i][j]
+                    posicionMinima= i, j
+
+   if (valorMinimo.get("name") != "ZZZZ"):       
+       x, d= posicionMinima    
+       lista_de_listas[x][d]= None
+    
+   return valorMinimo
+
+def mergeAcumulador(lista_de_listas):
+    mergeadas= []
+    valorMinimo= determinarMinimo(lista_de_listas)
+    while (valorMinimo.get("name") != "ZZZZ"):
+        lista_misma_peli= []
+        actual= valorMinimo
+        while (valorMinimo.get("name") != "ZZZZ" and determinarSimilitudNombre(valorMinimo["name"], actual.get("name")) > 0.6):
+            if determinarSimilitudDirector(valorMinimo.get("director"), actual.get("director")) > 0.6 or determinarSimilitudActores(valorMinimo, actual) > 0.6 or determinarSimilitudGeneros(valorMinimo.get("genre"), actual.get("genre")) > 0.3:
+                lista_misma_peli.append(valorMinimo)
+            valorMinimo= determinarMinimo(lista_de_listas)
+        mergeadas.append(lista_misma_peli)
+    
+    return mergeadas
+
 def determinar_similares():
     with open('data/rottentomatoes.json', 'r', encoding="utf8") as openfile:  
         rotten_tomatoes= json.load(openfile)
@@ -69,17 +102,4 @@ def determinar_similares():
     with open('data/filmaffinity.json', 'r', encoding="utf8") as openfile:  
         filmaffinity= json.load(openfile)
     
-
-    lista_iguales= []
-    for una in imdb:
-        iguales= []
-        for otra in rotten_tomatoes+ecartelera+filmaffinity:
-            agregar(una, otra, iguales)
-            
-        iguales.append(una)
-        lista_iguales.append(iguales)
-
-    for each in [each for each in rotten_tomatoes+ecartelera+filmaffinity if each not in list(chain(*lista_iguales))]:
-        lista_iguales.append([each])
-        
-    return lista_iguales
+    return mergeAcumulador([rotten_tomatoes, imdb, ecartelera, filmaffinity])

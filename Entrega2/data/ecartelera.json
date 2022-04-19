@@ -100,7 +100,7 @@
             "@type": "AggregateRating",
             "bestRating": "10",
             "worstRating": "0",
-            "ratingCount": "6",
+            "ratingCount": "7",
             "ratingValue": "6,7"
         }
     },

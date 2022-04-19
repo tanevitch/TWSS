@@ -4,6 +4,9 @@ from bs4 import BeautifulSoup
 import requests
 import extruct 
 
+def ordenar_por_nombre(lista):
+    return sorted(lista, key = lambda i: i['name'])
+    
 def obtener_microdatos(urls):
     peliculas= []
     for url in urls:
