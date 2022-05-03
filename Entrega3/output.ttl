@@ -1,4 +1,5 @@
 @prefix : <http://www.semanticweb.org/movies> .
+@prefix ns1: <http://www.semanticweb.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -7,263 +8,344 @@
 
 <http://schema.org/image> a owl:AnnotationProperty .
 
-: a owl:Ontology .
-
-<http://www.semanticweb.org/movies#actor0> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Colin Farrell" .
-
-<http://www.semanticweb.org/movies#actor1> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Alex Ferns" .
-
-<http://www.semanticweb.org/movies#actor10> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Jayme Lawson" .
-
-<http://www.semanticweb.org/movies#actor11> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Paul Dano" .
-
-<http://www.semanticweb.org/movies#actor12> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Peter Sarsgaard" .
-
-<http://www.semanticweb.org/movies#actor13> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Rupert Penry-Jones" .
-
-<http://www.semanticweb.org/movies#actor14> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Robert Pattinson" .
-
-<http://www.semanticweb.org/movies#actor15> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Kosha Engler" .
-
-<http://www.semanticweb.org/movies#actor16> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Andy Serkis" .
-
-<http://www.semanticweb.org/movies#actor17> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Jeffrey Wright" .
-
-<http://www.semanticweb.org/movies#actor18> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Troy Kotsur" .
-
-<http://www.semanticweb.org/movies#actor19> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Marlee Matlin" .
-
-<http://www.semanticweb.org/movies#actor2> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "ZÃ¶e Kravitz" .
-
-<http://www.semanticweb.org/movies#actor20> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Emilia Jones" .
-
-<http://www.semanticweb.org/movies#actor21> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Jude Law" .
-
-<http://www.semanticweb.org/movies#actor22> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Jessica Williams" .
-
-<http://www.semanticweb.org/movies#actor23> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Eddie Redmayne" .
-
-<http://www.semanticweb.org/movies#actor24> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Alison Sudol" .
-
-<http://www.semanticweb.org/movies#actor25> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Ezra Miller" .
-
-<http://www.semanticweb.org/movies#actor26> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Katherine Waterston" .
-
-<http://www.semanticweb.org/movies#actor27> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Dan Fogler" .
-
-<http://www.semanticweb.org/movies#actor28> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Eugenio Derbez" .
-
-<http://www.semanticweb.org/movies#actor29> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Marlee Matlin" .
-
-<http://www.semanticweb.org/movies#actor3> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Janine Harouni" .
-
-<http://www.semanticweb.org/movies#actor30> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Ferdia Walsh-Peelo" .
-
-<http://www.semanticweb.org/movies#actor31> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Amy Forsyth" .
-
-<http://www.semanticweb.org/movies#actor32> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Emilia Jones" .
-
-<http://www.semanticweb.org/movies#actor33> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Kevin Chapman" .
-
-<http://www.semanticweb.org/movies#actor34> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Chin Han" .
-
-<http://www.semanticweb.org/movies#actor35> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "David Dastmalchian" .
-
-<http://www.semanticweb.org/movies#actor36> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Eric Roberts" .
-
-<http://www.semanticweb.org/movies#actor37> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Joshua Harto" .
-
-<http://www.semanticweb.org/movies#actor38> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Maggie Gyllenhaal" .
-
-<http://www.semanticweb.org/movies#actor39> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Cillian Murphy" .
-
-<http://www.semanticweb.org/movies#actor4> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Peter Mcdonald" .
-
-<http://www.semanticweb.org/movies#actor40> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Gary Oldman" .
-
-<http://www.semanticweb.org/movies#actor41> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Ritchie Coster" .
-
-<http://www.semanticweb.org/movies#actor42> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Colin Mcfarlane" .
-
-<http://www.semanticweb.org/movies#actor43> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Heath Ledger" .
-
-<http://www.semanticweb.org/movies#actor44> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Tommy 'Tiny' Lister" .
-
-<http://www.semanticweb.org/movies#actor45> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Melinda Mcgraw" .
-
-<http://www.semanticweb.org/movies#actor46> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "William Fichtner" .
-
-<http://www.semanticweb.org/movies#actor47> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Aaron Eckhart" .
-
-<http://www.semanticweb.org/movies#actor48> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Keith Szarabajka" .
-
-<http://www.semanticweb.org/movies#actor49> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Michael Caine" .
-
-<http://www.semanticweb.org/movies#actor5> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Barry Keoghan" .
-
-<http://www.semanticweb.org/movies#actor50> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Christian Bale" .
-
-<http://www.semanticweb.org/movies#actor51> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Nathan Gamble" .
-
-<http://www.semanticweb.org/movies#actor52> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Monique Gabriela Curnen" .
-
-<http://www.semanticweb.org/movies#actor53> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Morgan Freeman" .
-
-<http://www.semanticweb.org/movies#actor54> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Nestor Carbonell" .
-
-<http://www.semanticweb.org/movies#actor55> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Ron Dean" .
-
-<http://www.semanticweb.org/movies#actor56> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Michael Jai White" .
-
-<http://www.semanticweb.org/movies#actor6> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "John Turturro" .
-
-<http://www.semanticweb.org/movies#actor7> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "ZoÃ« Kravitz" .
-
-<http://www.semanticweb.org/movies#actor8> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Gil Perez-Abraham" .
-
-<http://www.semanticweb.org/movies#actor9> a <http://www.semanticweb.org/movies#Actor> ;
-    rdfs:label "Con O'Neill" .
-
-<http://www.semanticweb.org/movies#movie0> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "Batman" .
-
-<http://www.semanticweb.org/movies#movie1> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "CODA" .
-
-<http://www.semanticweb.org/movies#movie2> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "Animales FantÃ¡sticos: Los secretos de Dumbledore" .
-
-<http://www.semanticweb.org/movies#movie3> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "CODA: Los sonidos del silencio" .
-
-<http://www.semanticweb.org/movies#movie4> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "Batman: El caballero de la noche" .
-
-<http://www.semanticweb.org/movies#movie5> a <http://www.semanticweb.org/movies#Movie> ;
-    rdfs:label "RÃ¡pidos y furiosos: EspÃ­as al volante (Serie de TV)" .
-
-:duration a owl:DatatypeProperty ;
-    rdfs:domain :Movie ;
+ns1:duration a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
     rdfs:range xsd:duration .
 
-:hasRating a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
+ns1:hasRating a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
     rdfs:range schema:AggregateRating .
 
-:hasShowtime a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
-    rdfs:range :Showtime ;
-    owl:inverseOf :isShowtimeOf .
+ns1:hasShowtime a owl:ObjectProperty ;
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Showtime ;
+    owl:inverseOf ns1:isShowtimeOf .
 
-:hasTicketsFor a owl:ObjectProperty ;
+ns1:hasTicketsFor a owl:ObjectProperty ;
     rdfs:domain <https://schema.org/image#Room> ;
-    rdfs:range :Movie ;
-    owl:inverseOf :isPlayedIn .
+    rdfs:range ns1:Movie ;
+    owl:inverseOf ns1:isPlayedIn .
 
-:playsIn a owl:ObjectProperty ;
-    rdfs:domain :Actor ;
-    rdfs:range :Movie ;
+ns1:movie5 a ns1:Movie ;
+    rdfs:label "Rápidos y furiosos: Espías al volante (Serie de TV)"@es ;
+    ns1:director ns1:director2,
+        ns1:director3,
+        ns1:director4,
+        ns1:director5,
+        ns1:director6,
+        ns1:director7,
+        ns1:director8 ;
+    ns1:hasGenre ns1:genre11,
+        ns1:genre12,
+        ns1:genre3 ;
+    xsd:dateTime "None" ;
+    xsd:duration "None" .
+
+: a owl:Ontology .
+
+ns1:playsIn a owl:ObjectProperty ;
+    rdfs:domain ns1:Actor ;
+    rdfs:range ns1:Movie ;
     owl:inverseOf schema:actor .
 
-:releasedDate a owl:DatatypeProperty ;
-    rdfs:domain :Movie ;
+ns1:releasedDate a owl:DatatypeProperty ;
+    rdfs:domain ns1:Movie ;
     rdfs:range xsd:dateTime .
 
-:score a owl:DatatypeProperty ;
+ns1:score a owl:DatatypeProperty ;
     rdfs:domain schema:AggregateRating ;
     rdfs:range xsd:double .
 
 schema:director a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
-    rdfs:range :Director .
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Director .
 
 schema:image a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
+    rdfs:domain ns1:Movie ;
     rdfs:range [ a owl:Class ;
             owl:unionOf ( schema:ImageObject schema:URL ) ] .
 
 <https://schema.org/image#hasGenre> a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
-    rdfs:range :Genre .
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Genre .
 
 <https://schema.org/image#hasRoom> a owl:ObjectProperty ;
-    rdfs:domain :Theater ;
+    rdfs:domain ns1:Theater ;
     rdfs:range <https://schema.org/image#Room> ;
     owl:inverseOf <https://schema.org/image#roomOf> .
 
 <https://schema.org/image#movie_time> a owl:DatatypeProperty ;
-    rdfs:domain :Showtime ;
+    rdfs:domain ns1:Showtime ;
     rdfs:range xsd:dateTime .
 
-:Director a owl:Class ;
-    rdfs:subClassOf :Person .
+ns1:actor0 a ns1:Actor ;
+    rdfs:label "Colin Farrell"@es ;
+    ns1:playsIn ns1:movie0 .
 
-:Genre a owl:Class .
+ns1:actor1 a ns1:Actor ;
+    rdfs:label "Alex Ferns"@es ;
+    ns1:playsIn ns1:movie0 .
 
-:isPlayedIn a owl:ObjectProperty,
+ns1:actor10 a ns1:Actor ;
+    rdfs:label "Jayme Lawson"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor11 a ns1:Actor ;
+    rdfs:label "Paul Dano"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor12 a ns1:Actor ;
+    rdfs:label "Peter Sarsgaard"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor13 a ns1:Actor ;
+    rdfs:label "Rupert Penry-Jones"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor14 a ns1:Actor ;
+    rdfs:label "Robert Pattinson"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor15 a ns1:Actor ;
+    rdfs:label "Kosha Engler"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor16 a ns1:Actor ;
+    rdfs:label "Andy Serkis"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor17 a ns1:Actor ;
+    rdfs:label "Jeffrey Wright"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor18 a ns1:Actor ;
+    rdfs:label "Troy Kotsur"@es ;
+    ns1:playsIn ns1:movie1 .
+
+ns1:actor2 a ns1:Actor ;
+    rdfs:label "Zöe Kravitz"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor21 a ns1:Actor ;
+    rdfs:label "Jude Law"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor22 a ns1:Actor ;
+    rdfs:label "Jessica Williams"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor23 a ns1:Actor ;
+    rdfs:label "Eddie Redmayne"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor24 a ns1:Actor ;
+    rdfs:label "Alison Sudol"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor25 a ns1:Actor ;
+    rdfs:label "Ezra Miller"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor26 a ns1:Actor ;
+    rdfs:label "Katherine Waterston"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor27 a ns1:Actor ;
+    rdfs:label "Dan Fogler"@es ;
+    ns1:playsIn ns1:movie2 .
+
+ns1:actor28 a ns1:Actor ;
+    rdfs:label "Eugenio Derbez"@es ;
+    ns1:playsIn ns1:movie3 .
+
+ns1:actor29 a ns1:Actor ;
+    rdfs:label "Ferdia Walsh-Peelo"@es ;
+    ns1:playsIn ns1:movie3 .
+
+ns1:actor3 a ns1:Actor ;
+    rdfs:label "Janine Harouni"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor30 a ns1:Actor ;
+    rdfs:label "Amy Forsyth"@es ;
+    ns1:playsIn ns1:movie3 .
+
+ns1:actor31 a ns1:Actor ;
+    rdfs:label "Kevin Chapman"@es ;
+    ns1:playsIn ns1:movie3 .
+
+ns1:actor32 a ns1:Actor ;
+    rdfs:label "Chin Han"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor33 a ns1:Actor ;
+    rdfs:label "David Dastmalchian"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor34 a ns1:Actor ;
+    rdfs:label "Eric Roberts"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor35 a ns1:Actor ;
+    rdfs:label "Joshua Harto"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor36 a ns1:Actor ;
+    rdfs:label "Maggie Gyllenhaal"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor37 a ns1:Actor ;
+    rdfs:label "Cillian Murphy"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor38 a ns1:Actor ;
+    rdfs:label "Gary Oldman"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor39 a ns1:Actor ;
+    rdfs:label "Ritchie Coster"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor4 a ns1:Actor ;
+    rdfs:label "Peter Mcdonald"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor40 a ns1:Actor ;
+    rdfs:label "Colin Mcfarlane"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor41 a ns1:Actor ;
+    rdfs:label "Heath Ledger"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor42 a ns1:Actor ;
+    rdfs:label "Tommy 'Tiny' Lister"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor43 a ns1:Actor ;
+    rdfs:label "Melinda Mcgraw"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor44 a ns1:Actor ;
+    rdfs:label "William Fichtner"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor45 a ns1:Actor ;
+    rdfs:label "Aaron Eckhart"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor46 a ns1:Actor ;
+    rdfs:label "Keith Szarabajka"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor47 a ns1:Actor ;
+    rdfs:label "Michael Caine"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor48 a ns1:Actor ;
+    rdfs:label "Christian Bale"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor49 a ns1:Actor ;
+    rdfs:label "Nathan Gamble"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor5 a ns1:Actor ;
+    rdfs:label "Barry Keoghan"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor50 a ns1:Actor ;
+    rdfs:label "Monique Gabriela Curnen"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor51 a ns1:Actor ;
+    rdfs:label "Morgan Freeman"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor52 a ns1:Actor ;
+    rdfs:label "Nestor Carbonell"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor53 a ns1:Actor ;
+    rdfs:label "Ron Dean"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor54 a ns1:Actor ;
+    rdfs:label "Michael Jai White"@es ;
+    ns1:playsIn ns1:movie4 .
+
+ns1:actor6 a ns1:Actor ;
+    rdfs:label "John Turturro"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor7 a ns1:Actor ;
+    rdfs:label "Zoë Kravitz"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor8 a ns1:Actor ;
+    rdfs:label "Gil Perez-Abraham"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:actor9 a ns1:Actor ;
+    rdfs:label "Con O'Neill"@es ;
+    ns1:playsIn ns1:movie0 .
+
+ns1:director1 a ns1:Director ;
+    rdfs:label "David Yates"@es .
+
+ns1:director2 a ns1:Director ;
+    rdfs:label "Eugene Lee"@es .
+
+ns1:director3 a ns1:Director ;
+    rdfs:label "Bret Haaland"@es .
+
+ns1:director4 a ns1:Director ;
+    rdfs:label "Tim Hedrick"@es .
+
+ns1:director5 a ns1:Director ;
+    rdfs:label "Micah Gunnell"@es .
+
+ns1:director6 a ns1:Director ;
+    rdfs:label "Leo Riley"@es .
+
+ns1:director7 a ns1:Director ;
+    rdfs:label "George Gipson"@es .
+
+ns1:director8 a ns1:Director ;
+    rdfs:label "James Yang"@es .
+
+ns1:genre1 a ns1:Genre ;
+    rdfs:label "Delito"@es .
+
+ns1:genre10 a ns1:Genre ;
+    rdfs:label "Familia"@es .
+
+ns1:genre11 a ns1:Genre ;
+    rdfs:label "Animación"@es .
+
+ns1:genre12 a ns1:Genre ;
+    rdfs:label "Series de Televisión"@es .
+
+ns1:genre4 a ns1:Genre ;
+    rdfs:label "Intriga"@es .
+
+ns1:genre6 a ns1:Genre ;
+    rdfs:label "Comedia"@es .
+
+ns1:genre8 a ns1:Genre ;
+    rdfs:label "Lujoso"@es .
+
+ns1:genre9 a ns1:Genre ;
+    rdfs:label "Fantasía"@es .
+
+ns1:isPlayedIn a owl:ObjectProperty,
         owl:TransitiveProperty ;
-    rdfs:domain :Movie ;
+    rdfs:domain ns1:Movie ;
     rdfs:range <https://schema.org/image#Room> .
 
-:isShowtimeOf a owl:ObjectProperty ;
-    rdfs:domain :Showtime ;
-    rdfs:range :Movie .
+ns1:isShowtimeOf a owl:ObjectProperty ;
+    rdfs:domain ns1:Showtime ;
+    rdfs:range ns1:Movie .
 
 xsd:duration a rdfs:Datatype .
 
@@ -272,25 +354,161 @@ schema:ImageObject a owl:Class .
 schema:URL a owl:Class .
 
 schema:actor a owl:ObjectProperty ;
-    rdfs:domain :Movie ;
-    rdfs:range :Actor .
+    rdfs:domain ns1:Movie ;
+    rdfs:range ns1:Actor .
 
 <https://schema.org/image#roomOf> a owl:ObjectProperty ;
     rdfs:domain <https://schema.org/image#Room> ;
-    rdfs:range :Theater .
+    rdfs:range ns1:Theater .
 
-:Actor a owl:Class ;
-    rdfs:subClassOf :Person .
+ns1:Person a owl:Class .
 
-:Person a owl:Class .
+ns1:Theater a owl:Class .
 
-:Theater a owl:Class .
+ns1:actor19 a ns1:Actor ;
+    rdfs:label "Marlee Matlin"@es ;
+    ns1:playsIn ns1:movie1,
+        ns1:movie3 .
+
+ns1:actor20 a ns1:Actor ;
+    rdfs:label "Emilia Jones"@es ;
+    ns1:playsIn ns1:movie1,
+        ns1:movie3 .
+
+ns1:director0 a ns1:Director ;
+    rdfs:label "Sian Heder"@es .
+
+ns1:genre2 a ns1:Genre ;
+    rdfs:label "Aventura"@es .
+
+ns1:genre5 a ns1:Genre ;
+    rdfs:label "Suspenso"@es .
+
+ns1:genre7 a ns1:Genre ;
+    rdfs:label "Música"@es .
 
 schema:AggregateRating a owl:Class .
 
-:Showtime a owl:Class .
+ns1:Showtime a owl:Class .
+
+ns1:genre3 a ns1:Genre ;
+    rdfs:label "Acción"@es .
+
+ns1:movie1 a ns1:Movie ;
+    rdfs:label "CODA"@es ;
+    ns1:actor ns1:actor18,
+        ns1:actor19,
+        ns1:actor20 ;
+    ns1:director ns1:director0 ;
+    ns1:hasGenre ns1:genre0,
+        ns1:genre6,
+        ns1:genre7 ;
+    xsd:dateTime "2021-10-21" ;
+    xsd:duration "PT1H51M" .
+
+ns1:genre0 a ns1:Genre ;
+    rdfs:label "Drama"@es .
 
 <https://schema.org/image#Room> a owl:Class .
 
-:Movie a owl:Class .
+ns1:movie3 a ns1:Movie ;
+    rdfs:label "CODA: Los sonidos del silencio"@es ;
+    ns1:actor ns1:actor19,
+        ns1:actor20,
+        ns1:actor28,
+        ns1:actor29,
+        ns1:actor30,
+        ns1:actor31 ;
+    ns1:director ns1:director0 ;
+    ns1:hasGenre ns1:genre0,
+        ns1:genre7 ;
+    xsd:dateTime "None" ;
+    xsd:duration "PT1H51M" .
+
+ns1:movie2 a ns1:Movie ;
+    rdfs:label "Animales Fantásticos: Los secretos de Dumbledore"@es ;
+    ns1:actor ns1:actor21,
+        ns1:actor22,
+        ns1:actor23,
+        ns1:actor24,
+        ns1:actor25,
+        ns1:actor26,
+        ns1:actor27 ;
+    ns1:director ns1:director1 ;
+    ns1:hasGenre ns1:genre10,
+        ns1:genre2,
+        ns1:genre8,
+        ns1:genre9 ;
+    xsd:dateTime "2022-04-15" ;
+    xsd:duration "PT2H22M" .
+
+ns1:Director a owl:Class ;
+    rdfs:subClassOf ns1:Person .
+
+ns1:Genre a owl:Class .
+
+ns1:Movie a owl:Class .
+
+ns1:movie0 a ns1:Movie ;
+    rdfs:label "Batman"@es ;
+    ns1:actor ns1:actor0,
+        ns1:actor1,
+        ns1:actor10,
+        ns1:actor11,
+        ns1:actor12,
+        ns1:actor13,
+        ns1:actor14,
+        ns1:actor15,
+        ns1:actor16,
+        ns1:actor17,
+        ns1:actor2,
+        ns1:actor3,
+        ns1:actor4,
+        ns1:actor5,
+        ns1:actor6,
+        ns1:actor7,
+        ns1:actor8,
+        ns1:actor9 ;
+    ns1:hasGenre ns1:genre0,
+        ns1:genre1,
+        ns1:genre2,
+        ns1:genre3,
+        ns1:genre4,
+        ns1:genre5 ;
+    xsd:dateTime "2022-03-03" ;
+    xsd:duration "PT2H56M" .
+
+ns1:movie4 a ns1:Movie ;
+    rdfs:label "Batman: El caballero de la noche"@es ;
+    ns1:actor ns1:actor32,
+        ns1:actor33,
+        ns1:actor34,
+        ns1:actor35,
+        ns1:actor36,
+        ns1:actor37,
+        ns1:actor38,
+        ns1:actor39,
+        ns1:actor40,
+        ns1:actor41,
+        ns1:actor42,
+        ns1:actor43,
+        ns1:actor44,
+        ns1:actor45,
+        ns1:actor46,
+        ns1:actor47,
+        ns1:actor48,
+        ns1:actor49,
+        ns1:actor50,
+        ns1:actor51,
+        ns1:actor52,
+        ns1:actor53,
+        ns1:actor54 ;
+    ns1:hasGenre ns1:genre0,
+        ns1:genre3,
+        ns1:genre5 ;
+    xsd:dateTime "None" ;
+    xsd:duration "None" .
+
+ns1:Actor a owl:Class ;
+    rdfs:subClassOf ns1:Person .
 

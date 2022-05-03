@@ -4,6 +4,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @base <http://www.semanticweb.org/movies> .
 
 <http://www.semanticweb.org/movies> rdf:type owl:Ontology .
@@ -28,112 +29,112 @@ xsd:duration rdf:type rdfs:Datatype .
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/movies#hasRating
-:hasRating rdf:type owl:ObjectProperty ;
-           rdfs:domain :Movie ;
-           rdfs:range <https://schema.org/AggregateRating> .
+###  http://www.semanticweb.org/hasRating
+<http://www.semanticweb.org/hasRating> rdf:type owl:ObjectProperty ;
+                                       rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                       rdfs:range schema:AggregateRating .
 
 
-###  http://www.semanticweb.org/movies#hasShowtime
-:hasShowtime rdf:type owl:ObjectProperty ;
-             owl:inverseOf :isShowtimeOf ;
-             rdfs:domain :Movie ;
-             rdfs:range :Showtime .
+###  http://www.semanticweb.org/hasShowtime
+<http://www.semanticweb.org/hasShowtime> rdf:type owl:ObjectProperty ;
+                                         owl:inverseOf <http://www.semanticweb.org/isShowtimeOf> ;
+                                         rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                         rdfs:range <http://www.semanticweb.org/Showtime> .
 
 
-###  http://www.semanticweb.org/movies#hasTicketsFor
-:hasTicketsFor rdf:type owl:ObjectProperty ;
-               owl:inverseOf :isPlayedIn ;
-               rdfs:domain <https://schema.org/image#Room> ;
-               rdfs:range :Movie .
+###  http://www.semanticweb.org/hasTicketsFor
+<http://www.semanticweb.org/hasTicketsFor> rdf:type owl:ObjectProperty ;
+                                           owl:inverseOf <http://www.semanticweb.org/isPlayedIn> ;
+                                           rdfs:domain <https://schema.org/image#Room> ;
+                                           rdfs:range <http://www.semanticweb.org/Movie> .
 
 
-###  http://www.semanticweb.org/movies#isPlayedIn
-:isPlayedIn rdf:type owl:ObjectProperty ,
-                     owl:TransitiveProperty ;
-            rdfs:domain :Movie ;
-            rdfs:range <https://schema.org/image#Room> .
+###  http://www.semanticweb.org/isPlayedIn
+<http://www.semanticweb.org/isPlayedIn> rdf:type owl:ObjectProperty ,
+                                                 owl:TransitiveProperty ;
+                                        rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                        rdfs:range <https://schema.org/image#Room> .
 
 
-###  http://www.semanticweb.org/movies#isShowtimeOf
-:isShowtimeOf rdf:type owl:ObjectProperty ;
-              rdfs:domain :Showtime ;
-              rdfs:range :Movie .
+###  http://www.semanticweb.org/isShowtimeOf
+<http://www.semanticweb.org/isShowtimeOf> rdf:type owl:ObjectProperty ;
+                                          rdfs:domain <http://www.semanticweb.org/Showtime> ;
+                                          rdfs:range <http://www.semanticweb.org/Movie> .
 
 
-###  http://www.semanticweb.org/movies#playsIn
-:playsIn rdf:type owl:ObjectProperty ;
-         owl:inverseOf <https://schema.org/actor> ;
-         rdfs:domain :Actor ;
-         rdfs:range :Movie .
+###  http://www.semanticweb.org/playsIn
+<http://www.semanticweb.org/playsIn> rdf:type owl:ObjectProperty ;
+                                     owl:inverseOf schema:actor ;
+                                     rdfs:domain <http://www.semanticweb.org/Actor> ;
+                                     rdfs:range <http://www.semanticweb.org/Movie> .
 
 
 ###  https://schema.org/actor
-<https://schema.org/actor> rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Movie ;
-                           rdfs:range :Actor .
+schema:actor rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.semanticweb.org/Movie> ;
+             rdfs:range <http://www.semanticweb.org/Actor> .
 
 
 ###  https://schema.org/director
-<https://schema.org/director> rdf:type owl:ObjectProperty ;
-                              rdfs:domain :Movie ;
-                              rdfs:range :Director .
+schema:director rdf:type owl:ObjectProperty ;
+                rdfs:domain <http://www.semanticweb.org/Movie> ;
+                rdfs:range <http://www.semanticweb.org/Director> .
 
 
 ###  https://schema.org/image
-<https://schema.org/image> rdf:type owl:ObjectProperty ;
-                           rdfs:domain :Movie ;
-                           rdfs:range [ rdf:type owl:Class ;
-                                        owl:unionOf ( <https://schema.org/ImageObject>
-                                                      <https://schema.org/URL>
-                                                    )
-                                      ] .
+schema:image rdf:type owl:ObjectProperty ;
+             rdfs:domain <http://www.semanticweb.org/Movie> ;
+             rdfs:range [ rdf:type owl:Class ;
+                          owl:unionOf ( schema:ImageObject
+                                        schema:URL
+                                      )
+                        ] .
 
 
 ###  https://schema.org/image#hasGenre
 <https://schema.org/image#hasGenre> rdf:type owl:ObjectProperty ;
-                                    rdfs:domain :Movie ;
-                                    rdfs:range :Genre .
+                                    rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                    rdfs:range <http://www.semanticweb.org/Genre> .
 
 
 ###  https://schema.org/image#hasRoom
 <https://schema.org/image#hasRoom> rdf:type owl:ObjectProperty ;
                                    owl:inverseOf <https://schema.org/image#roomOf> ;
-                                   rdfs:domain :Theater ;
+                                   rdfs:domain <http://www.semanticweb.org/Theater> ;
                                    rdfs:range <https://schema.org/image#Room> .
 
 
 ###  https://schema.org/image#roomOf
 <https://schema.org/image#roomOf> rdf:type owl:ObjectProperty ;
                                   rdfs:domain <https://schema.org/image#Room> ;
-                                  rdfs:range :Theater .
+                                  rdfs:range <http://www.semanticweb.org/Theater> .
 
 
 #################################################################
 #    Data properties
 #################################################################
 
-###  http://www.semanticweb.org/movies#duration
-:duration rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Movie ;
-          rdfs:range xsd:duration .
+###  http://www.semanticweb.org/duration
+<http://www.semanticweb.org/duration> rdf:type owl:DatatypeProperty ;
+                                      rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                      rdfs:range xsd:duration .
 
 
-###  http://www.semanticweb.org/movies#releasedDate
-:releasedDate rdf:type owl:DatatypeProperty ;
-              rdfs:domain :Movie ;
-              rdfs:range xsd:dateTime .
+###  http://www.semanticweb.org/releasedDate
+<http://www.semanticweb.org/releasedDate> rdf:type owl:DatatypeProperty ;
+                                          rdfs:domain <http://www.semanticweb.org/Movie> ;
+                                          rdfs:range xsd:dateTime .
 
 
-###  http://www.semanticweb.org/movies#score
-:score rdf:type owl:DatatypeProperty ;
-       rdfs:domain <https://schema.org/AggregateRating> ;
-       rdfs:range xsd:double .
+###  http://www.semanticweb.org/score
+<http://www.semanticweb.org/score> rdf:type owl:DatatypeProperty ;
+                                   rdfs:domain schema:AggregateRating ;
+                                   rdfs:range xsd:double .
 
 
 ###  https://schema.org/image#movie_time
 <https://schema.org/image#movie_time> rdf:type owl:DatatypeProperty ;
-                                      rdfs:domain :Showtime ;
+                                      rdfs:domain <http://www.semanticweb.org/Showtime> ;
                                       rdfs:range xsd:dateTime .
 
 
@@ -141,46 +142,46 @@ xsd:duration rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/movies#Actor
-:Actor rdf:type owl:Class ;
-       rdfs:subClassOf :Person .
+###  http://www.semanticweb.org/Actor
+<http://www.semanticweb.org/Actor> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://www.semanticweb.org/Person> .
 
 
-###  http://www.semanticweb.org/movies#Director
-:Director rdf:type owl:Class ;
-          rdfs:subClassOf :Person .
+###  http://www.semanticweb.org/Director
+<http://www.semanticweb.org/Director> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://www.semanticweb.org/Person> .
 
 
-###  http://www.semanticweb.org/movies#Genre
-:Genre rdf:type owl:Class .
+###  http://www.semanticweb.org/Genre
+<http://www.semanticweb.org/Genre> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/movies#Movie
-:Movie rdf:type owl:Class .
+###  http://www.semanticweb.org/Movie
+<http://www.semanticweb.org/Movie> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/movies#Person
-:Person rdf:type owl:Class .
+###  http://www.semanticweb.org/Person
+<http://www.semanticweb.org/Person> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/movies#Showtime
-:Showtime rdf:type owl:Class .
+###  http://www.semanticweb.org/Showtime
+<http://www.semanticweb.org/Showtime> rdf:type owl:Class .
 
 
-###  http://www.semanticweb.org/movies#Theater
-:Theater rdf:type owl:Class .
+###  http://www.semanticweb.org/Theater
+<http://www.semanticweb.org/Theater> rdf:type owl:Class .
 
 
 ###  https://schema.org/AggregateRating
-<https://schema.org/AggregateRating> rdf:type owl:Class .
+schema:AggregateRating rdf:type owl:Class .
 
 
 ###  https://schema.org/ImageObject
-<https://schema.org/ImageObject> rdf:type owl:Class .
+schema:ImageObject rdf:type owl:Class .
 
 
 ###  https://schema.org/URL
-<https://schema.org/URL> rdf:type owl:Class .
+schema:URL rdf:type owl:Class .
 
 
 ###  https://schema.org/image#Room
