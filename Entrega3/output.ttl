@@ -1,514 +1,497 @@
 @prefix : <http://www.semanticweb.org/movies> .
-@prefix ns1: <http://www.semanticweb.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix sw: <http://www.semanticweb.org/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://schema.org/image> a owl:AnnotationProperty .
 
-ns1:duration a owl:DatatypeProperty ;
-    rdfs:domain ns1:Movie ;
+sw:duration a owl:DatatypeProperty ;
+    rdfs:domain sw:Movie ;
     rdfs:range xsd:duration .
 
-ns1:hasRating a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range schema:AggregateRating .
+sw:hasGenre a owl:ObjectProperty ;
+    rdfs:domain sw:Movie ;
+    rdfs:range sw:Genre .
 
-ns1:hasShowtime a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range ns1:Showtime ;
-    owl:inverseOf ns1:isShowtimeOf .
-
-ns1:hasTicketsFor a owl:ObjectProperty ;
-    rdfs:domain <https://schema.org/image#Room> ;
-    rdfs:range ns1:Movie ;
-    owl:inverseOf ns1:isPlayedIn .
-
-ns1:movie5 a ns1:Movie ;
+sw:movie5 a sw:Movie ;
     rdfs:label "Rápidos y furiosos: Espías al volante (Serie de TV)"@es ;
-    ns1:director ns1:director2,
-        ns1:director3,
-        ns1:director4,
-        ns1:director5,
-        ns1:director6,
-        ns1:director7,
-        ns1:director8 ;
-    ns1:hasGenre ns1:genre11,
-        ns1:genre12,
-        ns1:genre3 ;
-    xsd:dateTime "None" ;
-    xsd:duration "None" .
+    sw:hasGenre sw:genre11,
+        sw:genre12,
+        sw:genre3 ;
+    schema:aggregateRating sw:aggregateRating5 ;
+    schema:director sw:director2,
+        sw:director3,
+        sw:director4,
+        sw:director5,
+        sw:director6,
+        sw:director7,
+        sw:director8 .
 
 : a owl:Ontology .
 
-ns1:playsIn a owl:ObjectProperty ;
-    rdfs:domain ns1:Actor ;
-    rdfs:range ns1:Movie ;
+sw:playsIn a owl:ObjectProperty ;
+    rdfs:domain sw:Actor ;
+    rdfs:range sw:Movie ;
     owl:inverseOf schema:actor .
 
-ns1:releasedDate a owl:DatatypeProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range xsd:dateTime .
-
-ns1:score a owl:DatatypeProperty ;
+sw:ratingValue a owl:DatatypeProperty ;
     rdfs:domain schema:AggregateRating ;
     rdfs:range xsd:double .
 
+schema:aggregateRating a owl:ObjectProperty ;
+    rdfs:domain sw:Movie ;
+    rdfs:range schema:AggregateRating .
+
+schema:dateCreated a owl:DatatypeProperty ;
+    rdfs:domain sw:Movie ;
+    rdfs:range schema:Date .
+
 schema:director a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range ns1:Director .
+    rdfs:domain sw:Movie ;
+    rdfs:range sw:Director .
 
 schema:image a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
+    rdfs:domain sw:Movie ;
     rdfs:range [ a owl:Class ;
             owl:unionOf ( schema:ImageObject schema:URL ) ] .
 
-<https://schema.org/image#hasGenre> a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range ns1:Genre .
-
-<https://schema.org/image#hasRoom> a owl:ObjectProperty ;
-    rdfs:domain ns1:Theater ;
-    rdfs:range <https://schema.org/image#Room> ;
-    owl:inverseOf <https://schema.org/image#roomOf> .
-
-<https://schema.org/image#movie_time> a owl:DatatypeProperty ;
-    rdfs:domain ns1:Showtime ;
-    rdfs:range xsd:dateTime .
-
-ns1:actor0 a ns1:Actor ;
+sw:actor0 a sw:Actor ;
     rdfs:label "Colin Farrell"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor1 a ns1:Actor ;
+sw:actor1 a sw:Actor ;
     rdfs:label "Alex Ferns"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor10 a ns1:Actor ;
+sw:actor10 a sw:Actor ;
     rdfs:label "Jayme Lawson"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor11 a ns1:Actor ;
+sw:actor11 a sw:Actor ;
     rdfs:label "Paul Dano"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor12 a ns1:Actor ;
+sw:actor12 a sw:Actor ;
     rdfs:label "Peter Sarsgaard"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor13 a ns1:Actor ;
+sw:actor13 a sw:Actor ;
     rdfs:label "Rupert Penry-Jones"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor14 a ns1:Actor ;
+sw:actor14 a sw:Actor ;
     rdfs:label "Robert Pattinson"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor15 a ns1:Actor ;
+sw:actor15 a sw:Actor ;
     rdfs:label "Kosha Engler"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor16 a ns1:Actor ;
+sw:actor16 a sw:Actor ;
     rdfs:label "Andy Serkis"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor17 a ns1:Actor ;
+sw:actor17 a sw:Actor ;
     rdfs:label "Jeffrey Wright"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor18 a ns1:Actor ;
+sw:actor18 a sw:Actor ;
     rdfs:label "Troy Kotsur"@es ;
-    ns1:playsIn ns1:movie1 .
+    sw:playsIn sw:movie1 .
 
-ns1:actor2 a ns1:Actor ;
+sw:actor2 a sw:Actor ;
     rdfs:label "Zöe Kravitz"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor21 a ns1:Actor ;
+sw:actor21 a sw:Actor ;
     rdfs:label "Jude Law"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor22 a ns1:Actor ;
+sw:actor22 a sw:Actor ;
     rdfs:label "Jessica Williams"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor23 a ns1:Actor ;
+sw:actor23 a sw:Actor ;
     rdfs:label "Eddie Redmayne"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor24 a ns1:Actor ;
+sw:actor24 a sw:Actor ;
     rdfs:label "Alison Sudol"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor25 a ns1:Actor ;
+sw:actor25 a sw:Actor ;
     rdfs:label "Ezra Miller"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor26 a ns1:Actor ;
+sw:actor26 a sw:Actor ;
     rdfs:label "Katherine Waterston"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor27 a ns1:Actor ;
+sw:actor27 a sw:Actor ;
     rdfs:label "Dan Fogler"@es ;
-    ns1:playsIn ns1:movie2 .
+    sw:playsIn sw:movie2 .
 
-ns1:actor28 a ns1:Actor ;
+sw:actor28 a sw:Actor ;
     rdfs:label "Eugenio Derbez"@es ;
-    ns1:playsIn ns1:movie3 .
+    sw:playsIn sw:movie3 .
 
-ns1:actor29 a ns1:Actor ;
+sw:actor29 a sw:Actor ;
     rdfs:label "Ferdia Walsh-Peelo"@es ;
-    ns1:playsIn ns1:movie3 .
+    sw:playsIn sw:movie3 .
 
-ns1:actor3 a ns1:Actor ;
+sw:actor3 a sw:Actor ;
     rdfs:label "Janine Harouni"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor30 a ns1:Actor ;
+sw:actor30 a sw:Actor ;
     rdfs:label "Amy Forsyth"@es ;
-    ns1:playsIn ns1:movie3 .
+    sw:playsIn sw:movie3 .
 
-ns1:actor31 a ns1:Actor ;
+sw:actor31 a sw:Actor ;
     rdfs:label "Kevin Chapman"@es ;
-    ns1:playsIn ns1:movie3 .
+    sw:playsIn sw:movie3 .
 
-ns1:actor32 a ns1:Actor ;
+sw:actor32 a sw:Actor ;
     rdfs:label "Chin Han"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor33 a ns1:Actor ;
+sw:actor33 a sw:Actor ;
     rdfs:label "David Dastmalchian"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor34 a ns1:Actor ;
+sw:actor34 a sw:Actor ;
     rdfs:label "Eric Roberts"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor35 a ns1:Actor ;
+sw:actor35 a sw:Actor ;
     rdfs:label "Joshua Harto"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor36 a ns1:Actor ;
+sw:actor36 a sw:Actor ;
     rdfs:label "Maggie Gyllenhaal"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor37 a ns1:Actor ;
+sw:actor37 a sw:Actor ;
     rdfs:label "Cillian Murphy"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor38 a ns1:Actor ;
+sw:actor38 a sw:Actor ;
     rdfs:label "Gary Oldman"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor39 a ns1:Actor ;
+sw:actor39 a sw:Actor ;
     rdfs:label "Ritchie Coster"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor4 a ns1:Actor ;
+sw:actor4 a sw:Actor ;
     rdfs:label "Peter Mcdonald"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor40 a ns1:Actor ;
+sw:actor40 a sw:Actor ;
     rdfs:label "Colin Mcfarlane"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor41 a ns1:Actor ;
+sw:actor41 a sw:Actor ;
     rdfs:label "Heath Ledger"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor42 a ns1:Actor ;
+sw:actor42 a sw:Actor ;
     rdfs:label "Tommy 'Tiny' Lister"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor43 a ns1:Actor ;
+sw:actor43 a sw:Actor ;
     rdfs:label "Melinda Mcgraw"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor44 a ns1:Actor ;
+sw:actor44 a sw:Actor ;
     rdfs:label "William Fichtner"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor45 a ns1:Actor ;
+sw:actor45 a sw:Actor ;
     rdfs:label "Aaron Eckhart"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor46 a ns1:Actor ;
+sw:actor46 a sw:Actor ;
     rdfs:label "Keith Szarabajka"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor47 a ns1:Actor ;
+sw:actor47 a sw:Actor ;
     rdfs:label "Michael Caine"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor48 a ns1:Actor ;
+sw:actor48 a sw:Actor ;
     rdfs:label "Christian Bale"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor49 a ns1:Actor ;
+sw:actor49 a sw:Actor ;
     rdfs:label "Nathan Gamble"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor5 a ns1:Actor ;
+sw:actor5 a sw:Actor ;
     rdfs:label "Barry Keoghan"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor50 a ns1:Actor ;
+sw:actor50 a sw:Actor ;
     rdfs:label "Monique Gabriela Curnen"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor51 a ns1:Actor ;
+sw:actor51 a sw:Actor ;
     rdfs:label "Morgan Freeman"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor52 a ns1:Actor ;
+sw:actor52 a sw:Actor ;
     rdfs:label "Nestor Carbonell"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor53 a ns1:Actor ;
+sw:actor53 a sw:Actor ;
     rdfs:label "Ron Dean"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor54 a ns1:Actor ;
+sw:actor54 a sw:Actor ;
     rdfs:label "Michael Jai White"@es ;
-    ns1:playsIn ns1:movie4 .
+    sw:playsIn sw:movie4 .
 
-ns1:actor6 a ns1:Actor ;
+sw:actor6 a sw:Actor ;
     rdfs:label "John Turturro"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor7 a ns1:Actor ;
+sw:actor7 a sw:Actor ;
     rdfs:label "Zoë Kravitz"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor8 a ns1:Actor ;
+sw:actor8 a sw:Actor ;
     rdfs:label "Gil Perez-Abraham"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:actor9 a ns1:Actor ;
+sw:actor9 a sw:Actor ;
     rdfs:label "Con O'Neill"@es ;
-    ns1:playsIn ns1:movie0 .
+    sw:playsIn sw:movie0 .
 
-ns1:director1 a ns1:Director ;
+sw:aggregateRating0 a schema:AggregateRating ;
+    sw:ratingValue 8e+00 .
+
+sw:aggregateRating1 a schema:AggregateRating ;
+    sw:ratingValue 8.7e+00 .
+
+sw:aggregateRating2 a schema:AggregateRating ;
+    sw:ratingValue 6.033333e+00 .
+
+sw:aggregateRating3 a schema:AggregateRating ;
+    sw:ratingValue 6.2e+00 .
+
+sw:aggregateRating4 a schema:AggregateRating ;
+    sw:ratingValue 8.1e+00 .
+
+sw:aggregateRating5 a schema:AggregateRating ;
+    sw:ratingValue 4.9e+00 .
+
+sw:director1 a sw:Director ;
     rdfs:label "David Yates"@es .
 
-ns1:director2 a ns1:Director ;
+sw:director2 a sw:Director ;
     rdfs:label "Eugene Lee"@es .
 
-ns1:director3 a ns1:Director ;
+sw:director3 a sw:Director ;
     rdfs:label "Bret Haaland"@es .
 
-ns1:director4 a ns1:Director ;
+sw:director4 a sw:Director ;
     rdfs:label "Tim Hedrick"@es .
 
-ns1:director5 a ns1:Director ;
+sw:director5 a sw:Director ;
     rdfs:label "Micah Gunnell"@es .
 
-ns1:director6 a ns1:Director ;
+sw:director6 a sw:Director ;
     rdfs:label "Leo Riley"@es .
 
-ns1:director7 a ns1:Director ;
+sw:director7 a sw:Director ;
     rdfs:label "George Gipson"@es .
 
-ns1:director8 a ns1:Director ;
+sw:director8 a sw:Director ;
     rdfs:label "James Yang"@es .
 
-ns1:genre1 a ns1:Genre ;
+sw:genre1 a sw:Genre ;
     rdfs:label "Delito"@es .
 
-ns1:genre10 a ns1:Genre ;
+sw:genre10 a sw:Genre ;
     rdfs:label "Familia"@es .
 
-ns1:genre11 a ns1:Genre ;
+sw:genre11 a sw:Genre ;
     rdfs:label "Animación"@es .
 
-ns1:genre12 a ns1:Genre ;
+sw:genre12 a sw:Genre ;
     rdfs:label "Series de Televisión"@es .
 
-ns1:genre4 a ns1:Genre ;
+sw:genre4 a sw:Genre ;
     rdfs:label "Intriga"@es .
 
-ns1:genre6 a ns1:Genre ;
+sw:genre6 a sw:Genre ;
     rdfs:label "Comedia"@es .
 
-ns1:genre8 a ns1:Genre ;
+sw:genre8 a sw:Genre ;
     rdfs:label "Lujoso"@es .
 
-ns1:genre9 a ns1:Genre ;
+sw:genre9 a sw:Genre ;
     rdfs:label "Fantasía"@es .
 
-ns1:isPlayedIn a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range <https://schema.org/image#Room> .
-
-ns1:isShowtimeOf a owl:ObjectProperty ;
-    rdfs:domain ns1:Showtime ;
-    rdfs:range ns1:Movie .
-
 xsd:duration a rdfs:Datatype .
+
+schema:Date a rdfs:Datatype .
 
 schema:ImageObject a owl:Class .
 
 schema:URL a owl:Class .
 
 schema:actor a owl:ObjectProperty ;
-    rdfs:domain ns1:Movie ;
-    rdfs:range ns1:Actor .
+    rdfs:domain sw:Movie ;
+    rdfs:range sw:Actor .
 
-<https://schema.org/image#roomOf> a owl:ObjectProperty ;
-    rdfs:domain <https://schema.org/image#Room> ;
-    rdfs:range ns1:Theater .
-
-ns1:Person a owl:Class .
-
-ns1:Theater a owl:Class .
-
-ns1:actor19 a ns1:Actor ;
+sw:actor19 a sw:Actor ;
     rdfs:label "Marlee Matlin"@es ;
-    ns1:playsIn ns1:movie1,
-        ns1:movie3 .
+    sw:playsIn sw:movie1,
+        sw:movie3 .
 
-ns1:actor20 a ns1:Actor ;
+sw:actor20 a sw:Actor ;
     rdfs:label "Emilia Jones"@es ;
-    ns1:playsIn ns1:movie1,
-        ns1:movie3 .
+    sw:playsIn sw:movie1,
+        sw:movie3 .
 
-ns1:director0 a ns1:Director ;
+sw:director0 a sw:Director ;
     rdfs:label "Sian Heder"@es .
 
-ns1:genre2 a ns1:Genre ;
+sw:genre2 a sw:Genre ;
     rdfs:label "Aventura"@es .
 
-ns1:genre5 a ns1:Genre ;
+sw:genre5 a sw:Genre ;
     rdfs:label "Suspenso"@es .
 
-ns1:genre7 a ns1:Genre ;
+sw:genre7 a sw:Genre ;
     rdfs:label "Música"@es .
+
+schema:Person a owl:Class .
+
+sw:genre3 a sw:Genre ;
+    rdfs:label "Acción"@es .
+
+sw:movie1 a sw:Movie ;
+    rdfs:label "CODA"@es ;
+    sw:duration "PT1H51M" ;
+    sw:hasGenre sw:genre0,
+        sw:genre6,
+        sw:genre7 ;
+    schema:actor sw:actor18,
+        sw:actor19,
+        sw:actor20 ;
+    schema:aggregateRating sw:aggregateRating1 ;
+    schema:dateCreated "2021-10-21"^^schema:Date ;
+    schema:director sw:director0 .
+
+sw:genre0 a sw:Genre ;
+    rdfs:label "Drama"@es .
+
+sw:movie3 a sw:Movie ;
+    rdfs:label "CODA: Los sonidos del silencio"@es ;
+    sw:duration "PT1H51M" ;
+    sw:hasGenre sw:genre0,
+        sw:genre7 ;
+    schema:actor sw:actor19,
+        sw:actor20,
+        sw:actor28,
+        sw:actor29,
+        sw:actor30,
+        sw:actor31 ;
+    schema:aggregateRating sw:aggregateRating3 ;
+    schema:director sw:director0 .
+
+sw:movie2 a sw:Movie ;
+    rdfs:label "Animales Fantásticos: Los secretos de Dumbledore"@es ;
+    sw:duration "PT2H22M" ;
+    sw:hasGenre sw:genre10,
+        sw:genre2,
+        sw:genre8,
+        sw:genre9 ;
+    schema:actor sw:actor21,
+        sw:actor22,
+        sw:actor23,
+        sw:actor24,
+        sw:actor25,
+        sw:actor26,
+        sw:actor27 ;
+    schema:aggregateRating sw:aggregateRating2 ;
+    schema:dateCreated "2022-04-15"^^schema:Date ;
+    schema:director sw:director1 .
 
 schema:AggregateRating a owl:Class .
 
-ns1:Showtime a owl:Class .
+sw:Director a owl:Class ;
+    rdfs:subClassOf schema:Person .
 
-ns1:genre3 a ns1:Genre ;
-    rdfs:label "Acción"@es .
+sw:Genre a owl:Class .
 
-ns1:movie1 a ns1:Movie ;
-    rdfs:label "CODA"@es ;
-    ns1:actor ns1:actor18,
-        ns1:actor19,
-        ns1:actor20 ;
-    ns1:director ns1:director0 ;
-    ns1:hasGenre ns1:genre0,
-        ns1:genre6,
-        ns1:genre7 ;
-    xsd:dateTime "2021-10-21" ;
-    xsd:duration "PT1H51M" .
+sw:Movie a owl:Class .
 
-ns1:genre0 a ns1:Genre ;
-    rdfs:label "Drama"@es .
-
-<https://schema.org/image#Room> a owl:Class .
-
-ns1:movie3 a ns1:Movie ;
-    rdfs:label "CODA: Los sonidos del silencio"@es ;
-    ns1:actor ns1:actor19,
-        ns1:actor20,
-        ns1:actor28,
-        ns1:actor29,
-        ns1:actor30,
-        ns1:actor31 ;
-    ns1:director ns1:director0 ;
-    ns1:hasGenre ns1:genre0,
-        ns1:genre7 ;
-    xsd:dateTime "None" ;
-    xsd:duration "PT1H51M" .
-
-ns1:movie2 a ns1:Movie ;
-    rdfs:label "Animales Fantásticos: Los secretos de Dumbledore"@es ;
-    ns1:actor ns1:actor21,
-        ns1:actor22,
-        ns1:actor23,
-        ns1:actor24,
-        ns1:actor25,
-        ns1:actor26,
-        ns1:actor27 ;
-    ns1:director ns1:director1 ;
-    ns1:hasGenre ns1:genre10,
-        ns1:genre2,
-        ns1:genre8,
-        ns1:genre9 ;
-    xsd:dateTime "2022-04-15" ;
-    xsd:duration "PT2H22M" .
-
-ns1:Director a owl:Class ;
-    rdfs:subClassOf ns1:Person .
-
-ns1:Genre a owl:Class .
-
-ns1:Movie a owl:Class .
-
-ns1:movie0 a ns1:Movie ;
+sw:movie0 a sw:Movie ;
     rdfs:label "Batman"@es ;
-    ns1:actor ns1:actor0,
-        ns1:actor1,
-        ns1:actor10,
-        ns1:actor11,
-        ns1:actor12,
-        ns1:actor13,
-        ns1:actor14,
-        ns1:actor15,
-        ns1:actor16,
-        ns1:actor17,
-        ns1:actor2,
-        ns1:actor3,
-        ns1:actor4,
-        ns1:actor5,
-        ns1:actor6,
-        ns1:actor7,
-        ns1:actor8,
-        ns1:actor9 ;
-    ns1:hasGenre ns1:genre0,
-        ns1:genre1,
-        ns1:genre2,
-        ns1:genre3,
-        ns1:genre4,
-        ns1:genre5 ;
-    xsd:dateTime "2022-03-03" ;
-    xsd:duration "PT2H56M" .
+    sw:duration "PT2H56M" ;
+    sw:hasGenre sw:genre0,
+        sw:genre1,
+        sw:genre2,
+        sw:genre3,
+        sw:genre4,
+        sw:genre5 ;
+    schema:actor sw:actor0,
+        sw:actor1,
+        sw:actor10,
+        sw:actor11,
+        sw:actor12,
+        sw:actor13,
+        sw:actor14,
+        sw:actor15,
+        sw:actor16,
+        sw:actor17,
+        sw:actor2,
+        sw:actor3,
+        sw:actor4,
+        sw:actor5,
+        sw:actor6,
+        sw:actor7,
+        sw:actor8,
+        sw:actor9 ;
+    schema:aggregateRating sw:aggregateRating0 ;
+    schema:dateCreated "2022-03-03"^^schema:Date .
 
-ns1:movie4 a ns1:Movie ;
+sw:movie4 a sw:Movie ;
     rdfs:label "Batman: El caballero de la noche"@es ;
-    ns1:actor ns1:actor32,
-        ns1:actor33,
-        ns1:actor34,
-        ns1:actor35,
-        ns1:actor36,
-        ns1:actor37,
-        ns1:actor38,
-        ns1:actor39,
-        ns1:actor40,
-        ns1:actor41,
-        ns1:actor42,
-        ns1:actor43,
-        ns1:actor44,
-        ns1:actor45,
-        ns1:actor46,
-        ns1:actor47,
-        ns1:actor48,
-        ns1:actor49,
-        ns1:actor50,
-        ns1:actor51,
-        ns1:actor52,
-        ns1:actor53,
-        ns1:actor54 ;
-    ns1:hasGenre ns1:genre0,
-        ns1:genre3,
-        ns1:genre5 ;
-    xsd:dateTime "None" ;
-    xsd:duration "None" .
+    sw:hasGenre sw:genre0,
+        sw:genre3,
+        sw:genre5 ;
+    schema:actor sw:actor32,
+        sw:actor33,
+        sw:actor34,
+        sw:actor35,
+        sw:actor36,
+        sw:actor37,
+        sw:actor38,
+        sw:actor39,
+        sw:actor40,
+        sw:actor41,
+        sw:actor42,
+        sw:actor43,
+        sw:actor44,
+        sw:actor45,
+        sw:actor46,
+        sw:actor47,
+        sw:actor48,
+        sw:actor49,
+        sw:actor50,
+        sw:actor51,
+        sw:actor52,
+        sw:actor53,
+        sw:actor54 ;
+    schema:aggregateRating sw:aggregateRating4 .
 
-ns1:Actor a owl:Class ;
-    rdfs:subClassOf ns1:Person .
+sw:Actor a owl:Class ;
+    rdfs:subClassOf schema:Person .
 
