@@ -27,6 +27,13 @@ xsd:duration rdf:type rdfs:Datatype .
          rdfs:range <https://schema.org/Movie> .
 
 
+###  http://www.semanticweb.org#hasSequel
+:hasSequel rdf:type owl:ObjectProperty ;
+           owl:inverseOf :sequelOf ;
+           rdfs:domain <https://schema.org/Movie> ;
+           rdfs:range <https://schema.org/Movie> .
+
+
 ###  http://www.semanticweb.org#performsIn
 :performsIn rdf:type owl:ObjectProperty ;
             owl:inverseOf <https://schema.org/actor> ;
@@ -34,11 +41,11 @@ xsd:duration rdf:type rdfs:Datatype .
             rdfs:range <https://schema.org/Movie> .
 
 
-###  http://www.semanticweb.org#playsIn
-:playsIn rdf:type owl:ObjectProperty ;
-         owl:inverseOf <https://schema.org/actor> ;
-         rdfs:domain <https://schema.org/Person> ;
-         rdfs:range <https://schema.org/Movie> .
+###  http://www.semanticweb.org#sequelOf
+:sequelOf rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty ;
+          rdfs:domain <https://schema.org/Movie> ;
+          rdfs:range <https://schema.org/Movie> .
 
 
 ###  https://schema.org/actor
@@ -66,16 +73,16 @@ xsd:duration rdf:type rdfs:Datatype .
                            rdfs:range <https://schema.org/ImageObject> .
 
 
-###  https://schema.org/isPartOf
-<https://schema.org/isPartOf> rdf:type owl:ObjectProperty ,
-                                       owl:TransitiveProperty ;
-                              rdfs:domain <https://schema.org/Movie> ;
-                              rdfs:range <https://schema.org/Movie> .
+###  https://schema.org/isBasedOn
+<https://schema.org/isBasedOn> rdf:type owl:ObjectProperty ,
+                                        owl:TransitiveProperty ;
+                               rdfs:domain <https://schema.org/Movie> ;
+                               rdfs:range <https://schema.org/Movie> .
 
 
 ###  https://schema.org/location
 <https://schema.org/location> rdf:type owl:ObjectProperty ,
-                                       owl:InverseFunctionalProperty ;
+                                       owl:FunctionalProperty ;
                               rdfs:domain <https://schema.org/ScreeningEvent> ;
                               rdfs:range <https://schema.org/MovieTheater> .
 
@@ -91,8 +98,7 @@ xsd:duration rdf:type rdfs:Datatype .
 #################################################################
 
 ###  https://schema.org/address
-<https://schema.org/address> rdf:type owl:DatatypeProperty ,
-                                      owl:FunctionalProperty ;
+<https://schema.org/address> rdf:type owl:DatatypeProperty ;
                              rdfs:domain [ rdf:type owl:Class ;
                                            owl:unionOf ( <https://schema.org/MovieTheater>
                                                          <https://schema.org/ScreeningEvent>
@@ -111,6 +117,12 @@ xsd:duration rdf:type rdfs:Datatype .
 <https://schema.org/datePublished> rdf:type owl:DatatypeProperty ;
                                    rdfs:domain <https://schema.org/Movie> ;
                                    rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/doorTime
+<https://schema.org/doorTime> rdf:type owl:DatatypeProperty ;
+                              rdfs:domain <https://schema.org/ScreeningEvent> ;
+                              rdfs:range xsd:dateTime .
 
 
 ###  https://schema.org/duration
@@ -169,90 +181,6 @@ xsd:duration rdf:type rdfs:Datatype .
 
 ###  https://schema.org/ScreeningEvent
 <https://schema.org/ScreeningEvent> rdf:type owl:Class .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://www.semanticweb.org#Brad_Pitt
-:Brad_Pitt rdf:type owl:NamedIndividual ,
-                    <https://schema.org/Person> ;
-           <https://schema.org/name> "Brad Pitt"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Catching_Fire
-:Catching_Fire rdf:type owl:NamedIndividual ,
-                        <https://schema.org/Movie> ;
-               <https://schema.org/isPartOf> :Hunger_Games .
-
-
-###  http://www.semanticweb.org#Cine_Rocha
-:Cine_Rocha rdf:type owl:NamedIndividual ,
-                     <https://schema.org/MovieTheater> ;
-            <https://schema.org/name> "Cinema Rocha"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Cine_Rocha_CinemaLP
-:Cine_Rocha_CinemaLP rdf:type owl:NamedIndividual ,
-                              <https://schema.org/MovieTheater> .
-
-
-###  http://www.semanticweb.org#Erase_una_vez_en_Hollywood
-:Erase_una_vez_en_Hollywood rdf:type owl:NamedIndividual ,
-                                     <https://schema.org/Movie> ;
-                            <https://schema.org/actor> :Brad_Pitt ,
-                                                       :Johnny_Depp ;
-                            <https://schema.org/director> :Quentin_Tarantino ,
-                                                          :Tarantino ;
-                            <https://schema.org/image> :image1 ;
-                            <https://schema.org/name> "Once Upon a Time in Hollywood"^^xsd:string ,
-                                                      "Érase una vez... en Hollywood"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Hunger_Games
-:Hunger_Games rdf:type owl:NamedIndividual ,
-                       <https://schema.org/Movie> .
-
-
-###  http://www.semanticweb.org#Johnny_Depp
-:Johnny_Depp rdf:type owl:NamedIndividual ,
-                      <https://schema.org/Person> ;
-             <https://schema.org/name> "Johnny_Depp"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Mockingjay
-:Mockingjay rdf:type owl:NamedIndividual ,
-                     <https://schema.org/Movie> ;
-            <https://schema.org/isPartOf> :Catching_Fire .
-
-
-###  http://www.semanticweb.org#Quentin_Tarantino
-:Quentin_Tarantino rdf:type owl:NamedIndividual ,
-                            <https://schema.org/Person> ;
-                   <https://schema.org/name> "Quentin Tarantino"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Sala1Rocha
-:Sala1Rocha rdf:type owl:NamedIndividual ;
-            <https://schema.org/location> :Cine_Rocha_CinemaLP ;
-            <https://schema.org/name> "Sala  1"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Sala2Rocha
-:Sala2Rocha rdf:type owl:NamedIndividual ;
-            <https://schema.org/location> :Cine_Rocha .
-
-
-###  http://www.semanticweb.org#Tarantino
-:Tarantino rdf:type owl:NamedIndividual ,
-                    <https://schema.org/Person> .
-
-
-###  http://www.semanticweb.org#image1
-:image1 rdf:type owl:NamedIndividual ,
-                 <https://schema.org/ImageObject> ;
-        <https://schema.org/contentUrl> "https://nosubmarinesdotcom.files.wordpress.com/2019/08/es-machista-once-upon-a-time-in-hollywood-tarantino.jpg"^^xsd:string .
 
 
 ###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
