@@ -15,12 +15,12 @@ def count_individuals_of(node_type: str, url= BASE_URL):
 
 def add_individual(node_type, label, url=BASE_URL):
     
-    for s, p, o in g.triples((None, RDFS.label, Literal(label,  lang= "es"))):
+    for s, p, o in g.triples((None, RDFS.label, Literal(label,  lang= "en"))):
         return s
 
     individual= url[node_type.lower()+str(count_individuals_of(node_type, url))]
     g.add((individual, RDF.type, url[node_type]))
-    g.add((individual, RDFS.label, Literal(label, lang="es")))
+    g.add((individual, RDFS.label, Literal(label, lang="en")))
     g.add((individual, BASE_SCHEMAORG_URL["name"], Literal(label)))
     return individual 
 

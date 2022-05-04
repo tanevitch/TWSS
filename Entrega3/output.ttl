@@ -1,282 +1,492 @@
 @prefix : <http://www.semanticweb.org#> .
+@prefix sw: <http://www.semanticweb.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix sw: <http://www.semanticweb.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@base <http://www.semanticweb.org> .
 
-<http://www.semanticweb.org> a owl:Ontology .
+<http://www.semanticweb.org> rdf:type owl:Ontology .
 
-:directs a owl:ObjectProperty ;
-    rdfs:domain schema:Person ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf schema:director .
+#################################################################
+#    Datatypes
+#################################################################
 
-:hasSequel a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf :sequelOf .
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
 
-:performsIn a owl:ObjectProperty ;
-    rdfs:domain schema:Person ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf schema:actor .
 
-schema:address a owl:DatatypeProperty ;
-    rdfs:domain [ a owl:Class ;
-            owl:unionOf ( schema:MovieTheater schema:ScreeningEvent ) ] ;
-    rdfs:range xsd:string .
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
 
-schema:aggregateRating a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:AggregateRating .
 
-schema:contentUrl a owl:DatatypeProperty ;
-    rdfs:domain schema:ImageObject ;
-    rdfs:range xsd:string .
+#################################################################
+#    Object Properties
+#################################################################
 
-schema:datePublished a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:dateTime .
+###  http://www.semanticweb.org#directs
+:directs rdf:type owl:ObjectProperty ;
+         owl:inverseOf schema:director ;
+         rdfs:domain schema:Person ;
+         rdfs:range schema:Movie .
 
-schema:doorTime a owl:DatatypeProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range xsd:dateTime .
 
-schema:duration a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:duration .
+###  http://www.semanticweb.org#hasSequel
+:hasSequel rdf:type owl:ObjectProperty ;
+           owl:inverseOf :sequelOf ;
+           rdfs:domain schema:Movie ;
+           rdfs:range schema:Movie .
 
-schema:genre a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:string .
 
-schema:image a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:ImageObject .
+###  http://www.semanticweb.org#performsIn
+:performsIn rdf:type owl:ObjectProperty ;
+            owl:inverseOf schema:actor ;
+            rdfs:domain schema:Person ;
+            rdfs:range schema:Movie .
 
-schema:isBasedOn a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie .
 
-schema:location a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range schema:MovieTheater .
+###  http://www.semanticweb.org#sequelOf
+:sequelOf rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:Movie .
 
-schema:movie0 a schema:Movie ;
-    rdfs:label "Divergent"@es ;
-    schema:actor schema:person0,
-        schema:person1,
-        schema:person2 ;
-    schema:aggregateRating sw:aggregateRating0 ;
-    schema:datePublished "2014-04-17"^^xsd:date ;
-    schema:director schema:person3 ;
-    schema:duration "PT2H19M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Mystery" ;
-    schema:image sw:image0 ;
-    schema:name "Divergent" .
 
-schema:movie1 a schema:Movie ;
-    rdfs:label "Insurgent"@es ;
-    schema:actor schema:person0,
-        schema:person1,
-        schema:person4 ;
-    schema:aggregateRating sw:aggregateRating1 ;
-    schema:datePublished "2015-03-19"^^xsd:date ;
-    schema:director schema:person5 ;
-    schema:duration "PT1H59M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Sci-Fi" ;
-    schema:image sw:image1 ;
-    schema:name "Insurgent" .
+###  https://schema.org/actor
+schema:actor rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:Person .
 
-schema:movie2 a schema:Movie ;
-    rdfs:label "The Hunger Games"@es ;
-    schema:actor schema:person6,
-        schema:person7,
-        schema:person8 ;
-    schema:aggregateRating sw:aggregateRating2 ;
-    schema:datePublished "2012-03-23"^^xsd:date ;
-    schema:director schema:person9 ;
-    schema:duration "PT2H22M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Sci-Fi" ;
-    schema:image sw:image2 ;
-    schema:name "The Hunger Games" .
 
-schema:movie3 a schema:Movie ;
-    rdfs:label "The Hunger Games: Catching Fire"@es ;
-    schema:actor schema:person6,
-        schema:person7,
-        schema:person8 ;
-    schema:aggregateRating sw:aggregateRating3 ;
-    schema:datePublished "2013-11-21"^^xsd:date ;
-    schema:director schema:person10 ;
-    schema:duration "PT2H26M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Drama" ;
-    schema:image sw:image3 ;
-    schema:name "The Hunger Games: Catching Fire" .
+###  https://schema.org/aggregateRating
+schema:aggregateRating rdf:type owl:ObjectProperty ;
+                       rdfs:domain schema:Movie ;
+                       rdfs:range schema:AggregateRating .
 
-schema:movie4 a schema:Movie ;
-    rdfs:label "The Hunger Games: Mockingjay - Part 2"@es ;
-    schema:actor schema:person6,
-        schema:person7,
-        schema:person8 ;
-    schema:aggregateRating sw:aggregateRating4 ;
-    schema:datePublished "2015-11-19"^^xsd:date ;
-    schema:director schema:person10 ;
-    schema:duration "PT2H17M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Sci-Fi" ;
-    schema:image sw:image4 ;
-    schema:name "The Hunger Games: Mockingjay - Part 2" .
 
-schema:movie5 a schema:Movie ;
-    rdfs:label "The Hunger Games: Mockingjay - Part 1"@es ;
-    schema:actor schema:person6,
-        schema:person7,
-        schema:person8 ;
-    schema:aggregateRating sw:aggregateRating5 ;
-    schema:datePublished "2014-11-20"^^xsd:date ;
-    schema:director schema:person10 ;
-    schema:duration "PT2H3M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Sci-Fi" ;
-    schema:image sw:image5 ;
-    schema:name "The Hunger Games: Mockingjay - Part 1" .
+###  https://schema.org/director
+schema:director rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range schema:Person .
 
-schema:name a owl:DatatypeProperty ;
-    rdfs:domain owl:Thing ;
-    rdfs:range xsd:string .
 
-schema:ratingValue a owl:DatatypeProperty ;
-    rdfs:domain schema:AggregateRating ;
-    rdfs:range xsd:double .
+###  https://schema.org/image
+schema:image rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:ImageObject .
 
-schema:videoFormat a owl:DatatypeProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range xsd:string .
 
-schema:workPresented a owl:ObjectProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range schema:Movie .
+###  https://schema.org/isBasedOn
+schema:isBasedOn rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 rdfs:domain schema:Movie ;
+                 rdfs:range schema:Movie .
 
-:sequelOf a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie .
 
-sw:aggregateRating0 a schema:AggregateRating ;
-    schema:ratingValue 6.6e+00 .
+###  https://schema.org/location
+schema:location rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range schema:MovieTheater .
 
-sw:aggregateRating1 a schema:AggregateRating ;
-    schema:ratingValue 6.2e+00 .
 
-sw:aggregateRating2 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
+###  https://schema.org/workPresented
+schema:workPresented rdf:type owl:ObjectProperty ;
+                     rdfs:domain schema:ScreeningEvent ;
+                     rdfs:range schema:Movie .
 
-sw:aggregateRating3 a schema:AggregateRating ;
-    schema:ratingValue 7.5e+00 .
 
-sw:aggregateRating4 a schema:AggregateRating ;
-    schema:ratingValue 6.5e+00 .
+#################################################################
+#    Data properties
+#################################################################
 
-sw:aggregateRating5 a schema:AggregateRating ;
-    schema:ratingValue 6.6e+00 .
+###  https://schema.org/address
+schema:address rdf:type owl:DatatypeProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( schema:MovieTheater
+                                           schema:ScreeningEvent
+                                         )
+                           ] ;
+               rdfs:range xsd:string .
 
-sw:image0 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmQyYTlkNWItNWUxNi00NzFiLTg3MDYtM2RkMzAxZGEyMGRmXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" .
 
-sw:image1 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_.jpg" .
+###  https://schema.org/contentUrl
+schema:contentUrl rdf:type owl:DatatypeProperty ;
+                  rdfs:domain schema:ImageObject ;
+                  rdfs:range xsd:string .
 
-sw:image2 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg" .
 
-sw:image3 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_.jpg" .
+###  https://schema.org/datePublished
+schema:datePublished rdf:type owl:DatatypeProperty ;
+                     rdfs:domain schema:Movie ;
+                     rdfs:range xsd:dateTime .
 
-sw:image4 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_.jpg" .
 
-sw:image5 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_.jpg" .
+###  https://schema.org/doorTime
+schema:doorTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range xsd:dateTime .
 
-xsd:duration a rdfs:Datatype .
 
-schema:actor a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Person .
+###  https://schema.org/duration
+schema:duration rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range xsd:duration .
 
-schema:director a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Person .
 
-schema:person2 a schema:Person ;
-    rdfs:label "Kate Winslet"@es ;
-    schema:name "Kate Winslet" .
+###  https://schema.org/genre
+schema:genre rdf:type owl:DatatypeProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range xsd:string .
 
-schema:person3 a schema:Person ;
-    rdfs:label "Neil Burger"@es ;
-    schema:name "Neil Burger" .
 
-schema:person4 a schema:Person ;
-    rdfs:label "Ansel Elgort"@es ;
-    schema:name "Ansel Elgort" .
+###  https://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range xsd:string .
 
-schema:person5 a schema:Person ;
-    rdfs:label "Robert Schwentke"@es ;
-    schema:name "Robert Schwentke" .
 
-schema:person9 a schema:Person ;
-    rdfs:label "Gary Ross"@es ;
-    schema:name "Gary Ross" .
+###  https://schema.org/ratingValue
+schema:ratingValue rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:AggregateRating ;
+                   rdfs:range xsd:double .
 
-schema:MovieTheater a owl:Class .
 
-schema:person0 a schema:Person ;
-    rdfs:label "Shailene Woodley"@es ;
-    schema:name "Shailene Woodley" .
+###  https://schema.org/videoFormat
+schema:videoFormat rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:ScreeningEvent ;
+                   rdfs:range xsd:string .
 
-schema:person1 a schema:Person ;
-    rdfs:label "Theo James"@es ;
-    schema:name "Theo James" .
 
-schema:person10 a schema:Person ;
-    rdfs:label "Francis Lawrence"@es ;
-    schema:name "Francis Lawrence" .
+#################################################################
+#    Classes
+#################################################################
 
-schema:person6 a schema:Person ;
-    rdfs:label "Jennifer Lawrence"@es ;
-    schema:name "Jennifer Lawrence" .
+###  https://schema.org/AggregateRating
+schema:AggregateRating rdf:type owl:Class .
 
-schema:person7 a schema:Person ;
-    rdfs:label "Josh Hutcherson"@es ;
-    schema:name "Josh Hutcherson" .
 
-schema:person8 a schema:Person ;
-    rdfs:label "Liam Hemsworth"@es ;
-    schema:name "Liam Hemsworth" .
+###  https://schema.org/ImageObject
+schema:ImageObject rdf:type owl:Class .
 
-schema:ScreeningEvent a owl:Class .
 
-schema:AggregateRating a owl:Class .
+###  https://schema.org/Movie
+schema:Movie rdf:type owl:Class .
 
-schema:ImageObject a owl:Class .
 
-schema:Person a owl:Class .
+###  https://schema.org/MovieTheater
+schema:MovieTheater rdf:type owl:Class .
 
-schema:Movie a owl:Class .
 
+###  https://schema.org/Person
+schema:Person rdf:type owl:Class .
+
+
+###  https://schema.org/ScreeningEvent
+schema:ScreeningEvent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org#Cine_City
+:Cine_City rdf:type owl:NamedIndividual ,
+                    schema:MovieTheater ;
+           schema:name "Cinema City"^^xsd:string .
+
+
+###  http://www.semanticweb.org#Cine_Rocha
+:Cine_Rocha rdf:type owl:NamedIndividual ,
+                     schema:MovieTheater ;
+            schema:name "Cinema Rocha"^^xsd:string .
+
+
+###  http://www.semanticweb.org#Rocha
+:Rocha rdf:type owl:NamedIndividual ,
+                schema:MovieTheater ;
+       schema:name "Cinema Rocha"^^xsd:string .
+
+
+###  http://www.semanticweb.org#funcion1
+:funcion1 rdf:type owl:NamedIndividual ,
+                   schema:ScreeningEvent ;
+          schema:location :Cine_City ;
+          schema:workPresented schema:movie2 ;
+          schema:doorTime "2022-05-04T16:36:42.261Z"^^xsd:dateTime .
+
+
+###  http://www.semanticweb.org#funcion2
+:funcion2 rdf:type owl:NamedIndividual ,
+                   schema:ScreeningEvent ;
+          schema:location :Cine_Rocha ,
+                          :Rocha ;
+          schema:workPresented schema:movie0 .
+
+
+###  http://www.semanticweb.org/aggregateRating0
+sw:aggregateRating0 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "6.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating1
+sw:aggregateRating1 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "6.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating2
+sw:aggregateRating2 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating3
+sw:aggregateRating3 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.5"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating4
+sw:aggregateRating4 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "6.5"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating5
+sw:aggregateRating5 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "6.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/image0
+sw:image0 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmQyYTlkNWItNWUxNi00NzFiLTg3MDYtM2RkMzAxZGEyMGRmXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image1
+sw:image1 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image2
+sw:image2 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image3
+sw:image3 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image4
+sw:image4 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image5
+sw:image5 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_.jpg" .
+
+
+###  https://schema.org/movie0
+schema:movie0 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              schema:actor schema:person0 ,
+                           schema:person1 ,
+                           schema:person2 ;
+              schema:aggregateRating sw:aggregateRating0 ;
+              schema:director schema:person3 ;
+              schema:image sw:image0 ;
+              schema:datePublished "2014-04-17"^^xsd:date ;
+              schema:duration "PT2H19M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Mystery" ;
+              schema:name "Divergent" ;
+              rdfs:label "Divergent"@en .
+
+
+###  https://schema.org/movie1
+schema:movie1 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              :sequelOf schema:movie0 ;
+              schema:actor schema:person0 ,
+                           schema:person1 ,
+                           schema:person4 ;
+              schema:aggregateRating sw:aggregateRating1 ;
+              schema:director schema:person5 ;
+              schema:image sw:image1 ;
+              schema:datePublished "2015-03-19"^^xsd:date ;
+              schema:duration "PT1H59M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Sci-Fi" ;
+              schema:name "Insurgent" ;
+              rdfs:label "Insurgent"@en .
+
+
+###  https://schema.org/movie2
+schema:movie2 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              schema:actor schema:person6 ,
+                           schema:person7 ,
+                           schema:person8 ;
+              schema:aggregateRating sw:aggregateRating2 ;
+              schema:director schema:person9 ;
+              schema:image sw:image2 ;
+              schema:datePublished "2012-03-23"^^xsd:date ;
+              schema:duration "PT2H22M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Sci-Fi" ;
+              schema:name "The Hunger Games" ;
+              rdfs:label "The Hunger Games"@en .
+
+
+###  https://schema.org/movie3
+schema:movie3 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              :sequelOf schema:movie2 ;
+              schema:actor schema:person6 ,
+                           schema:person7 ,
+                           schema:person8 ;
+              schema:aggregateRating sw:aggregateRating3 ;
+              schema:director schema:person10 ,
+                              schema:person6 ;
+              schema:image sw:image3 ;
+              schema:datePublished "2013-11-21"^^xsd:date ;
+              schema:duration "PT2H26M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Drama" ;
+              schema:name "The Hunger Games: Catching Fire" ;
+              rdfs:label "The Hunger Games: Catching Fire"@en .
+
+
+###  https://schema.org/movie4
+schema:movie4 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              :sequelOf schema:movie5 ;
+              schema:actor schema:person6 ,
+                           schema:person7 ,
+                           schema:person8 ;
+              schema:aggregateRating sw:aggregateRating4 ;
+              schema:director schema:person10 ;
+              schema:image sw:image4 ;
+              schema:datePublished "2015-11-19"^^xsd:date ;
+              schema:duration "PT2H17M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Sci-Fi" ;
+              schema:name "The Hunger Games: Mockingjay - Part 2" ;
+              rdfs:label "The Hunger Games: Mockingjay - Part 2"@en .
+
+
+###  https://schema.org/movie5
+schema:movie5 rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              :sequelOf schema:movie3 ;
+              schema:actor schema:person6 ,
+                           schema:person7 ,
+                           schema:person8 ;
+              schema:aggregateRating sw:aggregateRating5 ;
+              schema:director schema:person10 ;
+              schema:image sw:image5 ;
+              schema:datePublished "2014-11-20"^^xsd:date ;
+              schema:duration "PT2H3M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Adventure" ,
+                           "Sci-Fi" ;
+              schema:name "The Hunger Games: Mockingjay - Part 1" ;
+              rdfs:label "The Hunger Games: Mockingjay - Part 1"@en .
+
+
+###  https://schema.org/person0
+schema:person0 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Shailene Woodley" ;
+               rdfs:label "Shailene Woodley"@en .
+
+
+###  https://schema.org/person1
+schema:person1 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Theo James" ;
+               rdfs:label "Theo James"@en .
+
+
+###  https://schema.org/person10
+schema:person10 rdf:type owl:NamedIndividual ,
+                         schema:Person ;
+                schema:name "Francis Lawrence" ;
+                rdfs:label "Francis Lawrence"@en .
+
+
+###  https://schema.org/person2
+schema:person2 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Kate Winslet" ;
+               rdfs:label "Kate Winslet"@en .
+
+
+###  https://schema.org/person3
+schema:person3 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Neil Burger" ;
+               rdfs:label "Neil Burger"@en .
+
+
+###  https://schema.org/person4
+schema:person4 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Ansel Elgort" ;
+               rdfs:label "Ansel Elgort"@en .
+
+
+###  https://schema.org/person5
+schema:person5 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Robert Schwentke" ;
+               rdfs:label "Robert Schwentke"@en .
+
+
+###  https://schema.org/person6
+schema:person6 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Jennifer Lawrence" ;
+               rdfs:label "Jennifer Lawrence"@en .
+
+
+###  https://schema.org/person7
+schema:person7 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Josh Hutcherson" ;
+               rdfs:label "Josh Hutcherson"@en .
+
+
+###  https://schema.org/person8
+schema:person8 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Liam Hemsworth" ;
+               rdfs:label "Liam Hemsworth"@en .
+
+
+###  https://schema.org/person9
+schema:person9 rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Gary Ross" ;
+               rdfs:label "Gary Ross"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
