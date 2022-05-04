@@ -77,7 +77,8 @@ def add_movie(movie):
     for genre in movie.get("genre") or []:
         add_genre(movie_individual, genre)
         
-    add_director(movie_individual, movie.get("director"))
+    for director in movie.get("director") or []:
+        add_director(movie_individual, director)
 
     add_rating(movie_individual, movie.get("aggregateRating"))
 
@@ -85,11 +86,11 @@ def add_movie(movie):
     
 if __name__ == "__main__":
     recolectar_imdb()
-    with open('../data/mergeado.json', encoding='utf-8') as fh:
+    with open('data/mergeado.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 
 
-    g.parse("movies.ttl", format='ttl', encoding="utf-8")
+    g.parse("data/movies.ttl", format='ttl', encoding="utf-8")
 
     for movie in json_peliculas:
         add_movie(movie)
