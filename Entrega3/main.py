@@ -1,6 +1,7 @@
 import json
 from rdflib import Graph, Literal, RDF, RDFS, URIRef, OWL, Namespace
 from rdflib.namespace import FOAF , XSD
+from datetime import datetime
 
 BASE_URL = Namespace("http://www.semanticweb.org/")
 BASE_SCHEMAORG_URL = Namespace("https://schema.org/")
@@ -12,61 +13,68 @@ g.bind("sw", BASE_URL)
 def count_individuals_of(node_type: str, url= BASE_URL):
     return len(list(g.triples((None, RDF.type, url[node_type]))))
 
-def add_individual(node_type, label):
+def add_individual(node_type, label, url=BASE_URL):
     
     for s, p, o in g.triples((None, RDFS.label, Literal(label,  lang= "es"))):
         return s
 
-    individual= BASE_URL[node_type.lower()+str(count_individuals_of(node_type))]
-    g.add((individual, RDF.type, BASE_URL[node_type]))
-    g.add((individual, RDFS.label, Literal(label, lang= "es")))
+    individual= url[node_type.lower()+str(count_individuals_of(node_type, url))]
+    g.add((individual, RDF.type, url[node_type]))
+    g.add((individual, RDFS.label, Literal(label, lang="es")))
+    g.add((individual, BASE_SCHEMAORG_URL["name"], Literal(label)))
     return individual 
 
 def add_actor(movie, actor):
     actor= add_individual(
-            "Actor",
-            actor.get("name")
+            actor.get("@type"),
+            actor.get("name"),
+            url= BASE_SCHEMAORG_URL
         )
     g.add((movie, BASE_SCHEMAORG_URL["actor"], actor))
-    g.add((actor, BASE_URL["playsIn"], movie))
 
 def add_genre(movie, genre):
-    g.add((movie, BASE_URL["hasGenre"], add_individual(
-            "Genre",
-            genre
-        )))
+    g.add((movie, BASE_SCHEMAORG_URL["genre"], Literal(genre)))
     
 def add_director(movie, director):
     g.add((movie, BASE_SCHEMAORG_URL["director"], add_individual(
-            "Director",
-            director.get("name")
+            director.get("@type"),
+            director.get("name"),
+            url= BASE_SCHEMAORG_URL
         )))
 
 def add_rating(movie, rating):
     rating_individual= BASE_URL["aggregateRating"+str(count_individuals_of("AggregateRating", url=BASE_SCHEMAORG_URL))]
 
     g.add((rating_individual, RDF.type, BASE_SCHEMAORG_URL["AggregateRating"]))
-    g.add((rating_individual, BASE_URL["ratingValue"], Literal(rating.get("ratingValue"))))
+    g.add((rating_individual, BASE_SCHEMAORG_URL["ratingValue"], Literal(rating.get("ratingValue"))))
     g.add((movie, BASE_SCHEMAORG_URL["aggregateRating"], rating_individual))
+
+
+def add_image(movie, image):
+    image_individual= BASE_URL["image"+str(count_individuals_of("ImageObject", url=BASE_SCHEMAORG_URL))]
+    g.add((image_individual, RDF.type, BASE_SCHEMAORG_URL["ImageObject"]))
+    g.add((image_individual, BASE_SCHEMAORG_URL["contentUrl"], Literal(image)))
+    return image_individual
 
 def add_movie(movie):
     movie_individual= add_individual(
         movie.get("@type"),
-        movie.get("name")
+        movie.get("name"),
+        url= BASE_SCHEMAORG_URL
     )
     
-    g.add((movie_individual, BASE_URL["duration"], Literal(movie.get("duration")))) if movie.get("duration") else None
-    g.add((movie_individual, BASE_SCHEMAORG_URL["dateCreated"], Literal(movie.get("datePublished"), datatype=BASE_SCHEMAORG_URL["Date"]))) if movie.get("datePublished") else None
+    g.add((movie_individual, BASE_SCHEMAORG_URL["duration"], Literal(movie.get("duration"), datatype= XSD.duration))) if movie.get("duration") else None
+    g.add((movie_individual, BASE_SCHEMAORG_URL["image"], add_image(movie_individual, movie.get("image")))) if movie.get("image") else None
+
+    g.add((movie_individual, BASE_SCHEMAORG_URL["datePublished"], Literal(datetime.strptime(movie.get("datePublished"), '%Y-%m-%d').isoformat(), datatype=XSD.date))) if movie.get("datePublished") else None
 
     for actor in movie.get("actor") or []:
         add_actor(movie_individual, actor)
-    
 
     for genre in movie.get("genre") or []:
         add_genre(movie_individual, genre)
         
-    for director in movie.get("director") or []:
-        add_director(movie_individual, director)
+    add_director(movie_individual, movie.get("director"))
 
     add_rating(movie_individual, movie.get("aggregateRating"))
 

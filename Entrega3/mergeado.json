@@ -1,433 +1,638 @@
 [
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Movie",
-        "name": "Batman",
-        "datePublished": "2022-03-03",
+        "url": "/title/tt1840309/",
+        "name": "Divergent",
+        "alternateName": "Divergente",
+        "image": "https://m.media-amazon.com/images/M/MV5BMmQyYTlkNWItNWUxNi00NzFiLTg3MDYtM2RkMzAxZGEyMGRmXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+        "description": "In a world divided by factions based on virtues, Tris learns she&apos;s Divergent and won&apos;t fit in. When she discovers a plot to destroy Divergents, Tris and the mysterious Four must find out what makes Divergents dangerous before it&apos;s...",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1840309/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Bruce722"
+            },
+            "dateCreated": "2014-04-06",
+            "inLanguage": "English",
+            "name": "Mediocre at best.",
+            "reviewBody": "When reading the book, I had concerns about how well it would translate to film. It&apos;s a book without much action and most of the narrative is internalized to the protagonist. Books like that tend to struggle to adapt well and Divergent is no different. The director tried to make changes to the story in order to try and make it work but I honestly think it was futile. It&apos;s just not a good story for a 2-hour interpretation. Even at that, I would rather have seen the story stay true and struggle to adapt than change and struggle. All in all, it was set up to fail from the beginning. Shailene Woodley and Theo James gave solid performances and the special effects and action sequences were done well but they made the film watchable and slightly enjoyable at best.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 5
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 451032,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 6.6
+        },
+        "contentRating": "13",
         "genre": [
-            "Drama",
-            "Delito",
-            "Aventura",
-            "Acción",
-            "Intriga",
-            "Suspenso"
+            "Action",
+            "Adventure",
+            "Mystery"
         ],
-        "duration": "PT2H56M",
+        "datePublished": "2014-04-17",
+        "keywords": "dystopia,brother sister relationship,based on young adult novel,army,wargames",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Exclusive TV Spot",
+            "embedUrl": "/video/imdb/vi2683742745",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTgzMDYxNTU1M15BMl5BanBnXkFtZTgwOTI3NzkyMTE@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTgzMDYxNTU1M15BMl5BanBnXkFtZTgwOTI3NzkyMTE@._V1_.jpg",
+            "description": "Watch the exclusive TV spot &quot;Fighting Back&quot; for Divergent, starring Shailene Woodley, Theo James, Kate Winslet, Ashley Judd, and Zoe Kravitz."
+        },
         "actor": [
             {
                 "@type": "Person",
-                "name": "Colin Farrell"
+                "url": "/name/nm0940362/",
+                "name": "Shailene Woodley"
             },
             {
                 "@type": "Person",
-                "name": "Alex Ferns"
+                "url": "/name/nm3772243/",
+                "name": "Theo James"
             },
             {
                 "@type": "Person",
-                "name": "Zöe Kravitz"
-            },
-            {
-                "@type": "Person",
-                "name": "Janine Harouni"
-            },
-            {
-                "@type": "Person",
-                "name": "Peter Mcdonald"
-            },
-            {
-                "@type": "Person",
-                "name": "Barry Keoghan"
-            },
-            {
-                "@type": "Person",
-                "name": "John Turturro"
-            },
-            {
-                "@type": "Person",
-                "name": "Zoë Kravitz"
-            },
-            {
-                "@type": "Person",
-                "name": "Gil Perez-Abraham"
-            },
-            {
-                "@type": "Person",
-                "name": "Con O'Neill"
-            },
-            {
-                "@type": "Person",
-                "name": "Jayme Lawson"
-            },
-            {
-                "@type": "Person",
-                "name": "Paul Dano"
-            },
-            {
-                "@type": "Person",
-                "name": "Peter Sarsgaard"
-            },
-            {
-                "@type": "Person",
-                "name": "Rupert Penry-Jones"
-            },
-            {
-                "@type": "Person",
-                "name": "Robert Pattinson"
-            },
-            {
-                "@type": "Person",
-                "name": "Kosha Engler"
-            },
-            {
-                "@type": "Person",
-                "name": "Andy Serkis"
-            },
-            {
-                "@type": "Person",
-                "name": "Jeffrey Wright"
+                "url": "/name/nm0000701/",
+                "name": "Kate Winslet"
             }
         ],
-        "image": [
-            [
-                "https://pics.filmaffinity.com/the_batman-449856406-mmed.jpg",
-                {
-                    "@type": "ImageObject",
-                    "url": "https://img.ecartelera.com/carteles/11100/11185/001_p.jpg"
-                },
-                "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg",
-                "https://resizing.flixster.com/wCeMkwGtJnDI_3idIpt_bP9E6Ng=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/119/558/thumb_E73CC7F6-2A6D-4091-8B93-920C6DE6D730.jpg"
-            ]
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm1139726/",
+                "name": "Neil Burger"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0046206/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0093794/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2489193/",
+                "name": "Evan Daugherty"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0961827/",
+                "name": "Vanessa Taylor"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm4316121/",
+                "name": "Veronica Roth"
+            }
         ],
-        "aggregateRating": {
-            "bestRating": 10,
-            "worstRating": 0,
-            "ratingValue": 8.0
-        }
+        "duration": "PT2H19M"
     },
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Movie",
-        "name": "CODA",
-        "datePublished": "2021-10-21",
-        "genre": [
-            "Drama",
-            "Comedia",
-            "Música"
-        ],
-        "duration": "PT1H51M",
-        "director": [
-            {
-                "@type": "Person",
-                "name": "Sian Heder"
-            }
-        ],
-        "actor": [
-            {
-                "@type": "Person",
-                "name": "Troy Kotsur"
+        "url": "/title/tt2908446/",
+        "name": "Insurgent",
+        "alternateName": "Insurgente",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_.jpg",
+        "description": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt2908446/"
             },
-            {
+            "author": {
                 "@type": "Person",
-                "name": "Marlee Matlin"
+                "name": "afsanehnajmi"
             },
-            {
-                "@type": "Person",
-                "name": "Emilia Jones"
+            "dateCreated": "2021-04-18",
+            "inLanguage": "English",
+            "name": "Confused!!!",
+            "reviewBody": "Am i the only person think that this is a mix of hunger games &amp; maze runner series?!!!",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 6
             }
-        ],
-        "image": [
-            [
-                "https://m.media-amazon.com/images/M/MV5BYzkyNzNiMDItMGU1Yy00NmEyLWE4N2ItMjkzMDZmMmVhNDU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-                "https://resizing.flixster.com/6K5guzmeFQ8x_fPC-mPz0Ryd3RM=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/101/822/thumb_A2D6D5BD-7730-464E-A055-3AF98719A771.jpg"
-            ]
-        ],
+        },
         "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 233084,
             "bestRating": 10,
-            "worstRating": 0,
-            "ratingValue": 8.7
-        }
-    },
-    {
-        "@context": "http://schema.org",
-        "@type": "Movie",
-        "name": "Animales Fantásticos: Los secretos de Dumbledore",
-        "datePublished": "2022-04-15",
-        "genre": [
-            "Lujoso",
-            "Aventura",
-            "Fantasía",
-            "Familia"
-        ],
-        "duration": "PT2H22M",
-        "director": [
-            {
-                "@type": "Person",
-                "name": "David Yates"
-            }
-        ],
-        "actor": [
-            {
-                "@type": "Person",
-                "name": "Jude Law"
-            },
-            {
-                "@type": "Person",
-                "name": "Jessica Williams"
-            },
-            {
-                "@type": "Person",
-                "name": "Eddie Redmayne"
-            },
-            {
-                "@type": "Person",
-                "name": "Alison Sudol"
-            },
-            {
-                "@type": "Person",
-                "name": "Ezra Miller"
-            },
-            {
-                "@type": "Person",
-                "name": "Katherine Waterston"
-            },
-            {
-                "@type": "Person",
-                "name": "Dan Fogler"
-            }
-        ],
-        "image": [
-            [
-                {
-                    "@type": "ImageObject",
-                    "url": "https://img.ecartelera.com/carteles/14300/14337/002_p.jpg"
-                },
-                "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg",
-                "https://resizing.flixster.com/RB4YG8-T8tCWK4guhRj8iPMeoOQ=/740x380/v2/https://statcdn.fandango.com/MPX/image/NBCU_Fandango/40/1023/thumb_ED7B5FF6-E9D6-4D33-8523-4251822857E3.jpg"
-            ]
-        ],
-        "aggregateRating": {
-            "bestRating": 10,
-            "worstRating": 0,
-            "ratingValue": 6.033333333333334
-        }
-    },
-    {
-        "@context": "http://schema.org",
-        "@type": "Movie",
-        "name": "CODA: Los sonidos del silencio",
-        "genre": [
-            "Drama",
-            "Música"
-        ],
-        "duration": "PT1H51M",
-        "director": [
-            {
-                "@type": "Person",
-                "name": "Sian Heder"
-            }
-        ],
-        "actor": [
-            {
-                "@type": "Person",
-                "name": "Eugenio Derbez"
-            },
-            {
-                "@type": "Person",
-                "name": "Marlee Matlin"
-            },
-            {
-                "@type": "Person",
-                "name": "Ferdia Walsh-Peelo"
-            },
-            {
-                "@type": "Person",
-                "name": "Amy Forsyth"
-            },
-            {
-                "@type": "Person",
-                "name": "Emilia Jones"
-            },
-            {
-                "@type": "Person",
-                "name": "Kevin Chapman"
-            }
-        ],
-        "image": [
-            [
-                {
-                    "@type": "ImageObject",
-                    "url": "https://img.ecartelera.com/carteles/17000/17001/001_p.jpg"
-                }
-            ]
-        ],
-        "aggregateRating": {
-            "bestRating": 10,
-            "worstRating": 0,
+            "worstRating": 1,
             "ratingValue": 6.2
-        }
-    },
-    {
-        "@context": "http://schema.org",
-        "@type": "Movie",
-        "name": "Batman: El caballero de la noche",
+        },
+        "contentRating": "13",
         "genre": [
-            "Drama",
-            "Suspenso",
-            "Acción"
+            "Action",
+            "Adventure",
+            "Sci-Fi"
         ],
+        "datePublished": "2015-03-19",
+        "keywords": "on the run,action heroine,truth serum,trainhopping,mind control",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Final Trailer",
+            "embedUrl": "/video/imdb/vi4100435481",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTQ3MDQyNjYxNV5BMl5BanBnXkFtZTgwNTE4ODY2NDE@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTQ3MDQyNjYxNV5BMl5BanBnXkFtZTgwNTE4ODY2NDE@._V1_.jpg",
+            "description": "Beatrice Prior must confront her inner demons and continue her fight against a powerful alliance which threatens to tear her society apart with the help from others on her side."
+        },
         "actor": [
             {
                 "@type": "Person",
-                "name": "Chin Han"
+                "url": "/name/nm0940362/",
+                "name": "Shailene Woodley"
             },
             {
                 "@type": "Person",
-                "name": "David Dastmalchian"
+                "url": "/name/nm5052065/",
+                "name": "Ansel Elgort"
             },
             {
                 "@type": "Person",
-                "name": "Eric Roberts"
-            },
-            {
-                "@type": "Person",
-                "name": "Joshua Harto"
-            },
-            {
-                "@type": "Person",
-                "name": "Maggie Gyllenhaal"
-            },
-            {
-                "@type": "Person",
-                "name": "Cillian Murphy"
-            },
-            {
-                "@type": "Person",
-                "name": "Gary Oldman"
-            },
-            {
-                "@type": "Person",
-                "name": "Ritchie Coster"
-            },
-            {
-                "@type": "Person",
-                "name": "Colin Mcfarlane"
-            },
-            {
-                "@type": "Person",
-                "name": "Heath Ledger"
-            },
-            {
-                "@type": "Person",
-                "name": "Tommy 'Tiny' Lister"
-            },
-            {
-                "@type": "Person",
-                "name": "Melinda Mcgraw"
-            },
-            {
-                "@type": "Person",
-                "name": "William Fichtner"
-            },
-            {
-                "@type": "Person",
-                "name": "Aaron Eckhart"
-            },
-            {
-                "@type": "Person",
-                "name": "Keith Szarabajka"
-            },
-            {
-                "@type": "Person",
-                "name": "Michael Caine"
-            },
-            {
-                "@type": "Person",
-                "name": "Christian Bale"
-            },
-            {
-                "@type": "Person",
-                "name": "Nathan Gamble"
-            },
-            {
-                "@type": "Person",
-                "name": "Monique Gabriela Curnen"
-            },
-            {
-                "@type": "Person",
-                "name": "Morgan Freeman"
-            },
-            {
-                "@type": "Person",
-                "name": "Nestor Carbonell"
-            },
-            {
-                "@type": "Person",
-                "name": "Ron Dean"
-            },
-            {
-                "@type": "Person",
-                "name": "Michael Jai White"
+                "url": "/name/nm3772243/",
+                "name": "Theo James"
             }
         ],
-        "image": [
-            [
-                "https://pics.filmaffinity.com/the_dark_knight-102763119-mmed.jpg"
-            ]
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm0777881/",
+                "name": "Robert Schwentke"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0046206/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0093794/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0064942/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm3929259/",
+                "name": "Brian Duffield"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0326040/",
+                "name": "Akiva Goldsman"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0093560/",
+                "name": "Mark Bomback"
+            }
         ],
-        "aggregateRating": {
-            "bestRating": 10,
-            "worstRating": 0,
-            "ratingValue": 8.1
-        }
+        "duration": "PT1H59M"
     },
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Movie",
-        "name": "Rápidos y furiosos: Espías al volante (Serie de TV)",
+        "url": "/title/tt1392170/",
+        "name": "The Hunger Games",
+        "alternateName": "Los juegos del hambre",
+        "image": "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg",
+        "description": "Katniss Everdeen voluntarily takes her younger sister&apos;s place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1392170/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "mollygershon"
+            },
+            "dateCreated": "2020-06-06",
+            "inLanguage": "English",
+            "name": "It is not the most accurate, but it is good",
+            "reviewBody": "The movie is not the most accurate but it is pretty good. I love the plot and the feeling of justice. This movie is like the year 2020",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 7
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 897361,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 7.2
+        },
+        "contentRating": "13",
         "genre": [
-            "Animación",
-            "Acción",
-            "Series de Televisión"
+            "Action",
+            "Adventure",
+            "Sci-Fi"
         ],
-        "director": [
+        "datePublished": "2012-03-23",
+        "keywords": "female protagonist,self survival,tough girl,teenage killer,child murderer",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Blu-ray &amp; DVD",
+            "embedUrl": "/video/imdb/vi3358368281",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTM0NjQ4OTgyNV5BMl5BanBnXkFtZTcwOTU2MzQ4Nw@@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTM0NjQ4OTgyNV5BMl5BanBnXkFtZTcwOTU2MzQ4Nw@@._V1_.jpg",
+            "description": "The Hunger Games is coming to Blu-ray, DVD, On Demand, and Digital Download on 8/18/12. "
+        },
+        "actor": [
             {
                 "@type": "Person",
-                "name": "Eugene Lee"
+                "url": "/name/nm2225369/",
+                "name": "Jennifer Lawrence"
             },
             {
                 "@type": "Person",
-                "name": "Bret Haaland"
+                "url": "/name/nm1242688/",
+                "name": "Josh Hutcherson"
             },
             {
                 "@type": "Person",
-                "name": "Tim Hedrick"
-            },
-            {
-                "@type": "Person",
-                "name": "Micah Gunnell"
-            },
-            {
-                "@type": "Person",
-                "name": "Leo Riley"
-            },
-            {
-                "@type": "Person",
-                "name": "George Gipson"
-            },
-            {
-                "@type": "Person",
-                "name": "James Yang"
+                "url": "/name/nm2955013/",
+                "name": "Liam Hemsworth"
             }
         ],
-        "image": [
-            [
-                "https://pics.filmaffinity.com/fast_furious_spy_racers-765480154-mmed.jpg"
-            ]
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm0002657/",
+                "name": "Gary Ross"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0173285/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0212151/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0002657/",
+                "name": "Gary Ross"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1056741/",
+                "name": "Suzanne Collins"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0712753/",
+                "name": "Billy Ray"
+            }
         ],
+        "duration": "PT2H22M"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt1951264/",
+        "name": "The Hunger Games: Catching Fire",
+        "alternateName": "Los juegos del hambre: En llamas",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_.jpg",
+        "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1951264/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "Mike-DD"
+            },
+            "dateCreated": "2014-03-16",
+            "inLanguage": "English",
+            "name": "It&apos;s Not Battle Royale Because It&apos;s Not Supposed To Be",
+            "reviewBody": "An earlier reviewer compared this to the Japanese cult favorite Battle Royale and decided it was almost junk. I beg to differ - the film needs to be evaluated on its own merits and its own story. Battle Royale is a single story about merciless, wanton and senseless violence and depravity when the aim was simply to be the last to survive - a kill- fest, where the innovative ways of killing serve to shock and titillate the audience but do little for the plot. The Hunger Games however, is about oppression, fighting back and revolution. The Games, though pivotal, are still part of a larger story.\n\nCompared to the first film, this one is definitely darker. The characters look even more despondent than ever, and if you thought there were few laughs in the first film, there is practically none in this. Even the brightly-lit scenes featuring cheering crowds and smiling hosts seemed dim, bleak and depressing. While enjoying the witty banter, you couldn&apos;t help but wait for the &apos;but...&apos;. The feeling of doom and gloom persists from the start to the end of the film. It is not a bad thing though - it is not supposed to be a happy movie.\n\nMany details and subplots were understandably cut from the film adaptation, but none that were critical to the plot of the film. However, a lot of the peripheral action that were in the book is missing here, hence, though the story moves quickly enough, there is always the feeling that for an action-thriller, there aren&apos;t enough fights or explosions. The ones they movie do have aren&apos;t exciting or grand enough.\n\nBut in terms of story-telling, the movie still works to move from the first film and prepare for the third. The seeds of revolution have been planted and watered, and we now prepare for the maturing and harvesting.\n\nJennifer Lawrence didn&apos;t do as well here as in the last film, probably because most of the growing needed has been done previously. Josh Hutcherson though, put in a better performance. While he may previously be the injured lovestruck puppy dog, his maturing into a more complex character in this movie means he starts carrying more of the film.\n\nEmotionally, this movie affected me less than the last one. Maybe it&apos;s partly because I know what is coming, but that accounts for a very minor percentage. Mostly it&apos;s because the film is unable to engage your baser emotions - nothing that truly tugs at your heartstrings. The pervading gloom also seems to have sapped any ability to feel more despondent than you think you already are.\n\nIt is still a movie that can be enjoyed though, and I did enjoy it enough. Hopefully the next film will provide for more emotional variance. If you don&apos;t feel for the characters, you won&apos;t care about the film.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 7
+            }
+        },
         "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 650531,
             "bestRating": 10,
-            "worstRating": 0,
-            "ratingValue": 4.9
-        }
+            "worstRating": 1,
+            "ratingValue": 7.5
+        },
+        "contentRating": "13",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "datePublished": "2013-11-21",
+        "keywords": "dictator,based on young adult novel,female protagonist,action heroine,katniss everdeen character",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Final Trailer",
+            "embedUrl": "/video/imdb/vi4243236889",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMjIwMTM1NjA2NV5BMl5BanBnXkFtZTgwNzA2NDU1NDE@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMjIwMTM1NjA2NV5BMl5BanBnXkFtZTgwNzA2NDU1NDE@._V1_.jpg",
+            "description": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem.  "
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm2225369/",
+                "name": "Jennifer Lawrence"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1242688/",
+                "name": "Josh Hutcherson"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2955013/",
+                "name": "Liam Hemsworth"
+            }
+        ],
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm1349376/",
+                "name": "Francis Lawrence"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0212151/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0173285/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0064479/",
+                "name": "Simon Beaufoy"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1578335/",
+                "name": "Michael Arndt"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1056741/",
+                "name": "Suzanne Collins"
+            }
+        ],
+        "duration": "PT2H26M"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt1951266/",
+        "name": "The Hunger Games: Mockingjay - Part 2",
+        "alternateName": "Los juegos del hambre: Sinsajo - Parte 2",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_.jpg",
+        "description": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem.",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1951266/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "tjgoalie13"
+            },
+            "dateCreated": "2015-11-22",
+            "inLanguage": "English",
+            "name": "An Action Packed Film, That Overcomes It&apos;s Weak Script.",
+            "reviewBody": "Mockingjay Part 2 serves as an entertaining, and somewhat satisfying finale of the strung out franchise. To be clear, the film is entertaining, and fans of the previous films will surely be happy, but just know the franchise clearly peaked with Catching Fire. The Franchise has since bloated it&apos;s final film for no other good reason, than to make extra money. All-in-all Mockingjay Part 2 is action packed, often entertaining, but falls victim to a somewhat weak script.\n\nMockingjay Part 2 gives us what Mockingjay Part 1 didn&apos;t, more action. Mockingjay Part 2 reverts back to the formula that made Catching Fire so great, while continuing the story of Mockingjay Part 1. By that I mean that the film gives fans a good mix of entertaining action sequences mixed with romance. However, at this point the romantic triangle feels so forced it&apos;s more of a distraction, than a sub-plot.\n\nThe action helps make the film entertaining, but what really makes the film is Jennifer Lawrence&apos;s commitment to anchoring the films. At the this point Lawrence has made Katniss Everdeen an extension of herself, to the point that she embodies the character. The grim tone, mixed with the meandering story make Mockingjay Part 2 entertaining from start to finish. However, the film does contain some major weaknesses, especially in it&apos;s script.\n\nWhile the story is full of twists and turns, it&apos;s still a little to bloated, as it would have been better if the studio had just made Mockingjay into 1 movie. The dialogue, is inconsistent and often too on-the-nose, with characters delivering out of place exposition. While the story has a very good plot twist near the end of the film, it doesn&apos;t handle it well, as the story just jumps all over the place in the end. The film also offered very little new substance to the franchise, in the end it would have been a great finale to a singular film.\n\nThrough all of it&apos;s issues, Mockingjay Part 2 helps the franchise come to a satisfying end. Mockingjay Part 2 improves on what Mockingjay Part 1 did, and is probably the better film, but still isn&apos;t as good as Catching Fire. The film is thoroughly entertaining, and is full of action despite it&apos;s script&apos;s weaknesses. In the end Mockingjay Part 2 is a good way to spend 2 hours, and is a good ending for the Hunger Games franchise.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 8
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 316490,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 6.5
+        },
+        "contentRating": "13",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "datePublished": "2015-11-19",
+        "keywords": "dystopia,rebellion,revolution,brainwashing,execution",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Final International Trailer",
+            "embedUrl": "/video/imdb/vi1500427033",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMTU1NTE0NDc4NV5BMl5BanBnXkFtZTgwMzE4NTc5NjE@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMTU1NTE0NDc4NV5BMl5BanBnXkFtZTgwMzE4NTc5NjE@._V1_.jpg",
+            "description": "After being symbolized as the &quot;Mockingjay&quot;, Katniss Everdeen and District 13 engage in an all-out revolution against the autocratic Capitol."
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm2225369/",
+                "name": "Jennifer Lawrence"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1242688/",
+                "name": "Josh Hutcherson"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2955013/",
+                "name": "Liam Hemsworth"
+            }
+        ],
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm1349376/",
+                "name": "Francis Lawrence"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0173285/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0212151/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0053177/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0185976/",
+                "name": "Peter Craig"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0834960/",
+                "name": "Danny Strong"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1056741/",
+                "name": "Suzanne Collins"
+            }
+        ],
+        "duration": "PT2H17M"
+    },
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "url": "/title/tt1951265/",
+        "name": "The Hunger Games: Mockingjay - Part 1",
+        "alternateName": "Los juegos del hambre: Sinsajo - Parte 1",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_.jpg",
+        "description": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her...",
+        "review": {
+            "@type": "Review",
+            "itemReviewed": {
+                "@type": "CreativeWork",
+                "url": "/title/tt1951265/"
+            },
+            "author": {
+                "@type": "Person",
+                "name": "superfly468"
+            },
+            "dateCreated": "2014-11-20",
+            "inLanguage": "English",
+            "name": "Disappointing",
+            "reviewBody": "Great acting from the cast; especially Jennifer Lawrence, the characters were as believable and entertaining as they were in previous films, this is pretty much the highlight of the film.\n\nThe plot however was dull and uneventful, as in nothing really went anywhere. in the majority of the film there was no tension; for the most part it was basically &quot;stuff happens in a bunker for 2 hours: The Movie.&quot; which is super disappointing because although I haven&apos;t read the books; I&apos;m told by people that have that they skipped a bunch of the action and downplayed the apparent love triangle.\n\nIf you wanted an action packed flick like the first two or you are the type of fan who doesn&apos;t like stuff in the book to be left out, you will be sorely disappointed as this is clearly a filler movie to get some extra $$$ before the series ends.\n\nwait for DVD.",
+            "reviewRating": {
+                "@type": "Rating",
+                "worstRating": 1,
+                "bestRating": 10,
+                "ratingValue": 5
+            }
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingCount": 444611,
+            "bestRating": 10,
+            "worstRating": 1,
+            "ratingValue": 6.6
+        },
+        "contentRating": "13",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "datePublished": "2014-11-20",
+        "keywords": "uprising,based on young adult novel,rebellion,symbol,manipulation",
+        "trailer": {
+            "@type": "VideoObject",
+            "name": "Final Trailer - &quot;Burn&quot;",
+            "embedUrl": "/video/imdb/vi675262233",
+            "thumbnail": {
+                "@type": "ImageObject",
+                "contentUrl": "https://m.media-amazon.com/images/M/MV5BMjAwNTQ4NjE1NV5BMl5BanBnXkFtZTgwMDk1MzYyMzE@._V1_.jpg"
+            },
+            "thumbnailUrl": "https://m.media-amazon.com/images/M/MV5BMjAwNTQ4NjE1NV5BMl5BanBnXkFtZTgwMDk1MzYyMzE@._V1_.jpg",
+            "description": "Watch the final trailer for The Hunger Games: Mockingjay - Part 1."
+        },
+        "actor": [
+            {
+                "@type": "Person",
+                "url": "/name/nm2225369/",
+                "name": "Jennifer Lawrence"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1242688/",
+                "name": "Josh Hutcherson"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm2955013/",
+                "name": "Liam Hemsworth"
+            }
+        ],
+        "director": {
+                "@type": "Person",
+                "url": "/name/nm1349376/",
+                "name": "Francis Lawrence"
+        },
+        "creator": [
+            {
+                "@type": "Organization",
+                "url": "/company/co0173285/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0212151/"
+            },
+            {
+                "@type": "Organization",
+                "url": "/company/co0382272/"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0185976/",
+                "name": "Peter Craig"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm0834960/",
+                "name": "Danny Strong"
+            },
+            {
+                "@type": "Person",
+                "url": "/name/nm1056741/",
+                "name": "Suzanne Collins"
+            }
+        ],
+        "duration": "PT2H3M"
     }
 ]
