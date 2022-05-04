@@ -2,6 +2,9 @@ import json
 from rdflib import Graph, Literal, RDF, RDFS, URIRef, OWL, Namespace
 from rdflib.namespace import FOAF , XSD
 from datetime import datetime
+from recolector import recolectar_imdb
+
+
 
 BASE_URL = Namespace("http://www.semanticweb.org/")
 BASE_SCHEMAORG_URL = Namespace("https://schema.org/")
@@ -78,15 +81,18 @@ def add_movie(movie):
 
     add_rating(movie_individual, movie.get("aggregateRating"))
 
-with open('mergeado.json', encoding='utf-8') as fh:
-    json_peliculas = json.load(fh)
 
-
-g.parse("movies.ttl", format='ttl', encoding="utf-8")
-
-for movie in json_peliculas:
-    add_movie(movie)
     
+if __name__ == "__main__":
+    recolectar_imdb()
+    with open('../data/mergeado.json', encoding='utf-8') as fh:
+        json_peliculas = json.load(fh)
 
-g.serialize("output.ttl", format="ttl", encoding="utf-8")
-    
+
+    g.parse("movies.ttl", format='ttl', encoding="utf-8")
+
+    for movie in json_peliculas:
+        add_movie(movie)
+        
+
+    g.serialize("output.ttl", format="ttl", encoding="utf-8")

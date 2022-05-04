@@ -54,10 +54,19 @@ xsd:duration rdf:type rdfs:Datatype .
           rdfs:range schema:Movie .
 
 
+###  http://www.semanticweb.org#worksWith
+:worksWith rdf:type owl:ObjectProperty ,
+                    owl:SymmetricProperty ,
+                    owl:IrreflexiveProperty ;
+           rdfs:domain schema:Person ;
+           rdfs:range schema:Person .
+
+
 ###  https://schema.org/actor
 schema:actor rdf:type owl:ObjectProperty ;
              rdfs:domain schema:Movie ;
-             rdfs:range schema:Person .
+             rdfs:range schema:Person ;
+             owl:propertyDisjointWith schema:director .
 
 
 ###  https://schema.org/aggregateRating
@@ -362,8 +371,7 @@ schema:movie3 rdf:type owl:NamedIndividual ,
                            schema:person7 ,
                            schema:person8 ;
               schema:aggregateRating sw:aggregateRating3 ;
-              schema:director schema:person10 ,
-                              schema:person6 ;
+              schema:director schema:person10 ;
               schema:image sw:image3 ;
               schema:datePublished "2013-11-21"^^xsd:date ;
               schema:duration "PT2H26M"^^xsd:duration ;
@@ -464,6 +472,8 @@ schema:person5 rdf:type owl:NamedIndividual ,
 ###  https://schema.org/person6
 schema:person6 rdf:type owl:NamedIndividual ,
                         schema:Person ;
+               :worksWith schema:person7 ,
+                          schema:person8 ;
                schema:name "Jennifer Lawrence" ;
                rdfs:label "Jennifer Lawrence"@en .
 
