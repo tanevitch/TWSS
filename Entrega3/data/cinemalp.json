@@ -1,0 +1,830 @@
+[
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 16:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala 4d+3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 16:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:50",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:05",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:40",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 16:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala atmos hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 17:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala 3d"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 14:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Doctor Strange in the Multiverse of Madness"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 16:20",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:25",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:05",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:20",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 17:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Fantastic Beasts: The Secrets of Dumbledore"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 16:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:40",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:20",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Batman"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Official Competition"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 17:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Doctor Strange in the Multiverse of Madness"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:50",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Good Boss"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Good Boss"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:25",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 17:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Good Boss"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 19:25",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 21:15",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:05",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Good Boss"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:25",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Good Boss"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Jack in the Box"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Lost City"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "The Lost City"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 23:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Morbius"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 14:50",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Sing 2"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema City"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 20:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Ocho"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 17:45",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:20",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Paradiso"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:20",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 18:10",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Sing 2"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 22:50",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            },
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 13:00",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema Rocha"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Sing 2"
+    },
+    {
+        "@type": "Movie",
+        "events": [
+            {
+                "@type": "ScreeningEvent",
+                "doorTime": "2022-05-07 15:30",
+                "location": {
+                    "@type": "MovieTheater",
+                    "name": "Cinema San Martin"
+                },
+                "videoFormat": "sala hd"
+            }
+        ],
+        "name": "Uncharted"
+    }
+]

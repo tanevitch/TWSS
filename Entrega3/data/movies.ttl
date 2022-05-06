@@ -47,6 +47,13 @@ xsd:duration rdf:type rdfs:Datatype .
             rdfs:range schema:Movie .
 
 
+###  http://www.semanticweb.org#playedIn
+:playedIn rdf:type owl:ObjectProperty ;
+          owl:inverseOf schema:workPresented ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:ScreeningEvent .
+
+
 ###  http://www.semanticweb.org#sequelOf
 :sequelOf rdf:type owl:ObjectProperty ,
                    owl:TransitiveProperty ;
