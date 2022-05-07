@@ -4,7 +4,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:00",
+                "doorTime": "2022-05-08 20:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -13,7 +13,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 16:30",
+                "doorTime": "2022-05-08 16:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -22,7 +22,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:30",
+                "doorTime": "2022-05-08 13:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -31,7 +31,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:30",
+                "doorTime": "2022-05-08 22:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -40,7 +40,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:30",
+                "doorTime": "2022-05-08 19:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -49,7 +49,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:00",
+                "doorTime": "2022-05-08 23:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -58,7 +58,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:45",
+                "doorTime": "2022-05-08 19:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -67,7 +67,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 16:45",
+                "doorTime": "2022-05-08 16:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -76,7 +76,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:45",
+                "doorTime": "2022-05-08 13:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -85,7 +85,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:45",
+                "doorTime": "2022-05-08 22:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -94,7 +94,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -103,7 +103,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:50",
+                "doorTime": "2022-05-08 22:50",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -112,7 +112,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:05",
+                "doorTime": "2022-05-08 18:05",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -121,7 +121,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:40",
+                "doorTime": "2022-05-08 20:40",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -130,7 +130,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:15",
+                "doorTime": "2022-05-08 23:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -139,7 +139,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:30",
+                "doorTime": "2022-05-08 15:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -148,7 +148,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:15",
+                "doorTime": "2022-05-08 13:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -157,7 +157,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:15",
+                "doorTime": "2022-05-08 19:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -166,7 +166,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:15",
+                "doorTime": "2022-05-08 22:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -175,7 +175,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 16:15",
+                "doorTime": "2022-05-08 16:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -184,7 +184,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 17:00",
+                "doorTime": "2022-05-08 17:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -193,7 +193,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:00",
+                "doorTime": "2022-05-08 20:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -202,7 +202,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:00",
+                "doorTime": "2022-05-08 23:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -211,7 +211,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 14:00",
+                "doorTime": "2022-05-08 14:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -226,7 +226,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 16:20",
+                "doorTime": "2022-05-08 16:20",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -235,7 +235,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:25",
+                "doorTime": "2022-05-08 19:25",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -244,7 +244,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:30",
+                "doorTime": "2022-05-08 22:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -253,7 +253,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:15",
+                "doorTime": "2022-05-08 13:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -262,7 +262,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:05",
+                "doorTime": "2022-05-08 18:05",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -271,7 +271,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:15",
+                "doorTime": "2022-05-08 23:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -280,7 +280,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:20",
+                "doorTime": "2022-05-08 15:20",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -289,7 +289,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:30",
+                "doorTime": "2022-05-08 20:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -298,7 +298,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:15",
+                "doorTime": "2022-05-08 23:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -307,7 +307,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 17:45",
+                "doorTime": "2022-05-08 17:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -322,7 +322,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 16:10",
+                "doorTime": "2022-05-08 16:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -331,7 +331,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -340,7 +340,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:40",
+                "doorTime": "2022-05-08 22:40",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -349,7 +349,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:20",
+                "doorTime": "2022-05-08 19:20",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -364,7 +364,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:15",
+                "doorTime": "2022-05-08 20:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -373,7 +373,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -381,14 +381,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "Official Competition"
+        "name": "Competencia oficial"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 17:10",
+                "doorTime": "2022-05-08 17:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -403,7 +403,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:50",
+                "doorTime": "2022-05-08 20:50",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -412,7 +412,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -420,14 +420,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "The Good Boss"
+        "name": "El buen patrón"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:10",
+                "doorTime": "2022-05-08 23:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -435,14 +435,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "The Good Boss"
+        "name": "El buen patrón"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:25",
+                "doorTime": "2022-05-08 20:25",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -451,7 +451,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:10",
+                "doorTime": "2022-05-08 23:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -460,7 +460,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 17:10",
+                "doorTime": "2022-05-08 17:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -468,14 +468,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "The Good Boss"
+        "name": "El buen patrón"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 19:25",
+                "doorTime": "2022-05-08 19:25",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -484,7 +484,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 21:15",
+                "doorTime": "2022-05-08 21:15",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -493,7 +493,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:05",
+                "doorTime": "2022-05-08 23:05",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -502,7 +502,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -510,14 +510,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "The Good Boss"
+        "name": "El buen patrón"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:25",
+                "doorTime": "2022-05-08 20:25",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -526,7 +526,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:45",
+                "doorTime": "2022-05-08 15:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -534,14 +534,14 @@
                 "videoFormat": "sala hd"
             }
         ],
-        "name": "The Good Boss"
+        "name": "El buen patrón"
     },
     {
         "@type": "Movie",
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:00",
+                "doorTime": "2022-05-08 23:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -556,7 +556,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:00",
+                "doorTime": "2022-05-08 18:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -565,7 +565,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:30",
+                "doorTime": "2022-05-08 20:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -574,7 +574,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -589,7 +589,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:00",
+                "doorTime": "2022-05-08 15:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -598,7 +598,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -607,7 +607,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:00",
+                "doorTime": "2022-05-08 18:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -622,7 +622,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 23:00",
+                "doorTime": "2022-05-08 23:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -631,7 +631,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:30",
+                "doorTime": "2022-05-08 20:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -646,7 +646,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 14:50",
+                "doorTime": "2022-05-08 14:50",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -655,7 +655,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:00",
+                "doorTime": "2022-05-08 18:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -670,7 +670,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:30",
+                "doorTime": "2022-05-08 15:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -679,7 +679,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:00",
+                "doorTime": "2022-05-08 18:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -688,7 +688,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema City"
@@ -697,7 +697,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:30",
+                "doorTime": "2022-05-08 15:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -706,7 +706,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 20:30",
+                "doorTime": "2022-05-08 20:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -715,7 +715,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Ocho"
@@ -724,7 +724,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 17:45",
+                "doorTime": "2022-05-08 17:45",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -733,7 +733,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:20",
+                "doorTime": "2022-05-08 15:20",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Paradiso"
@@ -742,7 +742,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:20",
+                "doorTime": "2022-05-08 15:20",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -751,7 +751,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 18:10",
+                "doorTime": "2022-05-08 18:10",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -760,7 +760,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -769,7 +769,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:30",
+                "doorTime": "2022-05-08 15:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -778,7 +778,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"
@@ -793,7 +793,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 22:50",
+                "doorTime": "2022-05-08 22:50",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -802,7 +802,7 @@
             },
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 13:00",
+                "doorTime": "2022-05-08 13:00",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema Rocha"
@@ -817,7 +817,7 @@
         "events": [
             {
                 "@type": "ScreeningEvent",
-                "doorTime": "2022-05-07 15:30",
+                "doorTime": "2022-05-08 15:30",
                 "location": {
                     "@type": "MovieTheater",
                     "name": "Cinema San Martin"

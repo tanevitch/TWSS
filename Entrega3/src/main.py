@@ -2,7 +2,7 @@ import json
 from rdflib import Graph, Literal, RDF, RDFS, URIRef, OWL, Namespace
 from rdflib.namespace import FOAF , XSD
 from datetime import datetime
-from recolector import recolectar_imdb
+from scrapper_imdb import recolectar_imdb
 from scrapper_cinemalp import persistir
 
 BASE_URL = Namespace("http://www.semanticweb.org/")
@@ -101,12 +101,10 @@ def add_funciones(movie):
 
             g.add((funcion_individual, BASE_SCHEMAORG_URL["location"], cine_individual)) 
    
-
-
     
 if __name__ == "__main__":
-    # persistir()
-    # recolectar_imdb()
+    persistir()
+    recolectar_imdb()
     with open('data/imdb.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 
@@ -122,4 +120,4 @@ if __name__ == "__main__":
         add_funciones(movie)
 
 
-    g.serialize("output.ttl", format="ttl", encoding="utf-8")
+    g.serialize("data/output.ttl", format="ttl", encoding="utf-8")

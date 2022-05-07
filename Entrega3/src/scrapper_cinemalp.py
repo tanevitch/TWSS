@@ -50,7 +50,7 @@ def buscarCinemaLP():
     return listapeliculas
     
 def persistir():
-    data= {"peliculas": [pelicula.toJSON() for pelicula in buscarCinemaLP()]}
+    data= [pelicula.toJSON() for pelicula in buscarCinemaLP()]
     with open('./data/cinemalp.json', 'w', encoding="utf8") as fp:
         json.dump(data, fp, ensure_ascii=False, indent=4, sort_keys=True)
     

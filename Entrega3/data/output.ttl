@@ -1,502 +1,1064 @@
 @prefix : <http://www.semanticweb.org#> .
-@prefix sw: <http://www.semanticweb.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@base <http://www.semanticweb.org> .
+@prefix sw: <http://www.semanticweb.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org> a owl:Ontology .
+
+:directs a owl:ObjectProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf schema:director .
+
+:hasSequel a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf :sequelOf .
+
+:performsIn a owl:ObjectProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Movie ;
+    owl:inverseOf schema:actor .
+
+:playedIn a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:ScreeningEvent ;
+    owl:inverseOf schema:workPresented .
+
+:worksWith a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain schema:Person ;
+    rdfs:range schema:Person .
+
+sw:screeningEvent0 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent1 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T16:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala 4d+3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent10 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent11 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent12 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent13 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:40:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent14 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent15 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent16 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala atmos hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent17 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala atmos hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent18 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala atmos hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent19 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T16:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala atmos hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent2 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala 4d+3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent20 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T17:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent21 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent22 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent23 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T14:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent24 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T16:20:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent25 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent26 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent27 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent28 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent29 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent3 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala 4d+3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent30 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent31 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent32 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent33 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie1 .
+
+sw:screeningEvent34 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T16:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie2 .
+
+sw:screeningEvent35 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie2 .
+
+sw:screeningEvent36 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:40:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie2 .
+
+sw:screeningEvent37 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:20:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie2 .
+
+sw:screeningEvent38 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie3 .
+
+sw:screeningEvent39 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie3 .
+
+sw:screeningEvent4 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala 4d+3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent40 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent41 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:50:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent42 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent43 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent44 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent45 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent46 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent47 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent48 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T21:15:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent49 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:05:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent5 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent50 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent51 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent52 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie4 .
+
+sw:screeningEvent53 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie5 .
+
+sw:screeningEvent54 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent55 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent56 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent57 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent58 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent59 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie6 .
+
+sw:screeningEvent6 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T19:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala 3d" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent60 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie7 .
+
+sw:screeningEvent61 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie7 .
+
+sw:screeningEvent62 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T14:50:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent63 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent64 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent65 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent66 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater0 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent67 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent68 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent69 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent7 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T16:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent70 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent71 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+    schema:location schema:movietheater2 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent72 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent73 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T18:10:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent74 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent75 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent76 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent77 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent78 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+    schema:location schema:movietheater3 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie8 .
+
+sw:screeningEvent79 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+    schema:location schema:movietheater4 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie9 .
+
+sw:screeningEvent8 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T13:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+sw:screeningEvent9 a schema:ScreeningEvent ;
+    schema:doorTime "2022-05-08T22:45:00"^^xsd:dateTime ;
+    schema:location schema:movietheater1 ;
+    schema:videoFormat "sala hd" ;
+    schema:workPresented schema:movie0 .
+
+xsd:date a rdfs:Datatype .
+
+schema:address a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Class ;
+            owl:unionOf ( schema:MovieTheater schema:ScreeningEvent ) ] ;
+    rdfs:range xsd:string .
+
+schema:aggregateRating a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:AggregateRating .
+
+schema:contentUrl a owl:DatatypeProperty ;
+    rdfs:domain schema:ImageObject ;
+    rdfs:range xsd:string .
+
+schema:datePublished a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:dateTime .
+
+schema:doorTime a owl:DatatypeProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range xsd:dateTime .
+
+schema:duration a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:duration .
+
+schema:genre a owl:DatatypeProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range xsd:string .
+
+schema:image a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:ImageObject .
+
+schema:isBasedOn a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie .
+
+schema:location a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range schema:MovieTheater .
+
+schema:name a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string .
+
+schema:ratingValue a owl:DatatypeProperty ;
+    rdfs:domain schema:AggregateRating ;
+    rdfs:range xsd:double .
+
+schema:videoFormat a owl:DatatypeProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range xsd:string .
+
+:sequelOf a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Movie .
+
+sw:aggregateRating0 a schema:AggregateRating ;
+    schema:ratingValue 7.6e+00 .
+
+sw:aggregateRating1 a schema:AggregateRating ;
+    schema:ratingValue 6.5e+00 .
+
+sw:aggregateRating10 a schema:AggregateRating ;
+    schema:ratingValue 4.2e+00 .
+
+sw:aggregateRating11 a schema:AggregateRating ;
+    schema:ratingValue 6.6e+00 .
+
+sw:aggregateRating12 a schema:AggregateRating ;
+    schema:ratingValue 6.6e+00 .
+
+sw:aggregateRating13 a schema:AggregateRating ;
+    schema:ratingValue 5.1e+00 .
+
+sw:aggregateRating14 a schema:AggregateRating ;
+    schema:ratingValue 7.4e+00 .
+
+sw:aggregateRating15 a schema:AggregateRating ;
+    schema:ratingValue 7.4e+00 .
+
+sw:aggregateRating16 a schema:AggregateRating ;
+    schema:ratingValue 7.4e+00 .
+
+sw:aggregateRating17 a schema:AggregateRating ;
+    schema:ratingValue 6.4e+00 .
+
+sw:aggregateRating2 a schema:AggregateRating ;
+    schema:ratingValue 8e+00 .
+
+sw:aggregateRating3 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:aggregateRating4 a schema:AggregateRating ;
+    schema:ratingValue 7.6e+00 .
+
+sw:aggregateRating5 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:aggregateRating6 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:aggregateRating7 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:aggregateRating8 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:aggregateRating9 a schema:AggregateRating ;
+    schema:ratingValue 7.2e+00 .
+
+sw:image0 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image1 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg" .
+
+sw:image10 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZTcwMGFlOGItNDhiNi00YzBmLWE1MzctMmY3MDRmOWY4ODcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+sw:image11 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image12 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+sw:image13 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMzNmZmQ2YjctNmJmMi00NWEyLWExNTQtYjQ2MWM0MjA3NjY1XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg" .
+
+sw:image14 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image15 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image16 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+sw:image17 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWEwNjhkYzYtNjgzYy00YTY2LThjYWYtYzViMGJkZTI4Y2MyXkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg" .
+
+sw:image2 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg" .
+
+sw:image3 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTg2OWZlNDItZjc3OS00NTk3LThmOWUtMzY2MTQyOWIzMDkyXkEyXkFqcGdeQXVyMTMwNjQxNDU1._V1_.jpg" .
+
+sw:image4 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+sw:image5 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+sw:image6 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+sw:image7 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+sw:image8 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+sw:image9 a schema:ImageObject ;
+    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+xsd:duration a rdfs:Datatype .
+
+schema:actor a owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Person ;
+    owl:propertyDisjointWith schema:director .
+
+schema:movie5 a schema:Movie ;
+    rdfs:label "The Jack in the Box" ;
+    schema:actor schema:person21,
+        schema:person22,
+        schema:person23 ;
+    schema:aggregateRating sw:aggregateRating10 ;
+    schema:datePublished "2022-04-07"^^xsd:date ;
+    schema:director schema:person24 ;
+    schema:duration "PT1H27M"^^xsd:duration ;
+    schema:genre "Horror" ;
+    schema:image sw:image10 ;
+    schema:name "The Jack in the Box" .
+
+schema:movie9 a schema:Movie ;
+    rdfs:label "Uncharted" ;
+    schema:actor schema:person13,
+        schema:person39,
+        schema:person40 ;
+    schema:aggregateRating sw:aggregateRating17 ;
+    schema:datePublished "2022-02-17"^^xsd:date ;
+    schema:director schema:person41 ;
+    schema:duration "PT1H56M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure" ;
+    schema:image sw:image17 ;
+    schema:name "Uncharted" .
+
+schema:person0 a schema:Person ;
+    rdfs:label "Benedict Cumberbatch" ;
+    schema:name "Benedict Cumberbatch" .
+
+schema:person1 a schema:Person ;
+    rdfs:label "Elizabeth Olsen" ;
+    schema:name "Elizabeth Olsen" .
+
+schema:person10 a schema:Person ;
+    rdfs:label "Jeffrey Wright" ;
+    schema:name "Jeffrey Wright" .
+
+schema:person11 a schema:Person ;
+    rdfs:label "Matt Reeves" ;
+    schema:name "Matt Reeves" .
+
+schema:person12 a schema:Person ;
+    rdfs:label "Penélope Cruz" ;
+    schema:name "Penélope Cruz" .
+
+schema:person14 a schema:Person ;
+    rdfs:label "Oscar Martínez" ;
+    schema:name "Oscar Martínez" .
+
+schema:person15 a schema:Person ;
+    rdfs:label "Mariano Cohn" ;
+    schema:name "Mariano Cohn" .
+
+schema:person16 a schema:Person ;
+    rdfs:label "Gastón Duprat" ;
+    schema:name "Gastón Duprat" .
+
+schema:person17 a schema:Person ;
+    rdfs:label "Javier Bardem" ;
+    schema:name "Javier Bardem" .
+
+schema:person18 a schema:Person ;
+    rdfs:label "Manolo Solo" ;
+    schema:name "Manolo Solo" .
+
+schema:person19 a schema:Person ;
+    rdfs:label "Almudena Amor" ;
+    schema:name "Almudena Amor" .
+
+schema:person2 a schema:Person ;
+    rdfs:label "Chiwetel Ejiofor" ;
+    schema:name "Chiwetel Ejiofor" .
+
+schema:person20 a schema:Person ;
+    rdfs:label "Fernando León de Aranoa" ;
+    schema:name "Fernando León de Aranoa" .
+
+schema:person21 a schema:Person ;
+    rdfs:label "Ethan Taylor" ;
+    schema:name "Ethan Taylor" .
+
+schema:person22 a schema:Person ;
+    rdfs:label "Robert Strange" ;
+    schema:name "Robert Strange" .
+
+schema:person23 a schema:Person ;
+    rdfs:label "Lucy-Jane Quinlan" ;
+    schema:name "Lucy-Jane Quinlan" .
+
+schema:person24 a schema:Person ;
+    rdfs:label "Lawrence Fowler" ;
+    schema:name "Lawrence Fowler" .
+
+schema:person25 a schema:Person ;
+    rdfs:label "Sandra Bullock" ;
+    schema:name "Sandra Bullock" .
+
+schema:person26 a schema:Person ;
+    rdfs:label "Channing Tatum" ;
+    schema:name "Channing Tatum" .
+
+schema:person27 a schema:Person ;
+    rdfs:label "Daniel Radcliffe" ;
+    schema:name "Daniel Radcliffe" .
+
+schema:person28 a schema:Person ;
+    rdfs:label "Aaron Nee" ;
+    schema:name "Aaron Nee" .
+
+schema:person29 a schema:Person ;
+    rdfs:label "Adam Nee" ;
+    schema:name "Adam Nee" .
+
+schema:person3 a schema:Person ;
+    rdfs:label "Sam Raimi" ;
+    schema:name "Sam Raimi" .
+
+schema:person30 a schema:Person ;
+    rdfs:label "Jared Leto" ;
+    schema:name "Jared Leto" .
+
+schema:person31 a schema:Person ;
+    rdfs:label "Matt Smith" ;
+    schema:name "Matt Smith" .
+
+schema:person32 a schema:Person ;
+    rdfs:label "Adria Arjona" ;
+    schema:name "Adria Arjona" .
+
+schema:person33 a schema:Person ;
+    rdfs:label "Daniel Espinosa" ;
+    schema:name "Daniel Espinosa" .
+
+schema:person34 a schema:Person ;
+    rdfs:label "Matthew McConaughey" ;
+    schema:name "Matthew McConaughey" .
+
+schema:person35 a schema:Person ;
+    rdfs:label "Reese Witherspoon" ;
+    schema:name "Reese Witherspoon" .
+
+schema:person36 a schema:Person ;
+    rdfs:label "Scarlett Johansson" ;
+    schema:name "Scarlett Johansson" .
+
+schema:person37 a schema:Person ;
+    rdfs:label "Garth Jennings" ;
+    schema:name "Garth Jennings" .
+
+schema:person38 a schema:Person ;
+    rdfs:label "Christophe Lourdelet" ;
+    schema:name "Christophe Lourdelet" .
+
+schema:person39 a schema:Person ;
+    rdfs:label "Tom Holland" ;
+    schema:name "Tom Holland" .
+
+schema:person4 a schema:Person ;
+    rdfs:label "Eddie Redmayne" ;
+    schema:name "Eddie Redmayne" .
+
+schema:person40 a schema:Person ;
+    rdfs:label "Mark Wahlberg" ;
+    schema:name "Mark Wahlberg" .
+
+schema:person41 a schema:Person ;
+    rdfs:label "Ruben Fleischer" ;
+    schema:name "Ruben Fleischer" .
+
+schema:person5 a schema:Person ;
+    rdfs:label "Jude Law" ;
+    schema:name "Jude Law" .
+
+schema:person6 a schema:Person ;
+    rdfs:label "Ezra Miller" ;
+    schema:name "Ezra Miller" .
+
+schema:person7 a schema:Person ;
+    rdfs:label "David Yates" ;
+    schema:name "David Yates" .
+
+schema:person8 a schema:Person ;
+    rdfs:label "Robert Pattinson" ;
+    schema:name "Robert Pattinson" .
+
+schema:person9 a schema:Person ;
+    rdfs:label "Zoë Kravitz" ;
+    schema:name "Zoë Kravitz" .
+
+schema:workPresented a owl:ObjectProperty ;
+    rdfs:domain schema:ScreeningEvent ;
+    rdfs:range schema:Movie .
+
+schema:director a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain schema:Movie ;
+    rdfs:range schema:Person .
+
+schema:movie3 a schema:Movie ;
+    rdfs:label "Competencia oficial" ;
+    schema:actor schema:person12,
+        schema:person13,
+        schema:person14 ;
+    schema:aggregateRating sw:aggregateRating3 ;
+    schema:datePublished "2022-03-17"^^xsd:date ;
+    schema:director schema:person15,
+        schema:person16 ;
+    schema:duration "PT1H54M"^^xsd:duration ;
+    schema:genre "Comedy",
+        "Drama" ;
+    schema:image sw:image3 ;
+    schema:name "Competencia oficial" .
+
+schema:movie7 a schema:Movie ;
+    rdfs:label "Morbius" ;
+    schema:actor schema:person30,
+        schema:person31,
+        schema:person32 ;
+    schema:aggregateRating sw:aggregateRating13 ;
+    schema:datePublished "2022-03-31"^^xsd:date ;
+    schema:director schema:person33 ;
+    schema:duration "PT1H44M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Horror" ;
+    schema:image sw:image13 ;
+    schema:name "Morbius" .
+
+schema:person13 a schema:Person ;
+    rdfs:label "Antonio Banderas" ;
+    schema:name "Antonio Banderas" .
+
+schema:movie2 a schema:Movie ;
+    rdfs:label "The Batman" ;
+    schema:actor schema:person10,
+        schema:person8,
+        schema:person9 ;
+    schema:aggregateRating sw:aggregateRating2 ;
+    schema:datePublished "2022-03-03"^^xsd:date ;
+    schema:director schema:person11 ;
+    schema:duration "PT2H56M"^^xsd:duration ;
+    schema:genre "Action",
+        "Crime",
+        "Drama" ;
+    schema:image sw:image2 ;
+    schema:name "The Batman" .
+
+schema:movie6 a schema:Movie ;
+    rdfs:label "The Lost City" ;
+    schema:actor schema:person25,
+        schema:person26,
+        schema:person27 ;
+    schema:aggregateRating sw:aggregateRating11,
+        sw:aggregateRating12 ;
+    schema:datePublished "2022-04-21"^^xsd:date ;
+    schema:director schema:person28,
+        schema:person29 ;
+    schema:duration "PT1H52M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Comedy" ;
+    schema:image sw:image11,
+        sw:image12 ;
+    schema:name "The Lost City" .
+
+schema:MovieTheater a owl:Class .
+
+schema:movie1 a schema:Movie ;
+    rdfs:label "Fantastic Beasts: The Secrets of Dumbledore" ;
+    schema:actor schema:person4,
+        schema:person5,
+        schema:person6 ;
+    schema:aggregateRating sw:aggregateRating1 ;
+    schema:datePublished "2022-04-15"^^xsd:date ;
+    schema:director schema:person7 ;
+    schema:duration "PT2H22M"^^xsd:duration ;
+    schema:genre "Adventure",
+        "Family",
+        "Fantasy" ;
+    schema:image sw:image1 ;
+    schema:name "Fantastic Beasts: The Secrets of Dumbledore" .
+
+schema:movie4 a schema:Movie ;
+    rdfs:label "El buen patrón" ;
+    schema:actor schema:person17,
+        schema:person18,
+        schema:person19 ;
+    schema:aggregateRating sw:aggregateRating5,
+        sw:aggregateRating6,
+        sw:aggregateRating7,
+        sw:aggregateRating8,
+        sw:aggregateRating9 ;
+    schema:datePublished "2022-04-28"^^xsd:date ;
+    schema:director schema:person20 ;
+    schema:duration "PT2H"^^xsd:duration ;
+    schema:genre "Comedy" ;
+    schema:image sw:image5,
+        sw:image6,
+        sw:image7,
+        sw:image8,
+        sw:image9 ;
+    schema:name "El buen patrón" .
+
+schema:movietheater1 a schema:MovieTheater ;
+    rdfs:label "Cinema Ocho" ;
+    schema:name "Cinema Ocho" .
+
+schema:movietheater0 a schema:MovieTheater ;
+    rdfs:label "Cinema City" ;
+    schema:name "Cinema City" .
+
+schema:movietheater3 a schema:MovieTheater ;
+    rdfs:label "Cinema Rocha" ;
+    schema:name "Cinema Rocha" .
+
+schema:movie8 a schema:Movie ;
+    rdfs:label "Sing 2" ;
+    schema:actor schema:person34,
+        schema:person35,
+        schema:person36 ;
+    schema:aggregateRating sw:aggregateRating14,
+        sw:aggregateRating15,
+        sw:aggregateRating16 ;
+    schema:datePublished "2022-01-06"^^xsd:date ;
+    schema:director schema:person37,
+        schema:person38 ;
+    schema:genre "Adventure",
+        "Animation",
+        "Comedy" ;
+    schema:image sw:image14,
+        sw:image15,
+        sw:image16 ;
+    schema:name "Sing 2" .
+
+schema:movietheater4 a schema:MovieTheater ;
+    rdfs:label "Cinema San Martin" ;
+    schema:name "Cinema San Martin" .
+
+schema:AggregateRating a owl:Class .
+
+schema:ImageObject a owl:Class .
+
+schema:movietheater2 a schema:MovieTheater ;
+    rdfs:label "Cinema Paradiso" ;
+    schema:name "Cinema Paradiso" .
+
+schema:movie0 a schema:Movie ;
+    rdfs:label "Doctor Strange in the Multiverse of Madness" ;
+    schema:actor schema:person0,
+        schema:person1,
+        schema:person2 ;
+    schema:aggregateRating sw:aggregateRating0,
+        sw:aggregateRating4 ;
+    schema:datePublished "2022-05-05"^^xsd:date ;
+    schema:director schema:person3 ;
+    schema:duration "PT2H6M"^^xsd:duration ;
+    schema:genre "Action",
+        "Adventure",
+        "Fantasy" ;
+    schema:image sw:image0,
+        sw:image4 ;
+    schema:name "Doctor Strange in the Multiverse of Madness" .
+
+schema:Movie a owl:Class .
+
+schema:Person a owl:Class .
+
+schema:ScreeningEvent a owl:Class .
 
-<http://www.semanticweb.org> rdf:type owl:Ontology .
-
-#################################################################
-#    Datatypes
-#################################################################
-
-###  http://www.w3.org/2001/XMLSchema#date
-xsd:date rdf:type rdfs:Datatype .
-
-
-###  http://www.w3.org/2001/XMLSchema#duration
-xsd:duration rdf:type rdfs:Datatype .
-
-
-#################################################################
-#    Object Properties
-#################################################################
-
-###  http://www.semanticweb.org#directs
-:directs rdf:type owl:ObjectProperty ;
-         owl:inverseOf schema:director ;
-         rdfs:domain schema:Person ;
-         rdfs:range schema:Movie .
-
-
-###  http://www.semanticweb.org#hasSequel
-:hasSequel rdf:type owl:ObjectProperty ;
-           owl:inverseOf :sequelOf ;
-           rdfs:domain schema:Movie ;
-           rdfs:range schema:Movie .
-
-
-###  http://www.semanticweb.org#performsIn
-:performsIn rdf:type owl:ObjectProperty ;
-            owl:inverseOf schema:actor ;
-            rdfs:domain schema:Person ;
-            rdfs:range schema:Movie .
-
-
-###  http://www.semanticweb.org#sequelOf
-:sequelOf rdf:type owl:ObjectProperty ,
-                   owl:TransitiveProperty ;
-          rdfs:domain schema:Movie ;
-          rdfs:range schema:Movie .
-
-
-###  http://www.semanticweb.org#worksWith
-:worksWith rdf:type owl:ObjectProperty ,
-                    owl:SymmetricProperty ,
-                    owl:IrreflexiveProperty ;
-           rdfs:domain schema:Person ;
-           rdfs:range schema:Person .
-
-
-###  https://schema.org/actor
-schema:actor rdf:type owl:ObjectProperty ;
-             rdfs:domain schema:Movie ;
-             rdfs:range schema:Person ;
-             owl:propertyDisjointWith schema:director .
-
-
-###  https://schema.org/aggregateRating
-schema:aggregateRating rdf:type owl:ObjectProperty ;
-                       rdfs:domain schema:Movie ;
-                       rdfs:range schema:AggregateRating .
-
-
-###  https://schema.org/director
-schema:director rdf:type owl:ObjectProperty ,
-                         owl:FunctionalProperty ;
-                rdfs:domain schema:Movie ;
-                rdfs:range schema:Person .
-
-
-###  https://schema.org/image
-schema:image rdf:type owl:ObjectProperty ;
-             rdfs:domain schema:Movie ;
-             rdfs:range schema:ImageObject .
-
-
-###  https://schema.org/isBasedOn
-schema:isBasedOn rdf:type owl:ObjectProperty ,
-                          owl:TransitiveProperty ;
-                 rdfs:domain schema:Movie ;
-                 rdfs:range schema:Movie .
-
-
-###  https://schema.org/location
-schema:location rdf:type owl:ObjectProperty ,
-                         owl:FunctionalProperty ;
-                rdfs:domain schema:ScreeningEvent ;
-                rdfs:range schema:MovieTheater .
-
-
-###  https://schema.org/workPresented
-schema:workPresented rdf:type owl:ObjectProperty ;
-                     rdfs:domain schema:ScreeningEvent ;
-                     rdfs:range schema:Movie .
-
-
-#################################################################
-#    Data properties
-#################################################################
-
-###  https://schema.org/address
-schema:address rdf:type owl:DatatypeProperty ;
-               rdfs:domain [ rdf:type owl:Class ;
-                             owl:unionOf ( schema:MovieTheater
-                                           schema:ScreeningEvent
-                                         )
-                           ] ;
-               rdfs:range xsd:string .
-
-
-###  https://schema.org/contentUrl
-schema:contentUrl rdf:type owl:DatatypeProperty ;
-                  rdfs:domain schema:ImageObject ;
-                  rdfs:range xsd:string .
-
-
-###  https://schema.org/datePublished
-schema:datePublished rdf:type owl:DatatypeProperty ;
-                     rdfs:domain schema:Movie ;
-                     rdfs:range xsd:dateTime .
-
-
-###  https://schema.org/doorTime
-schema:doorTime rdf:type owl:DatatypeProperty ;
-                rdfs:domain schema:ScreeningEvent ;
-                rdfs:range xsd:dateTime .
-
-
-###  https://schema.org/duration
-schema:duration rdf:type owl:DatatypeProperty ;
-                rdfs:domain schema:Movie ;
-                rdfs:range xsd:duration .
-
-
-###  https://schema.org/genre
-schema:genre rdf:type owl:DatatypeProperty ;
-             rdfs:domain schema:Movie ;
-             rdfs:range xsd:string .
-
-
-###  https://schema.org/name
-schema:name rdf:type owl:DatatypeProperty ;
-            rdfs:domain owl:Thing ;
-            rdfs:range xsd:string .
-
-
-###  https://schema.org/ratingValue
-schema:ratingValue rdf:type owl:DatatypeProperty ;
-                   rdfs:domain schema:AggregateRating ;
-                   rdfs:range xsd:double .
-
-
-###  https://schema.org/videoFormat
-schema:videoFormat rdf:type owl:DatatypeProperty ;
-                   rdfs:domain schema:ScreeningEvent ;
-                   rdfs:range xsd:string .
-
-
-#################################################################
-#    Classes
-#################################################################
-
-###  https://schema.org/AggregateRating
-schema:AggregateRating rdf:type owl:Class .
-
-
-###  https://schema.org/ImageObject
-schema:ImageObject rdf:type owl:Class .
-
-
-###  https://schema.org/Movie
-schema:Movie rdf:type owl:Class .
-
-
-###  https://schema.org/MovieTheater
-schema:MovieTheater rdf:type owl:Class .
-
-
-###  https://schema.org/Person
-schema:Person rdf:type owl:Class .
-
-
-###  https://schema.org/ScreeningEvent
-schema:ScreeningEvent rdf:type owl:Class .
-
-
-#################################################################
-#    Individuals
-#################################################################
-
-###  http://www.semanticweb.org#Cine_City
-:Cine_City rdf:type owl:NamedIndividual ,
-                    schema:MovieTheater ;
-           schema:name "Cinema City"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Cine_Rocha
-:Cine_Rocha rdf:type owl:NamedIndividual ,
-                     schema:MovieTheater ;
-            schema:name "Cinema Rocha"^^xsd:string .
-
-
-###  http://www.semanticweb.org#Rocha
-:Rocha rdf:type owl:NamedIndividual ,
-                schema:MovieTheater ;
-       schema:name "Cinema Rocha"^^xsd:string .
-
-
-###  http://www.semanticweb.org#funcion1
-:funcion1 rdf:type owl:NamedIndividual ,
-                   schema:ScreeningEvent ;
-          schema:location :Cine_City ;
-          schema:workPresented schema:movie2 ;
-          schema:doorTime "2022-05-04T16:36:42.261Z"^^xsd:dateTime .
-
-
-###  http://www.semanticweb.org#funcion2
-:funcion2 rdf:type owl:NamedIndividual ,
-                   schema:ScreeningEvent ;
-          schema:location :Cine_Rocha ,
-                          :Rocha ;
-          schema:workPresented schema:movie0 .
-
-
-###  http://www.semanticweb.org/aggregateRating0
-sw:aggregateRating0 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "6.6"^^xsd:double .
-
-
-###  http://www.semanticweb.org/aggregateRating1
-sw:aggregateRating1 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "6.2"^^xsd:double .
-
-
-###  http://www.semanticweb.org/aggregateRating2
-sw:aggregateRating2 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "7.2"^^xsd:double .
-
-
-###  http://www.semanticweb.org/aggregateRating3
-sw:aggregateRating3 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "7.5"^^xsd:double .
-
-
-###  http://www.semanticweb.org/aggregateRating4
-sw:aggregateRating4 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "6.5"^^xsd:double .
-
-
-###  http://www.semanticweb.org/aggregateRating5
-sw:aggregateRating5 rdf:type owl:NamedIndividual ,
-                             schema:AggregateRating ;
-                    schema:ratingValue "6.6"^^xsd:double .
-
-
-###  http://www.semanticweb.org/image0
-sw:image0 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmQyYTlkNWItNWUxNi00NzFiLTg3MDYtM2RkMzAxZGEyMGRmXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg" .
-
-
-###  http://www.semanticweb.org/image1
-sw:image1 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTgxOTYxMTg3OF5BMl5BanBnXkFtZTgwMDgyMzA2NDE@._V1_.jpg" .
-
-
-###  http://www.semanticweb.org/image2
-sw:image2 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_.jpg" .
-
-
-###  http://www.semanticweb.org/image3
-sw:image3 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTAyMjQ3OTAxMzNeQTJeQWpwZ15BbWU4MDU0NzA1MzAx._V1_.jpg" .
-
-
-###  http://www.semanticweb.org/image4
-sw:image4 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_.jpg" .
-
-
-###  http://www.semanticweb.org/image5
-sw:image5 rdf:type owl:NamedIndividual ,
-                   schema:ImageObject ;
-          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_.jpg" .
-
-
-###  https://schema.org/movie0
-schema:movie0 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              schema:actor schema:person0 ,
-                           schema:person1 ,
-                           schema:person2 ;
-              schema:aggregateRating sw:aggregateRating0 ;
-              schema:director schema:person3 ;
-              schema:image sw:image0 ;
-              schema:datePublished "2014-04-17"^^xsd:date ;
-              schema:duration "PT2H19M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Mystery" ;
-              schema:name "Divergent" ;
-              rdfs:label "Divergent"@en .
-
-
-###  https://schema.org/movie1
-schema:movie1 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              :sequelOf schema:movie0 ;
-              schema:actor schema:person0 ,
-                           schema:person1 ,
-                           schema:person4 ;
-              schema:aggregateRating sw:aggregateRating1 ;
-              schema:director schema:person5 ;
-              schema:image sw:image1 ;
-              schema:datePublished "2015-03-19"^^xsd:date ;
-              schema:duration "PT1H59M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Sci-Fi" ;
-              schema:name "Insurgent" ;
-              rdfs:label "Insurgent"@en .
-
-
-###  https://schema.org/movie2
-schema:movie2 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              schema:actor schema:person6 ,
-                           schema:person7 ,
-                           schema:person8 ;
-              schema:aggregateRating sw:aggregateRating2 ;
-              schema:director schema:person9 ;
-              schema:image sw:image2 ;
-              schema:datePublished "2012-03-23"^^xsd:date ;
-              schema:duration "PT2H22M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Sci-Fi" ;
-              schema:name "The Hunger Games" ;
-              rdfs:label "The Hunger Games"@en .
-
-
-###  https://schema.org/movie3
-schema:movie3 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              :sequelOf schema:movie2 ;
-              schema:actor schema:person6 ,
-                           schema:person7 ,
-                           schema:person8 ;
-              schema:aggregateRating sw:aggregateRating3 ;
-              schema:director schema:person10 ;
-              schema:image sw:image3 ;
-              schema:datePublished "2013-11-21"^^xsd:date ;
-              schema:duration "PT2H26M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Drama" ;
-              schema:name "The Hunger Games: Catching Fire" ;
-              rdfs:label "The Hunger Games: Catching Fire"@en .
-
-
-###  https://schema.org/movie4
-schema:movie4 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              :sequelOf schema:movie5 ;
-              schema:actor schema:person6 ,
-                           schema:person7 ,
-                           schema:person8 ;
-              schema:aggregateRating sw:aggregateRating4 ;
-              schema:director schema:person10 ;
-              schema:image sw:image4 ;
-              schema:datePublished "2015-11-19"^^xsd:date ;
-              schema:duration "PT2H17M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Sci-Fi" ;
-              schema:name "The Hunger Games: Mockingjay - Part 2" ;
-              rdfs:label "The Hunger Games: Mockingjay - Part 2"@en .
-
-
-###  https://schema.org/movie5
-schema:movie5 rdf:type owl:NamedIndividual ,
-                       schema:Movie ;
-              :sequelOf schema:movie3 ;
-              schema:actor schema:person6 ,
-                           schema:person7 ,
-                           schema:person8 ;
-              schema:aggregateRating sw:aggregateRating5 ;
-              schema:director schema:person10 ;
-              schema:image sw:image5 ;
-              schema:datePublished "2014-11-20"^^xsd:date ;
-              schema:duration "PT2H3M"^^xsd:duration ;
-              schema:genre "Action" ,
-                           "Adventure" ,
-                           "Sci-Fi" ;
-              schema:name "The Hunger Games: Mockingjay - Part 1" ;
-              rdfs:label "The Hunger Games: Mockingjay - Part 1"@en .
-
-
-###  https://schema.org/person0
-schema:person0 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Shailene Woodley" ;
-               rdfs:label "Shailene Woodley"@en .
-
-
-###  https://schema.org/person1
-schema:person1 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Theo James" ;
-               rdfs:label "Theo James"@en .
-
-
-###  https://schema.org/person10
-schema:person10 rdf:type owl:NamedIndividual ,
-                         schema:Person ;
-                schema:name "Francis Lawrence" ;
-                rdfs:label "Francis Lawrence"@en .
-
-
-###  https://schema.org/person2
-schema:person2 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Kate Winslet" ;
-               rdfs:label "Kate Winslet"@en .
-
-
-###  https://schema.org/person3
-schema:person3 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Neil Burger" ;
-               rdfs:label "Neil Burger"@en .
-
-
-###  https://schema.org/person4
-schema:person4 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Ansel Elgort" ;
-               rdfs:label "Ansel Elgort"@en .
-
-
-###  https://schema.org/person5
-schema:person5 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Robert Schwentke" ;
-               rdfs:label "Robert Schwentke"@en .
-
-
-###  https://schema.org/person6
-schema:person6 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               :worksWith schema:person7 ,
-                          schema:person8 ;
-               schema:name "Jennifer Lawrence" ;
-               rdfs:label "Jennifer Lawrence"@en .
-
-
-###  https://schema.org/person7
-schema:person7 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Josh Hutcherson" ;
-               rdfs:label "Josh Hutcherson"@en .
-
-
-###  https://schema.org/person8
-schema:person8 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Liam Hemsworth" ;
-               rdfs:label "Liam Hemsworth"@en .
-
-
-###  https://schema.org/person9
-schema:person9 rdf:type owl:NamedIndividual ,
-                        schema:Person ;
-               schema:name "Gary Ross" ;
-               rdfs:label "Gary Ross"@en .
-
-
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
