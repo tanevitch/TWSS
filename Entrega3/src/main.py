@@ -20,28 +20,30 @@ def add_individual(node_type, label, url=BASE_URL):
     for s, p, o in g.triples((None, RDFS.label, Literal(label))):
         return s
 
-    individual= url[node_type.lower()+str(count_individuals_of(node_type, url))]
+    label = label.replace(":", "")
+    individual= BASE_URL[label.replace(" ", "_")]
     g.add((individual, RDF.type, url[node_type]))
     g.add((individual, RDFS.label, Literal(label)))
     g.add((individual, BASE_SCHEMAORG_URL["name"], Literal(label)))
     return individual 
 
 def add_actor(movie, actor):
-    actor= add_individual(
+    g.add((movie, BASE_SCHEMAORG_URL["actor"], 
+        add_individual(
             actor.get("@type"),
             actor.get("name"),
             url= BASE_SCHEMAORG_URL
-        )
-    g.add((movie, BASE_SCHEMAORG_URL["actor"], actor))
+        )))
 
 def add_genre(movie, genre):
     g.add((movie, BASE_SCHEMAORG_URL["genre"], Literal(genre)))
     
 def add_director(movie, director):
-    g.add((movie, BASE_SCHEMAORG_URL["director"], add_individual(
+    g.add((movie, BASE_SCHEMAORG_URL["director"], 
+        add_individual(
             director.get("@type"),
             director.get("name"),
-            url= BASE_SCHEMAORG_URL
+            url= BASE_URL
         )))
 
 def add_rating(movie, rating):
@@ -103,15 +105,15 @@ def add_funciones(movie):
    
     
 if __name__ == "__main__":
-    persistir()
-    recolectar_imdb()
-    with open('data/imdb.json', encoding='utf-8') as fh:
+    # persistir()
+    # recolectar_imdb()
+    with open('../data/imdb.json', encoding='utf-8') as fh:
         json_peliculas = json.load(fh)
 
-    with open('data/cinemalp.json', encoding='utf-8') as fh:
+    with open('../data/cinemalp.json', encoding='utf-8') as fh:
         json_funciones = json.load(fh)
 
-    g.parse("data/movies.ttl", format='ttl', encoding="utf-8")
+    g.parse("../data/movies.ttl", format='ttl', encoding="utf-8")
 
     for movie in json_peliculas:
         add_movie(movie)
@@ -120,4 +122,4 @@ if __name__ == "__main__":
         add_funciones(movie)
 
 
-    g.serialize("data/output.ttl", format="ttl", encoding="utf-8")
+    g.serialize("../data/output.ttl", format="ttl", encoding="utf-8")
