@@ -43,7 +43,7 @@ def add_director(movie, director):
         add_individual(
             director.get("@type"),
             director.get("name"),
-            url= BASE_URL
+            url= BASE_SCHEMAORG_URL
         )))
 
 def add_rating(movie, rating):
