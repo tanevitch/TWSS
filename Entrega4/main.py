@@ -9,7 +9,7 @@ G = Graph()
 SAMEAS_G= Graph()
 BASE_URL = Namespace("http://www.semanticweb.org/")
 BASE_SCHEMAORG_URL = Namespace("https://schema.org/")
-BASE_DBPEDIA_URL = Namespace("https://dbpedia.org/ontology/")
+BASE_DBPEDIA_URL = Namespace("http://dbpedia.org/ontology/") 
 G.bind("dbo", BASE_DBPEDIA_URL)
 
 def search_required_properties(actor_triples):
@@ -37,10 +37,9 @@ def get_ttl_url(obj):
 def search_actors():
     for s,o,p in G.triples((None, BASE_SCHEMAORG_URL["actor"], None)):
   
-        actor_triples=  requests.get(get_ttl_url(p)).text
-        
         G.add((p, OWL.sameAs, URIRef(get_resource_url(p))))
 
+        actor_triples=  requests.get(get_ttl_url(p)).text
         attributes = search_required_properties(actor_triples)
         for attribute_name in attributes.keys():
             G.add((p, BASE_DBPEDIA_URL[attribute_name], attributes[attribute_name]))

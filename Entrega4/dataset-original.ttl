@@ -576,11 +576,11 @@ schema:videoFormat a owl:DatatypeProperty ;
     rdfs:domain schema:Movie ;
     rdfs:range schema:Movie .
 
-sw:Aaron_Nee a sw:Person ;
+sw:Aaron_Nee a schema:Person ;
     rdfs:label "Aaron Nee" ;
     schema:name "Aaron Nee" .
 
-sw:Adam_Nee a sw:Person ;
+sw:Adam_Nee a schema:Person ;
     rdfs:label "Adam Nee" ;
     schema:name "Adam Nee" .
 
@@ -604,11 +604,11 @@ sw:Chiwetel_Ejiofor a schema:Person ;
     rdfs:label "Chiwetel Ejiofor" ;
     schema:name "Chiwetel Ejiofor" .
 
-sw:Christophe_Lourdelet a sw:Person ;
+sw:Christophe_Lourdelet a schema:Person ;
     rdfs:label "Christophe Lourdelet" ;
     schema:name "Christophe Lourdelet" .
 
-sw:Daniel_Espinosa a sw:Person ;
+sw:Daniel_Espinosa a schema:Person ;
     rdfs:label "Daniel Espinosa" ;
     schema:name "Daniel Espinosa" .
 
@@ -616,7 +616,7 @@ sw:Daniel_Radcliffe a schema:Person ;
     rdfs:label "Daniel Radcliffe" ;
     schema:name "Daniel Radcliffe" .
 
-sw:David_Yates a sw:Person ;
+sw:David_Yates a schema:Person ;
     rdfs:label "David Yates" ;
     schema:name "David Yates" .
 
@@ -636,15 +636,15 @@ sw:Ezra_Miller a schema:Person ;
     rdfs:label "Ezra Miller" ;
     schema:name "Ezra Miller" .
 
-sw:Fernando_León_de_Aranoa a sw:Person ;
+sw:Fernando_León_de_Aranoa a schema:Person ;
     rdfs:label "Fernando León de Aranoa" ;
     schema:name "Fernando León de Aranoa" .
 
-sw:Garth_Jennings a sw:Person ;
+sw:Garth_Jennings a schema:Person ;
     rdfs:label "Garth Jennings" ;
     schema:name "Garth Jennings" .
 
-sw:Gastón_Duprat a sw:Person ;
+sw:Gastón_Duprat a schema:Person ;
     rdfs:label "Gastón Duprat" ;
     schema:name "Gastón Duprat" .
 
@@ -664,7 +664,7 @@ sw:Jude_Law a schema:Person ;
     rdfs:label "Jude Law" ;
     schema:name "Jude Law" .
 
-sw:Lawrence_Fowler a sw:Person ;
+sw:Lawrence_Fowler a schema:Person ;
     rdfs:label "Lawrence Fowler" ;
     schema:name "Lawrence Fowler" .
 
@@ -676,7 +676,7 @@ sw:Manolo_Solo a schema:Person ;
     rdfs:label "Manolo Solo" ;
     schema:name "Manolo Solo" .
 
-sw:Mariano_Cohn a sw:Person ;
+sw:Mariano_Cohn a schema:Person ;
     rdfs:label "Mariano Cohn" ;
     schema:name "Mariano Cohn" .
 
@@ -684,7 +684,7 @@ sw:Mark_Wahlberg a schema:Person ;
     rdfs:label "Mark Wahlberg" ;
     schema:name "Mark Wahlberg" .
 
-sw:Matt_Reeves a sw:Person ;
+sw:Matt_Reeves a schema:Person ;
     rdfs:label "Matt Reeves" ;
     schema:name "Matt Reeves" .
 
@@ -716,11 +716,11 @@ sw:Robert_Strange a schema:Person ;
     rdfs:label "Robert Strange" ;
     schema:name "Robert Strange" .
 
-sw:Ruben_Fleischer a sw:Person ;
+sw:Ruben_Fleischer a schema:Person ;
     rdfs:label "Ruben Fleischer" ;
     schema:name "Ruben Fleischer" .
 
-sw:Sam_Raimi a sw:Person ;
+sw:Sam_Raimi a schema:Person ;
     rdfs:label "Sam Raimi" ;
     schema:name "Sam Raimi" .
 
