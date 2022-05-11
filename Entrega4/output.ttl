@@ -1,0 +1,281 @@
+@prefix dbc: <http://dbpedia.org/resource/Category:> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dbpedia-de: <http://de.dbpedia.org/resource/> .
+@prefix dbpedia-hu: <http://hu.dbpedia.org/resource/> .
+@prefix dbpedia-sv: <http://sv.dbpedia.org/resource/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbt: <http://dbpedia.org/resource/Template:> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix ns15: <https://global.dbpedia.org/id/> .
+@prefix ns22: <http://dbpedia.org/property/jr/> .
+@prefix ns6: <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+@prefix wikidata: <http://www.wikidata.org/entity/> .
+@prefix wikipedia-en: <http://en.wikipedia.org/wiki/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yago: <http://dbpedia.org/class/yago/> .
+@prefix yago-res: <http://yago-knowledge.org/resource/> .
+
+dbr:1836_United_States_presidential_election dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:1836_and_1837_United_States_Senate_elections dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:1840_and_1841_United_States_Senate_elections dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:1848_Democratic_National_Committee dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:1852_Democratic_National_Convention dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:24th_United_States_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:25th_United_States_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:26th_United_States_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Duncan_K._McRae dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Haymount_District dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Jacques-Philippe_Le_Bas dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+<http://dbpedia.org/resource/List_of_Hampden–Sydney_College_alumni> dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:List_of_United_States_senators_from_North_Carolina dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:List_of_United_States_senators_in_the_24th_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:List_of_United_States_senators_in_the_25th_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:List_of_United_States_senators_in_the_26th_Congress dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:List_of_former_United_States_senators dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+<http://dbpedia.org/resource/List_of_people_from_Fayetteville,_North_Carolina> dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Political_party_strength_in_North_Carolina dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Resignation_from_the_United_States_Senate dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Robert_Strange_(bishop) dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Robert_Strange_(disambiguation) dbo:wikiPageDisambiguates dbr:Robert_Strange ;
+    dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Senator_Strange dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+<http://dbpedia.org/resource/Strange,_Robert> dbo:wikiPageRedirects dbr:Robert_Strange ;
+    dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:United_States_Senate_Committee_on_Patents dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:United_States_congressional_delegations_from_North_Carolina dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:William_Alexander_Graham__Tenure__4 dbo:predecessor dbr:Robert_Strange .
+
+dbr:Willie_Person_Mangum__Tenure__3 dbo:successor dbr:Robert_Strange .
+
+dbr:James_Strange_French dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+dbr:Robert_Strange_Country_House dbo:wikiPageWikiLink dbr:Robert_Strange .
+
+wikipedia-en:Robert_Strange foaf:primaryTopic dbr:Robert_Strange .
+
+dbr:Bedford_Brown dbo:wikiPageWikiLink dbr:Robert_Strange ;
+    dbp:alongside dbr:Robert_Strange .
+
+dbr:William_Alexander_Graham dbo:wikiPageWikiLink dbr:Robert_Strange ;
+    dbp:predecessor dbr:Robert_Strange .
+
+dbr:Willie_Person_Mangum dbo:wikiPageWikiLink dbr:Robert_Strange ;
+    dbp:after dbr:Robert_Strange ;
+    dbp:successor dbr:Robert_Strange .
+
+dbr:Robert_Strange a yago:Adjudicator109769636,
+        yago:Adult109605289,
+        yago:Alumnus109786338,
+        yago:CausalAgent100007347,
+        yago:Communicator109610660,
+        yago:Holder110180178,
+        yago:Intellectual109621545,
+        yago:Judge110225219,
+        yago:Lawgiver110249270,
+        yago:Lawyer110249950,
+        yago:Leader109623038,
+        yago:Legislator110253995,
+        yago:LivingThing100004258,
+        yago:Object100002684,
+        yago:Officeholder110371450,
+        yago:Official110372373,
+        yago:Organism100004475,
+        yago:Owner110389398,
+        yago:Person100007846,
+        yago:PhysicalEntity100001930,
+        yago:Politician110451263,
+        yago:Professional110480253,
+        yago:Scholar110557854,
+        yago:Senator110578471,
+        yago:SkilledWorker110605985,
+        yago:Whole100003553,
+        yago:WikicatAmericanJudges,
+        yago:WikicatAmericanLawyers,
+        yago:WikicatAmericanPeople,
+        yago:WikicatDemocraticPartyUnitedStatesSenators,
+        <http://dbpedia.org/class/yago/WikicatHampden–SydneyCollegeAlumni>,
+        yago:WikicatNorthCarolinaStateCourtJudges,
+        yago:WikicatPeopleFromTheGreaterRichmondRegion,
+        yago:WikicatUnitedStatesSenatorsFromNorthCarolina,
+        yago:WikicatWritersFromNorthCarolina,
+        yago:WikicatWritersFromVirginia,
+        yago:Worker109632518,
+        yago:Writer110794014,
+        yago:YagoLegalActor,
+        yago:YagoLegalActorGeo,
+        dbo:Animal,
+        dbo:Eukaryote,
+        dbo:OfficeHolder,
+        dbo:Person,
+        dbo:Politician,
+        dbo:Species,
+        schema1:Person,
+        ns6:NaturalPerson,
+        owl:Thing,
+        wikidata:Q19088,
+        wikidata:Q215627,
+        wikidata:Q5,
+        wikidata:Q729,
+        wikidata:Q82955,
+        foaf:Person ;
+    rdfs:label "روبرت سترينج"@ar,
+        "Robert Strange"@de,
+        "Robert Strange"@en,
+        "Robert Strange"@sv ;
+    dbo:abstract "روبرت سترينج هو محامي وقاضي وسياسي أمريكي، ولد في 20 سبتمبر 1796 في Manchester  في الولايات المتحدة، وتوفي في 19 فبراير 1854 في فاييتفيل في الولايات المتحدة. نشط حزبياً في الحزب الديمقراطي."@ar,
+        "Robert Strange (* 20. September 1796 in , Chesterfield County, Virginia; † 19. Februar 1854 in Fayetteville, North Carolina) war ein US-amerikanischer Politiker der Demokratischen Partei. Er vertrat den Bundesstaat North Carolina im Senat der Vereinigten Staaten. Strange stammte aus Manchester, das später ein Stadtteil des Landeshauptstadt Richmond wurde. Er besuchte das Washington College in Lexington und machte 1815 seinen Abschluss am im Süden Virginias. Danach begann er als Jurist in Fayetteville zu arbeiten. Von 1821 bis 1823 gehörte Strange erstmals dem House of Commons von North Carolina an; 1826 wurde er erneut in diese Parlamentskammer gewählt. Zwischen 1827 und 1836 fungierte er als Richter am Obersten Gerichtshof von North Carolina. Nach dem Rücktritt von US-Senator Willie Person Mangum wurde Robert Strange zu dessen Nachfolger gewählt. Er gehörte dem Senat vom 5. Dezember 1836 bis zum 16. November 1840 an, als er selbst zurücktrat, um wieder seinem Beruf als Anwalt nachgehen zu können. Überdies übte er noch das Amt des Solicitor für den fünften Gerichtsbezirk von North Carolina aus. Er starb 1854 in Fayetteville und wurde auf dem nahe gelegenen Familienfriedhof beigesetzt. Strange war auch als Autor tätig. Mit Eoneguski, or the Cherokee Chief schuf er den ersten Roman über North Carolina."@de,
+        "Robert Strange (September 20, 1796 – February 19, 1854) was a Democratic U.S. senator from the state of North Carolina between 1836 and 1840. Strange was born in Manchester, Virginia. He attended New Oxford Academy and Washington College (now Washington and Lee University) in Lexington, Virginia. He graduated from Hampden–Sydney College in south central Virginia in 1815 and practiced law in Fayetteville, North Carolina. He was elected to the North Carolina House of Commons (1821–1823 and 1826) and was a judge of the superior court of North Carolina (1827–1836). Strange was elected as a Jacksonian (later Democrat) to the United States Senate to fill the vacancy caused by the resignation of Willie Person Mangum and served from December 5, 1836, to November 16, 1840, when he resigned and resumed the practice of law in Fayetteville, where he died on February 19, 1854 and was buried in the family burial ground at Myrtle Hill, near Fayetteville. Strange was an ardent and active Freemason, serving as the Grand Master of the Grand Lodge of North Carolina, Ancient, Free and Accepted Masons from 1812 through 1814. He also served as Master of Phoenix Lodge No. 8, A. F. & A. M., in Fayetteville, NC, for the year 1826. Strange commanded the Fayetteville Independent Light Infantry (FILI), an independent militia company in Fayetteville, NC. In this role Strange served as the escort for the Marquis de Lafayette when he visited Fayetteville on the 5th of March, 1825. A number of people read law with him, including his nephew James Strange French. He was the author of Eoneguski, or the Cherokee Chief, which has been called the first North Carolina novel. The Robert Strange Country House was listed on the National Register of Historic Places in 1983."@en,
+        "Robert Strange, född 20 september 1796 i Chesterfield County, Virginia, död 19 februari 1854 i Fayetteville, North Carolina, var en amerikansk politiker (demokrat). Han representerade delstaten North Carolina i USA:s senat 1836–1840. Strange studerade vid Washington College (numera Washington and Lee University) och vid . Han flyttade 1815 till Fayetteville. Han studerade sedan juridik och inledde sin karriär som advokat i North Carolina. Han tjänstgjorde som domare 1827–1836. Senator Willie Person Mangum avgick 1836 och efterträddes av Strange. Han avgick i sin tur år 1840 och efterträddes av William Alexander Graham. Strange var även författare. Romanen Eoneguski, or the Cherokee Chief utkom 1839."@sv ;
+    dbo:birthDate "1796-09-20"^^xsd:date ;
+    dbo:birthPlace <http://dbpedia.org/resource/Manchester,_Richmond,_Virginia>,
+        dbr:Virginia ;
+    dbo:deathDate "1854-02-19"^^xsd:date ;
+    dbo:deathPlace <http://dbpedia.org/resource/Fayetteville,_North_Carolina>,
+        dbr:North_Carolina ;
+    dbo:party dbr:Democratic_Party_(United_States) ;
+    dbo:termPeriod dbr:Robert_Strange__Tenure__1 ;
+    dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/NC-Congress-RogerStrange.jpg?width=300> ;
+    dbo:wikiPageExternalLink <http://docsouth.unc.edu/nc/strange1/menu.html>,
+        <http://www.FILI1793.com> ;
+    dbo:wikiPageID 516501 ;
+    dbo:wikiPageLength "4333"^^xsd:nonNegativeInteger ;
+    dbo:wikiPageRevisionID 1046415353 ;
+    dbo:wikiPageWikiLink dbr:Bedford_Brown,
+        dbc:1796_births,
+        dbc:1854_deaths,
+        dbc:19th-century_American_judges,
+        dbc:19th-century_American_politicians,
+        dbc:Democratic_Party_United_States_senators,
+        <http://dbpedia.org/resource/Category:Hampden–Sydney_College_alumni>,
+        dbc:Members_of_the_North_Carolina_House_of_Representatives,
+        dbc:North_Carolina_Democrats,
+        dbc:North_Carolina_Jacksonians,
+        dbc:North_Carolina_state_court_judges,
+        dbc:People_from_the_Greater_Richmond_Region,
+        dbc:United_States_senators_from_North_Carolina,
+        dbc:Writers_from_North_Carolina,
+        dbc:Writers_from_Virginia,
+        dbr:Democratic-Republican_Party,
+        dbr:Democratic_Party_(United_States),
+        <http://dbpedia.org/resource/Fayetteville,_North_Carolina>,
+        <http://dbpedia.org/resource/Hampden–Sydney_College>,
+        dbr:James_Strange_French,
+        <http://dbpedia.org/resource/Lexington,_Virginia>,
+        <http://dbpedia.org/resource/Manchester,_Richmond,_Virginia>,
+        dbr:National_Register_of_Historic_Places,
+        dbr:North_Carolina,
+        dbr:North_Carolina_House_of_Representatives,
+        dbr:Robert_Strange_Country_House,
+        dbr:Superior_court,
+        dbr:United_States_Senate,
+        dbr:Virginia,
+        dbr:William_Alexander_Graham,
+        dbr:Willie_Person_Mangum ;
+    dbp:after dbr:William_Alexander_Graham ;
+    dbp:alongside dbr:Bedford_Brown ;
+    dbp:before dbr:Willie_Person_Mangum ;
+    dbp:birthDate "1796-09-20"^^xsd:date ;
+    dbp:birthPlace <http://dbpedia.org/resource/Manchester,_Richmond,_Virginia>,
+        dbr:Virginia ;
+    dbp:class 3 ;
+    dbp:deathDate "1854-02-19"^^xsd:date ;
+    dbp:deathPlace <http://dbpedia.org/resource/Fayetteville,_North_Carolina>,
+        dbr:North_Carolina ;
+    ns22:sr "United States Senator"@en ;
+    dbp:name "Robert Strange"@en ;
+    dbp:office "Member of the North Carolina House of Representatives"@en ;
+    dbp:party dbr:Democratic_Party_(United_States) ;
+    dbp:predecessor dbr:Willie_Person_Mangum ;
+    dbp:state dbr:North_Carolina,
+        "North Carolina"@en ;
+    dbp:successor dbr:William_Alexander_Graham ;
+    dbp:term 1821,
+        1826 ;
+    dbp:termEnd "1840-11-16"^^xsd:date ;
+    dbp:termStart "1836-12-05"^^xsd:date ;
+    dbp:wikiPageUsesTemplate dbt:Authority_control,
+        dbt:Bioguide,
+        dbt:Birth_date,
+        dbt:CongBio,
+        dbt:Death_date_and_age,
+        dbt:Infobox_officeholder,
+        dbt:Other_people,
+        dbt:Reflist,
+        dbt:S-end,
+        dbt:S-par,
+        dbt:S-start,
+        dbt:Spaced_ndash,
+        dbt:U.S._Senator_box,
+        dbt:USSenNC ;
+    dbp:years 1836 ;
+    dct:subject dbc:1796_births,
+        dbc:1854_deaths,
+        dbc:19th-century_American_judges,
+        dbc:19th-century_American_politicians,
+        dbc:Democratic_Party_United_States_senators,
+        <http://dbpedia.org/resource/Category:Hampden–Sydney_College_alumni>,
+        dbc:Members_of_the_North_Carolina_House_of_Representatives,
+        dbc:North_Carolina_Democrats,
+        dbc:North_Carolina_Jacksonians,
+        dbc:North_Carolina_state_court_judges,
+        dbc:People_from_the_Greater_Richmond_Region,
+        dbc:United_States_senators_from_North_Carolina,
+        dbc:Writers_from_North_Carolina,
+        dbc:Writers_from_Virginia ;
+    gold:hypernym dbr:Senator ;
+    schema1:sameAs <http://viaf.org/viaf/44689124> ;
+    rdfs:comment "روبرت سترينج هو محامي وقاضي وسياسي أمريكي، ولد في 20 سبتمبر 1796 في Manchester  في الولايات المتحدة، وتوفي في 19 فبراير 1854 في فاييتفيل في الولايات المتحدة. نشط حزبياً في الحزب الديمقراطي."@ar,
+        "Robert Strange (* 20. September 1796 in , Chesterfield County, Virginia; † 19. Februar 1854 in Fayetteville, North Carolina) war ein US-amerikanischer Politiker der Demokratischen Partei. Er vertrat den Bundesstaat North Carolina im Senat der Vereinigten Staaten. Strange stammte aus Manchester, das später ein Stadtteil des Landeshauptstadt Richmond wurde. Er besuchte das Washington College in Lexington und machte 1815 seinen Abschluss am im Süden Virginias. Danach begann er als Jurist in Fayetteville zu arbeiten."@de,
+        "Robert Strange (September 20, 1796 – February 19, 1854) was a Democratic U.S. senator from the state of North Carolina between 1836 and 1840. Strange was born in Manchester, Virginia. He attended New Oxford Academy and Washington College (now Washington and Lee University) in Lexington, Virginia. He graduated from Hampden–Sydney College in south central Virginia in 1815 and practiced law in Fayetteville, North Carolina. He was elected to the North Carolina House of Commons (1821–1823 and 1826) and was a judge of the superior court of North Carolina (1827–1836)."@en,
+        "Robert Strange, född 20 september 1796 i Chesterfield County, Virginia, död 19 februari 1854 i Fayetteville, North Carolina, var en amerikansk politiker (demokrat). Han representerade delstaten North Carolina i USA:s senat 1836–1840. Strange studerade vid Washington College (numera Washington and Lee University) och vid . Han flyttade 1815 till Fayetteville. Han studerade sedan juridik och inledde sin karriär som advokat i North Carolina. Han tjänstgjorde som domare 1827–1836."@sv ;
+    owl:sameAs <http://ar.dbpedia.org/resource/روبرت_سترينج>,
+        <http://arz.dbpedia.org/resource/روبيرت_سترانج>,
+        <http://azb.dbpedia.org/resource/رابرت_استرینج>,
+        dbr:Robert_Strange,
+        dbpedia-de:Robert_Strange,
+        <http://fa.dbpedia.org/resource/رابرت_استرینج>,
+        dbpedia-hu:Robert_Strange,
+        <http://rdf.freebase.com/ns/m.02kl51>,
+        dbpedia-sv:Robert_Strange,
+        <http://viaf.org/viaf/44689124>,
+        wikidata:Q1728001,
+        yago-res:Robert_Strange,
+        ns15:gPQe ;
+    prov:wasDerivedFrom <http://en.wikipedia.org/wiki/Robert_Strange?oldid=1046415353&ns=0> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/NC-Congress-RogerStrange.jpg> ;
+    foaf:isPrimaryTopicOf wikipedia-en:Robert_Strange ;
+    foaf:name "Robert Strange"@en .
+
