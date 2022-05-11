@@ -50,16 +50,17 @@ def search_actors():
 def dbpedia_search():
     search_actors()
 
-def load_movies():
-    # parser = argparse.ArgumentParser()                                               
-    # parser.add_argument("--input", "-i", type=str, required=True)
-    # args = parser.parse_args()
-    # G.parse(args.input, format='ttl', encoding="utf-8")
-    G.parse("dataset-original.ttl", format='ttl', encoding="utf-8")
+def load_movies(input_file):
+    G.parse(input_file, format='ttl', encoding="utf-8")
     SAMEAS_G.parse("links.ttl", format='ttl', encoding="utf-8")
 
 if __name__ == "__main__":
-    load_movies()
-    
+    parser = argparse.ArgumentParser()                                               
+    parser.add_argument("--input", "-i", type=str, required=True)
+    parser.add_argument("--output", "-o", type=str, required=True)
+    args = parser.parse_args()
+
+    load_movies(args.input)
     dbpedia_search()
-    G.serialize("dataset-enriquecido.ttl", format="ttl", encoding="utf-8")
+
+    G.serialize(args.output, format="ttl", encoding="utf-8")
