@@ -1,4 +1,4 @@
-@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sw: <http://www.semanticweb.org/> .
 

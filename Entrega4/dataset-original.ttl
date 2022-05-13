@@ -1,1064 +1,1669 @@
 @prefix : <http://www.semanticweb.org#> .
+@prefix sw: <http://www.semanticweb.org/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix sw: <http://www.semanticweb.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<http://www.semanticweb.org> a owl:Ontology .
-
-:directs a owl:ObjectProperty ;
-    rdfs:domain schema:Person ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf schema:director .
-
-:hasSequel a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf :sequelOf .
-
-:performsIn a owl:ObjectProperty ;
-    rdfs:domain schema:Person ;
-    rdfs:range schema:Movie ;
-    owl:inverseOf schema:actor .
-
-:playedIn a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:ScreeningEvent ;
-    owl:inverseOf schema:workPresented .
-
-:worksWith a owl:IrreflexiveProperty,
-        owl:ObjectProperty,
-        owl:SymmetricProperty ;
-    rdfs:domain schema:Person ;
-    rdfs:range schema:Person .
-
-sw:screeningEvent0 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala 3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent1 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T16:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala 4d+3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent10 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala 3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent11 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent12 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent13 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:40:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent14 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent15 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent16 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala atmos hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent17 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala atmos hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent18 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala atmos hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent19 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T16:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala atmos hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent2 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala 4d+3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent20 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T17:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala 3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent21 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent22 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent23 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T14:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent24 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T16:20:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent25 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent26 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent27 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent28 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent29 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent3 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala 4d+3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent30 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent31 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent32 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent33 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore .
-
-sw:screeningEvent34 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T16:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Batman .
-
-sw:screeningEvent35 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Batman .
-
-sw:screeningEvent36 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:40:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Batman .
-
-sw:screeningEvent37 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:20:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Batman .
-
-sw:screeningEvent38 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Competencia_oficial .
-
-sw:screeningEvent39 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Competencia_oficial .
-
-sw:screeningEvent4 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala 4d+3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent40 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent41 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:50:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent42 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent43 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent44 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent45 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent46 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent47 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent48 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T21:15:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent49 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:05:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent5 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent50 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent51 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent52 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:El_buen_patrón .
-
-sw:screeningEvent53 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Jack_in_the_Box .
-
-sw:screeningEvent54 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent55 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent56 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent57 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent58 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent59 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:The_Lost_City .
-
-sw:screeningEvent6 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T19:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala 3d" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent60 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Morbius .
-
-sw:screeningEvent61 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Morbius .
-
-sw:screeningEvent62 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T14:50:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent63 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent64 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent65 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent66 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_City ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent67 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent68 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent69 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent7 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T16:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent70 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent71 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Paradiso ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent72 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent73 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T18:10:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent74 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent75 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent76 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent77 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent78 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Rocha ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Sing_2 .
-
-sw:screeningEvent79 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_San_Martin ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Uncharted .
-
-sw:screeningEvent8 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T13:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-sw:screeningEvent9 a schema:ScreeningEvent ;
-    schema:doorTime "2022-05-08T22:45:00"^^xsd:dateTime ;
-    schema:location sw:Cinema_Ocho ;
-    schema:videoFormat "sala hd" ;
-    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness .
-
-xsd:date a rdfs:Datatype .
-
-schema:address a owl:DatatypeProperty ;
-    rdfs:domain [ a owl:Class ;
-            owl:unionOf ( schema:MovieTheater schema:ScreeningEvent ) ] ;
-    rdfs:range xsd:string .
-
-schema:aggregateRating a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:AggregateRating .
-
-schema:contentUrl a owl:DatatypeProperty ;
-    rdfs:domain schema:ImageObject ;
-    rdfs:range xsd:string .
-
-schema:datePublished a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:dateTime .
-
-schema:doorTime a owl:DatatypeProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range xsd:dateTime .
-
-schema:duration a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:duration .
-
-schema:genre a owl:DatatypeProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range xsd:string .
-
-schema:image a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:ImageObject .
-
-schema:isBasedOn a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie .
-
-schema:location a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range schema:MovieTheater .
-
-schema:name a owl:DatatypeProperty ;
-    rdfs:domain owl:Thing ;
-    rdfs:range xsd:string .
-
-schema:ratingValue a owl:DatatypeProperty ;
-    rdfs:domain schema:AggregateRating ;
-    rdfs:range xsd:double .
-
-schema:videoFormat a owl:DatatypeProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range xsd:string .
-
-:sequelOf a owl:ObjectProperty,
-        owl:TransitiveProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Movie .
-
-sw:Aaron_Nee a schema:Person ;
-    rdfs:label "Aaron Nee" ;
-    schema:name "Aaron Nee" .
-
-sw:Adam_Nee a schema:Person ;
-    rdfs:label "Adam Nee" ;
-    schema:name "Adam Nee" .
-
-sw:Adria_Arjona a schema:Person ;
-    rdfs:label "Adria Arjona" ;
-    schema:name "Adria Arjona" .
-
-sw:Almudena_Amor a schema:Person ;
-    rdfs:label "Almudena Amor" ;
-    schema:name "Almudena Amor" .
-
-sw:Benedict_Cumberbatch a schema:Person ;
-    rdfs:label "Benedict Cumberbatch" ;
-    schema:name "Benedict Cumberbatch" .
-
-sw:Channing_Tatum a schema:Person ;
-    rdfs:label "Channing Tatum" ;
-    schema:name "Channing Tatum" .
-
-sw:Chiwetel_Ejiofor a schema:Person ;
-    rdfs:label "Chiwetel Ejiofor" ;
-    schema:name "Chiwetel Ejiofor" .
-
-sw:Christophe_Lourdelet a schema:Person ;
-    rdfs:label "Christophe Lourdelet" ;
-    schema:name "Christophe Lourdelet" .
-
-sw:Daniel_Espinosa a schema:Person ;
-    rdfs:label "Daniel Espinosa" ;
-    schema:name "Daniel Espinosa" .
-
-sw:Daniel_Radcliffe a schema:Person ;
-    rdfs:label "Daniel Radcliffe" ;
-    schema:name "Daniel Radcliffe" .
-
-sw:David_Yates a schema:Person ;
-    rdfs:label "David Yates" ;
-    schema:name "David Yates" .
-
-sw:Eddie_Redmayne a schema:Person ;
-    rdfs:label "Eddie Redmayne" ;
-    schema:name "Eddie Redmayne" .
-
-sw:Elizabeth_Olsen a schema:Person ;
-    rdfs:label "Elizabeth Olsen" ;
-    schema:name "Elizabeth Olsen" .
-
-sw:Ethan_Taylor a schema:Person ;
-    rdfs:label "Ethan Taylor" ;
-    schema:name "Ethan Taylor" .
-
-sw:Ezra_Miller a schema:Person ;
-    rdfs:label "Ezra Miller" ;
-    schema:name "Ezra Miller" .
-
-sw:Fernando_León_de_Aranoa a schema:Person ;
-    rdfs:label "Fernando León de Aranoa" ;
-    schema:name "Fernando León de Aranoa" .
-
-sw:Garth_Jennings a schema:Person ;
-    rdfs:label "Garth Jennings" ;
-    schema:name "Garth Jennings" .
-
-sw:Gastón_Duprat a schema:Person ;
-    rdfs:label "Gastón Duprat" ;
-    schema:name "Gastón Duprat" .
-
-sw:Jared_Leto a schema:Person ;
-    rdfs:label "Jared Leto" ;
-    schema:name "Jared Leto" .
-
-sw:Javier_Bardem a schema:Person ;
-    rdfs:label "Javier Bardem" ;
-    schema:name "Javier Bardem" .
-
-sw:Jeffrey_Wright a schema:Person ;
-    rdfs:label "Jeffrey Wright" ;
-    schema:name "Jeffrey Wright" .
-
-sw:Jude_Law a schema:Person ;
-    rdfs:label "Jude Law" ;
-    schema:name "Jude Law" .
-
-sw:Lawrence_Fowler a schema:Person ;
-    rdfs:label "Lawrence Fowler" ;
-    schema:name "Lawrence Fowler" .
-
-sw:Lucy-Jane_Quinlan a schema:Person ;
-    rdfs:label "Lucy-Jane Quinlan" ;
-    schema:name "Lucy-Jane Quinlan" .
-
-sw:Manolo_Solo a schema:Person ;
-    rdfs:label "Manolo Solo" ;
-    schema:name "Manolo Solo" .
-
-sw:Mariano_Cohn a schema:Person ;
-    rdfs:label "Mariano Cohn" ;
-    schema:name "Mariano Cohn" .
-
-sw:Mark_Wahlberg a schema:Person ;
-    rdfs:label "Mark Wahlberg" ;
-    schema:name "Mark Wahlberg" .
-
-sw:Matt_Reeves a schema:Person ;
-    rdfs:label "Matt Reeves" ;
-    schema:name "Matt Reeves" .
-
-sw:Matt_Smith a schema:Person ;
-    rdfs:label "Matt Smith" ;
-    schema:name "Matt Smith" .
-
-sw:Matthew_McConaughey a schema:Person ;
-    rdfs:label "Matthew McConaughey" ;
-    schema:name "Matthew McConaughey" .
-
-sw:Oscar_Martínez a schema:Person ;
-    rdfs:label "Oscar Martínez" ;
-    schema:name "Oscar Martínez" .
-
-sw:Penélope_Cruz a schema:Person ;
-    rdfs:label "Penélope Cruz" ;
-    schema:name "Penélope Cruz" .
-
-sw:Reese_Witherspoon a schema:Person ;
-    rdfs:label "Reese Witherspoon" ;
-    schema:name "Reese Witherspoon" .
-
-sw:Robert_Pattinson a schema:Person ;
-    rdfs:label "Robert Pattinson" ;
-    schema:name "Robert Pattinson" .
-
-sw:Robert_Strange a schema:Person ;
-    rdfs:label "Robert Strange" ;
-    schema:name "Robert Strange" .
-
-sw:Ruben_Fleischer a schema:Person ;
-    rdfs:label "Ruben Fleischer" ;
-    schema:name "Ruben Fleischer" .
-
-sw:Sam_Raimi a schema:Person ;
-    rdfs:label "Sam Raimi" ;
-    schema:name "Sam Raimi" .
-
-sw:Sandra_Bullock a schema:Person ;
-    rdfs:label "Sandra Bullock" ;
-    schema:name "Sandra Bullock" .
-
-sw:Scarlett_Johansson a schema:Person ;
-    rdfs:label "Scarlett Johansson" ;
-    schema:name "Scarlett Johansson" .
-
-sw:The_Jack_in_the_Box a schema:Movie ;
-    rdfs:label "The Jack in the Box" ;
-    schema:actor sw:Ethan_Taylor,
-        sw:Lucy-Jane_Quinlan,
-        sw:Robert_Strange ;
-    schema:aggregateRating sw:aggregateRating10 ;
-    schema:datePublished "2022-04-07"^^xsd:date ;
-    schema:director sw:Lawrence_Fowler ;
-    schema:duration "PT1H27M"^^xsd:duration ;
-    schema:genre "Horror" ;
-    schema:image sw:image10 ;
-    schema:name "The Jack in the Box" .
-
-sw:Tom_Holland a schema:Person ;
-    rdfs:label "Tom Holland" ;
-    schema:name "Tom Holland" .
-
-sw:Uncharted a schema:Movie ;
-    rdfs:label "Uncharted" ;
-    schema:actor sw:Antonio_Banderas,
-        sw:Mark_Wahlberg,
-        sw:Tom_Holland ;
-    schema:aggregateRating sw:aggregateRating17 ;
-    schema:datePublished "2022-02-17"^^xsd:date ;
-    schema:director sw:Ruben_Fleischer ;
-    schema:duration "PT1H56M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure" ;
-    schema:image sw:image17 ;
-    schema:name "Uncharted" .
-
-sw:Zoë_Kravitz a schema:Person ;
-    rdfs:label "Zoë Kravitz" ;
-    schema:name "Zoë Kravitz" .
-
-sw:aggregateRating0 a schema:AggregateRating ;
-    schema:ratingValue 7.6e+00 .
-
-sw:aggregateRating1 a schema:AggregateRating ;
-    schema:ratingValue 6.5e+00 .
-
-sw:aggregateRating10 a schema:AggregateRating ;
-    schema:ratingValue 4.2e+00 .
-
-sw:aggregateRating11 a schema:AggregateRating ;
-    schema:ratingValue 6.6e+00 .
-
-sw:aggregateRating12 a schema:AggregateRating ;
-    schema:ratingValue 6.6e+00 .
-
-sw:aggregateRating13 a schema:AggregateRating ;
-    schema:ratingValue 5.1e+00 .
-
-sw:aggregateRating14 a schema:AggregateRating ;
-    schema:ratingValue 7.4e+00 .
-
-sw:aggregateRating15 a schema:AggregateRating ;
-    schema:ratingValue 7.4e+00 .
-
-sw:aggregateRating16 a schema:AggregateRating ;
-    schema:ratingValue 7.4e+00 .
-
-sw:aggregateRating17 a schema:AggregateRating ;
-    schema:ratingValue 6.4e+00 .
-
-sw:aggregateRating2 a schema:AggregateRating ;
-    schema:ratingValue 8e+00 .
-
-sw:aggregateRating3 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:aggregateRating4 a schema:AggregateRating ;
-    schema:ratingValue 7.6e+00 .
-
-sw:aggregateRating5 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:aggregateRating6 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:aggregateRating7 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:aggregateRating8 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:aggregateRating9 a schema:AggregateRating ;
-    schema:ratingValue 7.2e+00 .
-
-sw:image0 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
-
-sw:image1 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg" .
-
-sw:image10 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZTcwMGFlOGItNDhiNi00YzBmLWE1MzctMmY3MDRmOWY4ODcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
-
-sw:image11 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
-
-sw:image12 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
-
-sw:image13 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMzNmZmQ2YjctNmJmMi00NWEyLWExNTQtYjQ2MWM0MjA3NjY1XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg" .
-
-sw:image14 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
-
-sw:image15 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
-
-sw:image16 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
-
-sw:image17 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWEwNjhkYzYtNjgzYy00YTY2LThjYWYtYzViMGJkZTI4Y2MyXkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg" .
-
-sw:image2 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg" .
-
-sw:image3 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTg2OWZlNDItZjc3OS00NTk3LThmOWUtMzY2MTQyOWIzMDkyXkEyXkFqcGdeQXVyMTMwNjQxNDU1._V1_.jpg" .
-
-sw:image4 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
-
-sw:image5 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
-
-sw:image6 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
-
-sw:image7 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
-
-sw:image8 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
-
-sw:image9 a schema:ImageObject ;
-    schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
-
-xsd:duration a rdfs:Datatype .
-
-schema:actor a owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Person ;
-    owl:propertyDisjointWith schema:director .
-
-schema:workPresented a owl:ObjectProperty ;
-    rdfs:domain schema:ScreeningEvent ;
-    rdfs:range schema:Movie .
-
-sw:Antonio_Banderas a schema:Person ;
-    rdfs:label "Antonio Banderas" ;
-    schema:name "Antonio Banderas" .
-
-sw:Competencia_oficial a schema:Movie ;
-    rdfs:label "Competencia oficial" ;
-    schema:actor sw:Antonio_Banderas,
-        sw:Oscar_Martínez,
-        sw:Penélope_Cruz ;
-    schema:aggregateRating sw:aggregateRating3 ;
-    schema:datePublished "2022-03-17"^^xsd:date ;
-    schema:director sw:Gastón_Duprat,
-        sw:Mariano_Cohn ;
-    schema:duration "PT1H54M"^^xsd:duration ;
-    schema:genre "Comedy",
-        "Drama" ;
-    schema:image sw:image3 ;
-    schema:name "Competencia oficial" .
-
-sw:Morbius a schema:Movie ;
-    rdfs:label "Morbius" ;
-    schema:actor sw:Adria_Arjona,
-        sw:Jared_Leto,
-        sw:Matt_Smith ;
-    schema:aggregateRating sw:aggregateRating13 ;
-    schema:datePublished "2022-03-31"^^xsd:date ;
-    schema:director sw:Daniel_Espinosa ;
-    schema:duration "PT1H44M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Horror" ;
-    schema:image sw:image13 ;
-    schema:name "Morbius" .
-
-schema:director a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain schema:Movie ;
-    rdfs:range schema:Person .
-
-sw:The_Batman a schema:Movie ;
-    rdfs:label "The Batman" ;
-    schema:actor sw:Jeffrey_Wright,
-        sw:Robert_Pattinson,
-        sw:Zoë_Kravitz ;
-    schema:aggregateRating sw:aggregateRating2 ;
-    schema:datePublished "2022-03-03"^^xsd:date ;
-    schema:director sw:Matt_Reeves ;
-    schema:duration "PT2H56M"^^xsd:duration ;
-    schema:genre "Action",
-        "Crime",
-        "Drama" ;
-    schema:image sw:image2 ;
-    schema:name "The Batman" .
-
-sw:The_Lost_City a schema:Movie ;
-    rdfs:label "The Lost City" ;
-    schema:actor sw:Channing_Tatum,
-        sw:Daniel_Radcliffe,
-        sw:Sandra_Bullock ;
-    schema:aggregateRating sw:aggregateRating11,
-        sw:aggregateRating12 ;
-    schema:datePublished "2022-04-21"^^xsd:date ;
-    schema:director sw:Aaron_Nee,
-        sw:Adam_Nee ;
-    schema:duration "PT1H52M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Comedy" ;
-    schema:image sw:image11,
-        sw:image12 ;
-    schema:name "The Lost City" .
-
-schema:MovieTheater a owl:Class .
-
-sw:Fantastic_Beasts_The_Secrets_of_Dumbledore a schema:Movie ;
-    rdfs:label "Fantastic Beasts The Secrets of Dumbledore" ;
-    schema:actor sw:Eddie_Redmayne,
-        sw:Ezra_Miller,
-        sw:Jude_Law ;
-    schema:aggregateRating sw:aggregateRating1 ;
-    schema:datePublished "2022-04-15"^^xsd:date ;
-    schema:director sw:David_Yates ;
-    schema:duration "PT2H22M"^^xsd:duration ;
-    schema:genre "Adventure",
-        "Family",
-        "Fantasy" ;
-    schema:image sw:image1 ;
-    schema:name "Fantastic Beasts The Secrets of Dumbledore" .
-
-sw:El_buen_patrón a schema:Movie ;
-    rdfs:label "El buen patrón" ;
-    schema:actor sw:Almudena_Amor,
-        sw:Javier_Bardem,
-        sw:Manolo_Solo ;
-    schema:aggregateRating sw:aggregateRating5,
-        sw:aggregateRating6,
-        sw:aggregateRating7,
-        sw:aggregateRating8,
-        sw:aggregateRating9 ;
-    schema:datePublished "2022-04-28"^^xsd:date ;
-    schema:director sw:Fernando_León_de_Aranoa ;
-    schema:duration "PT2H"^^xsd:duration ;
-    schema:genre "Comedy" ;
-    schema:image sw:image5,
-        sw:image6,
-        sw:image7,
-        sw:image8,
-        sw:image9 ;
-    schema:name "El buen patrón" .
-
-sw:Cinema_Ocho a schema:MovieTheater ;
-    rdfs:label "Cinema Ocho" ;
-    schema:name "Cinema Ocho" .
-
-sw:Cinema_City a schema:MovieTheater ;
-    rdfs:label "Cinema City" ;
-    schema:name "Cinema City" .
-
-sw:Cinema_Rocha a schema:MovieTheater ;
-    rdfs:label "Cinema Rocha" ;
-    schema:name "Cinema Rocha" .
-
-sw:Sing_2 a schema:Movie ;
-    rdfs:label "Sing 2" ;
-    schema:actor sw:Matthew_McConaughey,
-        sw:Reese_Witherspoon,
-        sw:Scarlett_Johansson ;
-    schema:aggregateRating sw:aggregateRating14,
-        sw:aggregateRating15,
-        sw:aggregateRating16 ;
-    schema:datePublished "2022-01-06"^^xsd:date ;
-    schema:director sw:Christophe_Lourdelet,
-        sw:Garth_Jennings ;
-    schema:genre "Adventure",
-        "Animation",
-        "Comedy" ;
-    schema:image sw:image14,
-        sw:image15,
-        sw:image16 ;
-    schema:name "Sing 2" .
-
-sw:Cinema_San_Martin a schema:MovieTheater ;
-    rdfs:label "Cinema San Martin" ;
-    schema:name "Cinema San Martin" .
-
-schema:AggregateRating a owl:Class .
-
-schema:ImageObject a owl:Class .
-
-sw:Cinema_Paradiso a schema:MovieTheater ;
-    rdfs:label "Cinema Paradiso" ;
-    schema:name "Cinema Paradiso" .
-
-sw:Doctor_Strange_in_the_Multiverse_of_Madness a schema:Movie ;
-    rdfs:label "Doctor Strange in the Multiverse of Madness" ;
-    schema:actor sw:Benedict_Cumberbatch,
-        sw:Chiwetel_Ejiofor,
-        sw:Elizabeth_Olsen ;
-    schema:aggregateRating sw:aggregateRating0,
-        sw:aggregateRating4 ;
-    schema:datePublished "2022-05-05"^^xsd:date ;
-    schema:director sw:Sam_Raimi ;
-    schema:duration "PT2H6M"^^xsd:duration ;
-    schema:genre "Action",
-        "Adventure",
-        "Fantasy" ;
-    schema:image sw:image0,
-        sw:image4 ;
-    schema:name "Doctor Strange in the Multiverse of Madness" .
-
-schema:Movie a owl:Class .
-
-schema:Person a owl:Class .
-
-schema:ScreeningEvent a owl:Class .
+@base <http://www.semanticweb.org> .
 
+<http://www.semanticweb.org> rdf:type owl:Ontology .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+###  http://www.w3.org/2001/XMLSchema#duration
+xsd:duration rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org#directs
+:directs rdf:type owl:ObjectProperty ;
+         owl:inverseOf schema:director ;
+         rdfs:domain schema:Person ;
+         rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#hasSequel
+:hasSequel rdf:type owl:ObjectProperty ;
+           owl:inverseOf :sequelOf ;
+           rdfs:domain schema:Movie ;
+           rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#performsIn
+:performsIn rdf:type owl:ObjectProperty ;
+            owl:inverseOf schema:actor ;
+            rdfs:domain schema:Person ;
+            rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#playedIn
+:playedIn rdf:type owl:ObjectProperty ;
+          owl:inverseOf schema:workPresented ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:ScreeningEvent .
+
+
+###  http://www.semanticweb.org#sequelOf
+:sequelOf rdf:type owl:ObjectProperty ,
+                   owl:TransitiveProperty ;
+          rdfs:domain schema:Movie ;
+          rdfs:range schema:Movie .
+
+
+###  http://www.semanticweb.org#worksWith
+:worksWith rdf:type owl:ObjectProperty ,
+                    owl:SymmetricProperty ,
+                    owl:IrreflexiveProperty ;
+           rdfs:domain schema:Person ;
+           rdfs:range schema:Person .
+
+
+###  https://schema.org/actor
+schema:actor rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:Person ;
+             owl:propertyDisjointWith schema:director .
+
+
+###  https://schema.org/aggregateRating
+schema:aggregateRating rdf:type owl:ObjectProperty ;
+                       rdfs:domain schema:Movie ;
+                       rdfs:range schema:AggregateRating .
+
+
+###  https://schema.org/director
+schema:director rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range schema:Person .
+
+
+###  https://schema.org/image
+schema:image rdf:type owl:ObjectProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range schema:ImageObject .
+
+
+###  https://schema.org/isBasedOn
+schema:isBasedOn rdf:type owl:ObjectProperty ,
+                          owl:TransitiveProperty ;
+                 rdfs:domain schema:Movie ;
+                 rdfs:range schema:Movie .
+
+
+###  https://schema.org/location
+schema:location rdf:type owl:ObjectProperty ,
+                         owl:FunctionalProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range schema:MovieTheater .
+
+
+###  https://schema.org/workPresented
+schema:workPresented rdf:type owl:ObjectProperty ;
+                     rdfs:domain schema:ScreeningEvent ;
+                     rdfs:range schema:Movie .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://schema.org/address
+schema:address rdf:type owl:DatatypeProperty ;
+               rdfs:domain [ rdf:type owl:Class ;
+                             owl:unionOf ( schema:MovieTheater
+                                           schema:ScreeningEvent
+                                         )
+                           ] ;
+               rdfs:range xsd:string .
+
+
+###  https://schema.org/contentUrl
+schema:contentUrl rdf:type owl:DatatypeProperty ;
+                  rdfs:domain schema:ImageObject ;
+                  rdfs:range xsd:string .
+
+
+###  https://schema.org/datePublished
+schema:datePublished rdf:type owl:DatatypeProperty ;
+                     rdfs:domain schema:Movie ;
+                     rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/doorTime
+schema:doorTime rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:ScreeningEvent ;
+                rdfs:range xsd:dateTime .
+
+
+###  https://schema.org/duration
+schema:duration rdf:type owl:DatatypeProperty ;
+                rdfs:domain schema:Movie ;
+                rdfs:range xsd:duration .
+
+
+###  https://schema.org/genre
+schema:genre rdf:type owl:DatatypeProperty ;
+             rdfs:domain schema:Movie ;
+             rdfs:range xsd:string .
+
+
+###  https://schema.org/name
+schema:name rdf:type owl:DatatypeProperty ;
+            rdfs:domain owl:Thing ;
+            rdfs:range xsd:string .
+
+
+###  https://schema.org/ratingValue
+schema:ratingValue rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:AggregateRating ;
+                   rdfs:range xsd:double .
+
+
+###  https://schema.org/videoFormat
+schema:videoFormat rdf:type owl:DatatypeProperty ;
+                   rdfs:domain schema:ScreeningEvent ;
+                   rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://schema.org/AggregateRating
+schema:AggregateRating rdf:type owl:Class .
+
+
+###  https://schema.org/ImageObject
+schema:ImageObject rdf:type owl:Class .
+
+
+###  https://schema.org/Movie
+schema:Movie rdf:type owl:Class .
+
+
+###  https://schema.org/MovieTheater
+schema:MovieTheater rdf:type owl:Class .
+
+
+###  https://schema.org/Person
+schema:Person rdf:type owl:Class .
+
+
+###  https://schema.org/ScreeningEvent
+schema:ScreeningEvent rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/Aaron_Nee
+sw:Aaron_Nee rdf:type owl:NamedIndividual ,
+                      schema:Person ;
+             schema:name "Aaron Nee" ;
+             rdfs:label "Aaron Nee" .
+
+
+###  http://www.semanticweb.org/Adam_Nee
+sw:Adam_Nee rdf:type owl:NamedIndividual ,
+                     schema:Person ;
+            schema:name "Adam Nee" ;
+            rdfs:label "Adam Nee" .
+
+
+###  http://www.semanticweb.org/Adria_Arjona
+sw:Adria_Arjona rdf:type owl:NamedIndividual ,
+                         schema:Person ;
+                schema:name "Adria Arjona" ;
+                rdfs:label "Adria Arjona" .
+
+
+###  http://www.semanticweb.org/Almudena_Amor
+sw:Almudena_Amor rdf:type owl:NamedIndividual ,
+                          schema:Person ;
+                 schema:name "Almudena Amor" ;
+                 rdfs:label "Almudena Amor" .
+
+
+###  http://www.semanticweb.org/Antonio_Banderas
+sw:Antonio_Banderas rdf:type owl:NamedIndividual ,
+                             schema:Person ;
+                    schema:name "Antonio Banderas" ;
+                    rdfs:label "Antonio Banderas" .
+
+
+###  http://www.semanticweb.org/Benedict_Cumberbatch
+sw:Benedict_Cumberbatch rdf:type owl:NamedIndividual ,
+                                 schema:Person ;
+                        schema:name "Benedict Cumberbatch" ;
+                        rdfs:label "Benedict Cumberbatch" .
+
+
+###  http://www.semanticweb.org/Channing_Tatum
+sw:Channing_Tatum rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Channing Tatum" ;
+                  rdfs:label "Channing Tatum" .
+
+
+###  http://www.semanticweb.org/Chiwetel_Ejiofor
+sw:Chiwetel_Ejiofor rdf:type owl:NamedIndividual ,
+                             schema:Person ;
+                    schema:name "Chiwetel Ejiofor" ;
+                    rdfs:label "Chiwetel Ejiofor" .
+
+
+###  http://www.semanticweb.org/Christophe_Lourdelet
+sw:Christophe_Lourdelet rdf:type owl:NamedIndividual ,
+                                 schema:Person ;
+                        schema:name "Christophe Lourdelet" ;
+                        rdfs:label "Christophe Lourdelet" .
+
+
+###  http://www.semanticweb.org/Cinema_City
+sw:Cinema_City rdf:type owl:NamedIndividual ,
+                        schema:MovieTheater ;
+               schema:name "Cinema City" ;
+               rdfs:label "Cinema City" .
+
+
+###  http://www.semanticweb.org/Cinema_Ocho
+sw:Cinema_Ocho rdf:type owl:NamedIndividual ,
+                        schema:MovieTheater ;
+               schema:name "Cinema Ocho" ;
+               rdfs:label "Cinema Ocho" .
+
+
+###  http://www.semanticweb.org/Cinema_Paradiso
+sw:Cinema_Paradiso rdf:type owl:NamedIndividual ,
+                            schema:MovieTheater ;
+                   schema:name "Cinema Paradiso" ;
+                   rdfs:label "Cinema Paradiso" .
+
+
+###  http://www.semanticweb.org/Cinema_Rocha
+sw:Cinema_Rocha rdf:type owl:NamedIndividual ,
+                         schema:MovieTheater ;
+                schema:name "Cinema Rocha" ;
+                rdfs:label "Cinema Rocha" .
+
+
+###  http://www.semanticweb.org/Cinema_San_Martin
+sw:Cinema_San_Martin rdf:type owl:NamedIndividual ,
+                              schema:MovieTheater ;
+                     schema:name "Cinema San Martin" ;
+                     rdfs:label "Cinema San Martin" .
+
+
+###  http://www.semanticweb.org/Competencia_oficial
+sw:Competencia_oficial rdf:type owl:NamedIndividual ,
+                                schema:Movie ;
+                       schema:actor sw:Antonio_Banderas ,
+                                    sw:Oscar_Martínez ,
+                                    sw:Penélope_Cruz ;
+                       schema:aggregateRating sw:aggregateRating3 ;
+                       schema:director sw:Gastón_Duprat ,
+                                       sw:Mariano_Cohn ;
+                       schema:image sw:image3 ;
+                       schema:datePublished "2022-03-17"^^xsd:date ;
+                       schema:duration "PT1H54M"^^xsd:duration ;
+                       schema:genre "Comedy" ,
+                                    "Drama" ;
+                       schema:name "Competencia oficial" ;
+                       rdfs:label "Competencia oficial" .
+
+
+###  http://www.semanticweb.org/Daniel_Espinosa
+sw:Daniel_Espinosa rdf:type owl:NamedIndividual ,
+                            schema:Person ;
+                   schema:name "Daniel Espinosa" ;
+                   rdfs:label "Daniel Espinosa" .
+
+
+###  http://www.semanticweb.org/Daniel_Radcliffe
+sw:Daniel_Radcliffe rdf:type owl:NamedIndividual ,
+                             schema:Person ;
+                    schema:name "Daniel Radcliffe" ;
+                    rdfs:label "Daniel Radcliffe" .
+
+
+###  http://www.semanticweb.org/David_Yates
+sw:David_Yates rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "David Yates" ;
+               rdfs:label "David Yates" .
+
+
+###  http://www.semanticweb.org/Doctor_Strange_in_the_Multiverse_of_Madness
+sw:Doctor_Strange_in_the_Multiverse_of_Madness rdf:type owl:NamedIndividual ,
+                                                        schema:Movie ;
+                                               schema:actor sw:Benedict_Cumberbatch ,
+                                                            sw:Chiwetel_Ejiofor ,
+                                                            sw:Elizabeth_Olsen ;
+                                               schema:aggregateRating sw:aggregateRating0 ,
+                                                                      sw:aggregateRating4 ;
+                                               schema:director sw:Sam_Raimi ;
+                                               schema:image sw:image0 ,
+                                                            sw:image4 ;
+                                               schema:datePublished "2022-05-05"^^xsd:date ;
+                                               schema:duration "PT2H6M"^^xsd:duration ;
+                                               schema:genre "Action" ,
+                                                            "Adventure" ,
+                                                            "Fantasy" ;
+                                               schema:name "Doctor Strange in the Multiverse of Madness" ;
+                                               rdfs:label "Doctor Strange in the Multiverse of Madness" .
+
+
+###  http://www.semanticweb.org/Eddie_Redmayne
+sw:Eddie_Redmayne rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Eddie Redmayne" ;
+                  rdfs:label "Eddie Redmayne" .
+
+
+###  http://www.semanticweb.org/El_buen_patrón
+sw:El_buen_patrón rdf:type owl:NamedIndividual ,
+                           schema:Movie ;
+                  schema:actor sw:Almudena_Amor ,
+                               sw:Javier_Bardem ,
+                               sw:Manolo_Solo ;
+                  schema:aggregateRating sw:aggregateRating5 ,
+                                         sw:aggregateRating6 ,
+                                         sw:aggregateRating7 ,
+                                         sw:aggregateRating8 ,
+                                         sw:aggregateRating9 ;
+                  schema:director sw:Fernando_León_de_Aranoa ;
+                  schema:image sw:image5 ,
+                               sw:image6 ,
+                               sw:image7 ,
+                               sw:image8 ,
+                               sw:image9 ;
+                  schema:datePublished "2022-04-28"^^xsd:date ;
+                  schema:duration "PT2H"^^xsd:duration ;
+                  schema:genre "Comedy" ;
+                  schema:name "El buen patrón" ;
+                  rdfs:label "El buen patrón" .
+
+
+###  http://www.semanticweb.org/Elizabeth_Olsen
+sw:Elizabeth_Olsen rdf:type owl:NamedIndividual ,
+                            schema:Person ;
+                   schema:name "Elizabeth Olsen" ;
+                   rdfs:label "Elizabeth Olsen" .
+
+
+###  http://www.semanticweb.org/Ethan_Taylor
+sw:Ethan_Taylor rdf:type owl:NamedIndividual ,
+                         schema:Person ;
+                schema:name "Ethan Taylor" ;
+                rdfs:label "Ethan Taylor" .
+
+
+###  http://www.semanticweb.org/Ezra_Miller
+sw:Ezra_Miller rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Ezra Miller" ;
+               rdfs:label "Ezra Miller" .
+
+
+###  http://www.semanticweb.org/Fantastic_Beasts_The_Secrets_of_Dumbledore
+sw:Fantastic_Beasts_The_Secrets_of_Dumbledore rdf:type owl:NamedIndividual ,
+                                                       schema:Movie ;
+                                              schema:actor sw:Eddie_Redmayne ,
+                                                           sw:Ezra_Miller ,
+                                                           sw:Jude_Law ;
+                                              schema:aggregateRating sw:aggregateRating1 ;
+                                              schema:director sw:David_Yates ;
+                                              schema:image sw:image1 ;
+                                              schema:datePublished "2022-04-15"^^xsd:date ;
+                                              schema:duration "PT2H22M"^^xsd:duration ;
+                                              schema:genre "Adventure" ,
+                                                           "Family" ,
+                                                           "Fantasy" ;
+                                              schema:name "Fantastic Beasts The Secrets of Dumbledore" ;
+                                              rdfs:label "Fantastic Beasts The Secrets of Dumbledore" .
+
+
+###  http://www.semanticweb.org/Fernando_León_de_Aranoa
+sw:Fernando_León_de_Aranoa rdf:type owl:NamedIndividual ,
+                                    schema:Person ;
+                           schema:name "Fernando León de Aranoa" ;
+                           rdfs:label "Fernando León de Aranoa" .
+
+
+###  http://www.semanticweb.org/Garth_Jennings
+sw:Garth_Jennings rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Garth Jennings" ;
+                  rdfs:label "Garth Jennings" .
+
+
+###  http://www.semanticweb.org/Gastón_Duprat
+sw:Gastón_Duprat rdf:type owl:NamedIndividual ,
+                          schema:Person ;
+                 schema:name "Gastón Duprat" ;
+                 rdfs:label "Gastón Duprat" .
+
+
+###  http://www.semanticweb.org/Jared_Leto
+sw:Jared_Leto rdf:type owl:NamedIndividual ,
+                       schema:Person ;
+              schema:name "Jared Leto" ;
+              rdfs:label "Jared Leto" .
+
+
+###  http://www.semanticweb.org/Javier_Bardem
+sw:Javier_Bardem rdf:type owl:NamedIndividual ,
+                          schema:Person ;
+                 schema:name "Javier Bardem" ;
+                 rdfs:label "Javier Bardem" .
+
+
+###  http://www.semanticweb.org/Jeffrey_Wright
+sw:Jeffrey_Wright rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Jeffrey Wright" ;
+                  rdfs:label "Jeffrey Wright" .
+
+
+###  http://www.semanticweb.org/Jude_Law
+sw:Jude_Law rdf:type owl:NamedIndividual ,
+                     schema:Person ;
+            schema:name "Jude Law" ;
+            rdfs:label "Jude Law" .
+
+
+###  http://www.semanticweb.org/Lawrence_Fowler
+sw:Lawrence_Fowler rdf:type owl:NamedIndividual ,
+                            schema:Person ;
+                   schema:name "Lawrence Fowler" ;
+                   rdfs:label "Lawrence Fowler" .
+
+
+###  http://www.semanticweb.org/Lucy-Jane_Quinlan
+sw:Lucy-Jane_Quinlan rdf:type owl:NamedIndividual ,
+                              schema:Person ;
+                     schema:name "Lucy-Jane Quinlan" ;
+                     rdfs:label "Lucy-Jane Quinlan" .
+
+
+###  http://www.semanticweb.org/Manolo_Solo
+sw:Manolo_Solo rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Manolo Solo" ;
+               rdfs:label "Manolo Solo" .
+
+
+###  http://www.semanticweb.org/Mariano_Cohn
+sw:Mariano_Cohn rdf:type owl:NamedIndividual ,
+                         schema:Person ;
+                schema:name "Mariano Cohn" ;
+                rdfs:label "Mariano Cohn" .
+
+
+###  http://www.semanticweb.org/Mark_Wahlberg
+sw:Mark_Wahlberg rdf:type owl:NamedIndividual ,
+                          schema:Person ;
+                 schema:name "Mark Wahlberg" ;
+                 rdfs:label "Mark Wahlberg" .
+
+
+###  http://www.semanticweb.org/Matt_Reeves
+sw:Matt_Reeves rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Matt Reeves" ;
+               rdfs:label "Matt Reeves" .
+
+
+###  http://www.semanticweb.org/Matt_Smith
+sw:Matt_Smith rdf:type owl:NamedIndividual ,
+                       schema:Person ;
+              schema:name "Matt Smith" ;
+              rdfs:label "Matt Smith" .
+
+
+###  http://www.semanticweb.org/Matthew_McConaughey
+sw:Matthew_McConaughey rdf:type owl:NamedIndividual ,
+                                schema:Person ;
+                       schema:name "Matthew McConaughey" ;
+                       rdfs:label "Matthew McConaughey" .
+
+
+###  http://www.semanticweb.org/Morbius
+sw:Morbius rdf:type owl:NamedIndividual ,
+                    schema:Movie ;
+           schema:actor sw:Adria_Arjona ,
+                        sw:Jared_Leto ,
+                        sw:Matt_Smith ;
+           schema:aggregateRating sw:aggregateRating13 ;
+           schema:director sw:Daniel_Espinosa ;
+           schema:image sw:image13 ;
+           schema:datePublished "2022-03-31"^^xsd:date ;
+           schema:duration "PT1H44M"^^xsd:duration ;
+           schema:genre "Action" ,
+                        "Adventure" ,
+                        "Horror" ;
+           schema:name "Morbius" ;
+           rdfs:label "Morbius" .
+
+
+###  http://www.semanticweb.org/Oscar_Martínez
+sw:Oscar_Martínez rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Oscar Martínez" ;
+                  rdfs:label "Oscar Martínez" .
+
+
+###  http://www.semanticweb.org/Penélope_Cruz
+sw:Penélope_Cruz rdf:type owl:NamedIndividual ,
+                          schema:Person ;
+                 schema:name "Penélope Cruz" ;
+                 rdfs:label "Penélope Cruz" .
+
+
+###  http://www.semanticweb.org/Reese_Witherspoon
+sw:Reese_Witherspoon rdf:type owl:NamedIndividual ,
+                              schema:Person ;
+                     schema:name "Reese Witherspoon" ;
+                     rdfs:label "Reese Witherspoon" .
+
+
+###  http://www.semanticweb.org/Robert_Pattinson
+sw:Robert_Pattinson rdf:type owl:NamedIndividual ,
+                             schema:Person ;
+                    schema:name "Robert Pattinson" ;
+                    rdfs:label "Robert Pattinson" .
+
+
+###  http://www.semanticweb.org/Robert_Strange
+sw:Robert_Strange rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Robert Strange" ;
+                  rdfs:label "Robert Strange" .
+
+
+###  http://www.semanticweb.org/Ruben_Fleischer
+sw:Ruben_Fleischer rdf:type owl:NamedIndividual ,
+                            schema:Person ;
+                   schema:name "Ruben Fleischer" ;
+                   rdfs:label "Ruben Fleischer" .
+
+
+###  http://www.semanticweb.org/Sam_Raimi
+sw:Sam_Raimi rdf:type owl:NamedIndividual ,
+                      schema:Person ;
+             schema:name "Sam Raimi" ;
+             rdfs:label "Sam Raimi" .
+
+
+###  http://www.semanticweb.org/Sandra_Bullock
+sw:Sandra_Bullock rdf:type owl:NamedIndividual ,
+                           schema:Person ;
+                  schema:name "Sandra Bullock" ;
+                  rdfs:label "Sandra Bullock" .
+
+
+###  http://www.semanticweb.org/Scarlett_Johansson
+sw:Scarlett_Johansson rdf:type owl:NamedIndividual ,
+                               schema:Person ;
+                      schema:name "Scarlett Johansson" ;
+                      rdfs:label "Scarlett Johansson" .
+
+
+###  http://www.semanticweb.org/Sing_2
+sw:Sing_2 rdf:type owl:NamedIndividual ,
+                   schema:Movie ;
+          schema:actor sw:Matthew_McConaughey ,
+                       sw:Reese_Witherspoon ,
+                       sw:Scarlett_Johansson ;
+          schema:aggregateRating sw:aggregateRating14 ,
+                                 sw:aggregateRating15 ,
+                                 sw:aggregateRating16 ;
+          schema:director sw:Christophe_Lourdelet ,
+                          sw:Garth_Jennings ;
+          schema:image sw:image14 ,
+                       sw:image15 ,
+                       sw:image16 ;
+          schema:datePublished "2022-01-06"^^xsd:date ;
+          schema:genre "Adventure" ,
+                       "Animation" ,
+                       "Comedy" ;
+          schema:name "Sing 2" ;
+          rdfs:label "Sing 2" .
+
+
+###  http://www.semanticweb.org/The_Batman
+sw:The_Batman rdf:type owl:NamedIndividual ,
+                       schema:Movie ;
+              schema:actor sw:Jeffrey_Wright ,
+                           sw:Robert_Pattinson ,
+                           sw:Zoë_Kravitz ;
+              schema:aggregateRating sw:aggregateRating2 ;
+              schema:director sw:Matt_Reeves ;
+              schema:image sw:image2 ;
+              schema:datePublished "2022-03-03"^^xsd:date ;
+              schema:duration "PT2H56M"^^xsd:duration ;
+              schema:genre "Action" ,
+                           "Crime" ,
+                           "Drama" ;
+              schema:name "The Batman" ;
+              rdfs:label "The Batman" .
+
+
+###  http://www.semanticweb.org/The_Jack_in_the_Box
+sw:The_Jack_in_the_Box rdf:type owl:NamedIndividual ,
+                                schema:Movie ;
+                       schema:actor sw:Ethan_Taylor ,
+                                    sw:Lucy-Jane_Quinlan ,
+                                    sw:Robert_Strange ;
+                       schema:aggregateRating sw:aggregateRating10 ;
+                       schema:director sw:Lawrence_Fowler ;
+                       schema:image sw:image10 ;
+                       schema:datePublished "2022-04-07"^^xsd:date ;
+                       schema:duration "PT1H27M"^^xsd:duration ;
+                       schema:genre "Horror" ;
+                       schema:name "The Jack in the Box" ;
+                       rdfs:label "The Jack in the Box" .
+
+
+###  http://www.semanticweb.org/The_Lost_City
+sw:The_Lost_City rdf:type owl:NamedIndividual ,
+                          schema:Movie ;
+                 schema:actor sw:Channing_Tatum ,
+                              sw:Daniel_Radcliffe ,
+                              sw:Sandra_Bullock ;
+                 schema:aggregateRating sw:aggregateRating11 ,
+                                        sw:aggregateRating12 ;
+                 schema:director sw:Aaron_Nee ,
+                                 sw:Adam_Nee ;
+                 schema:image sw:image11 ,
+                              sw:image12 ;
+                 schema:datePublished "2022-04-21"^^xsd:date ;
+                 schema:duration "PT1H52M"^^xsd:duration ;
+                 schema:genre "Action" ,
+                              "Adventure" ,
+                              "Comedy" ;
+                 schema:name "The Lost City" ;
+                 rdfs:label "The Lost City" .
+
+
+###  http://www.semanticweb.org/Tom_Holland
+sw:Tom_Holland rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Tom Holland" ;
+               rdfs:label "Tom Holland" .
+
+
+###  http://www.semanticweb.org/Uncharted
+sw:Uncharted rdf:type owl:NamedIndividual ,
+                      schema:Movie ;
+             schema:actor sw:Antonio_Banderas ,
+                          sw:Mark_Wahlberg ,
+                          sw:Tom_Holland ;
+             schema:aggregateRating sw:aggregateRating17 ;
+             schema:director sw:Ruben_Fleischer ;
+             schema:image sw:image17 ;
+             schema:datePublished "2022-02-17"^^xsd:date ;
+             schema:duration "PT1H56M"^^xsd:duration ;
+             schema:genre "Action" ,
+                          "Adventure" ;
+             schema:name "Uncharted" ;
+             rdfs:label "Uncharted" .
+
+
+###  http://www.semanticweb.org/Zoë_Kravitz
+sw:Zoë_Kravitz rdf:type owl:NamedIndividual ,
+                        schema:Person ;
+               schema:name "Zoë Kravitz" ;
+               rdfs:label "Zoë Kravitz" .
+
+
+###  http://www.semanticweb.org/aggregateRating0
+sw:aggregateRating0 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating1
+sw:aggregateRating1 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "6.5"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating10
+sw:aggregateRating10 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "4.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating11
+sw:aggregateRating11 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "6.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating12
+sw:aggregateRating12 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "6.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating13
+sw:aggregateRating13 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "5.1"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating14
+sw:aggregateRating14 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "7.4"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating15
+sw:aggregateRating15 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "7.4"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating16
+sw:aggregateRating16 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "7.4"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating17
+sw:aggregateRating17 rdf:type owl:NamedIndividual ,
+                              schema:AggregateRating ;
+                     schema:ratingValue "6.4"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating2
+sw:aggregateRating2 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "8.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating3
+sw:aggregateRating3 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating4
+sw:aggregateRating4 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.6"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating5
+sw:aggregateRating5 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating6
+sw:aggregateRating6 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating7
+sw:aggregateRating7 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating8
+sw:aggregateRating8 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/aggregateRating9
+sw:aggregateRating9 rdf:type owl:NamedIndividual ,
+                             schema:AggregateRating ;
+                    schema:ratingValue "7.2"^^xsd:double .
+
+
+###  http://www.semanticweb.org/image0
+sw:image0 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image1
+sw:image1 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZGQ1NjQyNDMtNzFlZS00ZGIzLTliMWUtNGJkMGMzNTBjNDg0XkEyXkFqcGdeQXVyMTE1NDI5MDQx._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image10
+sw:image10 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BZTcwMGFlOGItNDhiNi00YzBmLWE1MzctMmY3MDRmOWY4ODcxXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image11
+sw:image11 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image12
+sw:image12 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMmIwYzFhODAtY2I1YS00ZDdmLTkyYWQtZjI5NDIwMDc2MjEyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image13
+sw:image13 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMzNmZmQ2YjctNmJmMi00NWEyLWExNTQtYjQ2MWM0MjA3NjY1XkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image14
+sw:image14 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image15
+sw:image15 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image16
+sw:image16 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWRiZGQ1NDMtODQ2OS00MDlhLWJkZGYtM2ZmNjlhZThjOWRmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image17
+sw:image17 rdf:type owl:NamedIndividual ,
+                    schema:ImageObject ;
+           schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMWEwNjhkYzYtNjgzYy00YTY2LThjYWYtYzViMGJkZTI4Y2MyXkEyXkFqcGdeQXVyNTM0OTY1OQ@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image2
+sw:image2 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image3
+sw:image3 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BMTg2OWZlNDItZjc3OS00NTk3LThmOWUtMzY2MTQyOWIzMDkyXkEyXkFqcGdeQXVyMTMwNjQxNDU1._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image4
+sw:image4 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image5
+sw:image5 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image6
+sw:image6 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image7
+sw:image7 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image8
+sw:image8 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/image9
+sw:image9 rdf:type owl:NamedIndividual ,
+                   schema:ImageObject ;
+          schema:contentUrl "https://m.media-amazon.com/images/M/MV5BNzM0M2NlMTEtYjNlZi00NjVlLWE4YjgtMDc2OTUxODU1NjE2XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_.jpg" .
+
+
+###  http://www.semanticweb.org/screeningEvent0
+sw:screeningEvent0 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent1
+sw:screeningEvent1 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T16:30:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 4d+3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent10
+sw:screeningEvent10 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala 3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent11
+sw:screeningEvent11 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent12
+sw:screeningEvent12 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent13
+sw:screeningEvent13 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T20:40:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent14
+sw:screeningEvent14 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent15
+sw:screeningEvent15 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent16
+sw:screeningEvent16 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala atmos hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent17
+sw:screeningEvent17 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T19:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala atmos hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent18
+sw:screeningEvent18 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T22:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala atmos hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent19
+sw:screeningEvent19 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T16:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala atmos hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent2
+sw:screeningEvent2 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T13:30:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 4d+3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent20
+sw:screeningEvent20 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T17:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala 3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent21
+sw:screeningEvent21 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T20:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent22
+sw:screeningEvent22 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent23
+sw:screeningEvent23 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T14:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent24
+sw:screeningEvent24 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T16:20:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent25
+sw:screeningEvent25 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent26
+sw:screeningEvent26 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent27
+sw:screeningEvent27 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T13:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent28
+sw:screeningEvent28 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T18:05:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent29
+sw:screeningEvent29 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent3
+sw:screeningEvent3 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T22:30:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 4d+3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent30
+sw:screeningEvent30 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent31
+sw:screeningEvent31 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent32
+sw:screeningEvent32 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T23:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent33
+sw:screeningEvent33 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Fantastic_Beasts_The_Secrets_of_Dumbledore ;
+                    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent34
+sw:screeningEvent34 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Batman ;
+                    schema:doorTime "2022-05-08T16:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent35
+sw:screeningEvent35 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Batman ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent36
+sw:screeningEvent36 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Batman ;
+                    schema:doorTime "2022-05-08T22:40:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent37
+sw:screeningEvent37 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Batman ;
+                    schema:doorTime "2022-05-08T19:20:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent38
+sw:screeningEvent38 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Competencia_oficial ;
+                    schema:doorTime "2022-05-08T20:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent39
+sw:screeningEvent39 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Competencia_oficial ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent4
+sw:screeningEvent4 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T19:30:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 4d+3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent40
+sw:screeningEvent40 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent41
+sw:screeningEvent41 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T20:50:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent42
+sw:screeningEvent42 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent43
+sw:screeningEvent43 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent44
+sw:screeningEvent44 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent45
+sw:screeningEvent45 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T23:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent46
+sw:screeningEvent46 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T17:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent47
+sw:screeningEvent47 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T19:25:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent48
+sw:screeningEvent48 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T21:15:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent49
+sw:screeningEvent49 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T23:05:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent5
+sw:screeningEvent5 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_City ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent50
+sw:screeningEvent50 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent51
+sw:screeningEvent51 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T20:25:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent52
+sw:screeningEvent52 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:El_buen_patrón ;
+                    schema:doorTime "2022-05-08T15:45:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent53
+sw:screeningEvent53 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:The_Jack_in_the_Box ;
+                    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent54
+sw:screeningEvent54 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent55
+sw:screeningEvent55 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent56
+sw:screeningEvent56 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent57
+sw:screeningEvent57 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T15:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent58
+sw:screeningEvent58 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent59
+sw:screeningEvent59 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:The_Lost_City ;
+                    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent6
+sw:screeningEvent6 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_Ocho ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T19:45:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala 3d" .
+
+
+###  http://www.semanticweb.org/screeningEvent60
+sw:screeningEvent60 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Morbius ;
+                    schema:doorTime "2022-05-08T23:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent61
+sw:screeningEvent61 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Morbius ;
+                    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent62
+sw:screeningEvent62 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T14:50:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent63
+sw:screeningEvent63 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent64
+sw:screeningEvent64 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent65
+sw:screeningEvent65 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T18:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent66
+sw:screeningEvent66 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_City ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent67
+sw:screeningEvent67 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent68
+sw:screeningEvent68 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T20:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent69
+sw:screeningEvent69 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Ocho ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent7
+sw:screeningEvent7 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_Ocho ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T16:45:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent70
+sw:screeningEvent70 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T17:45:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent71
+sw:screeningEvent71 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Paradiso ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent72
+sw:screeningEvent72 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T15:20:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent73
+sw:screeningEvent73 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T18:10:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent74
+sw:screeningEvent74 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent75
+sw:screeningEvent75 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent76
+sw:screeningEvent76 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent77
+sw:screeningEvent77 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T22:50:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent78
+sw:screeningEvent78 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_Rocha ;
+                    schema:workPresented sw:Sing_2 ;
+                    schema:doorTime "2022-05-08T13:00:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent79
+sw:screeningEvent79 rdf:type owl:NamedIndividual ,
+                             schema:ScreeningEvent ;
+                    schema:location sw:Cinema_San_Martin ;
+                    schema:workPresented sw:Uncharted ;
+                    schema:doorTime "2022-05-08T15:30:00"^^xsd:dateTime ;
+                    schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent8
+sw:screeningEvent8 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_Ocho ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T13:45:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala hd" .
+
+
+###  http://www.semanticweb.org/screeningEvent9
+sw:screeningEvent9 rdf:type owl:NamedIndividual ,
+                            schema:ScreeningEvent ;
+                   schema:location sw:Cinema_Ocho ;
+                   schema:workPresented sw:Doctor_Strange_in_the_Multiverse_of_Madness ;
+                   schema:doorTime "2022-05-08T22:45:00"^^xsd:dateTime ;
+                   schema:videoFormat "sala hd" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
