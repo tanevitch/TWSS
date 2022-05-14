@@ -14,3 +14,9 @@ python -m venv .env
 pip install -r requirements.txt
 python main.py -i dataset-original.ttl -o dataset-enriquecido.ttl
 ```
+
+## Ejecución
+```sh
+cd src
+python main.py -i ../data/dataset-original.ttl -o dataset-enriquecido.ttl
+```
